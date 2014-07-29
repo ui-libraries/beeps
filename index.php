@@ -61,20 +61,24 @@
                             <li><a href="#radiation">Radiation belts ring the Earth</a></li>
 							<li><a href="">Explorer IV - Star wars mission
                         </ol>
-                    <li><a href="#legacy">From Earth to Interstellar Space - Legacy of Explorer I</a></li>
+                    <li><a href="#legacyofexplorer">From Earth to Interstellar Space - Legacy of Explorer I</a></li>
                         <ol>
-                            <li><a href="#chorus">Chorus of space history -  Listen to Explorer I data tapes</a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
+                            <li><a href="#chorus">Chorus of space history -  Listen to Explorer's data tapes</a></li>
+                            <li><a href="#stormshelter">Storm shelter for our "cyberelectric cocoon"</a></li>
+                            <li><a href="#accelerator">Accelerator in the belly of the belts</a></li>
+                            <li><a href="#interstellar">Unchartered territory - Voyager 1 explores interstellar space</a></li>
+                            <li><a href="#heavens">Catching the heavens whistling back</a></li>
+                            <li><a href="#remapping">Remapping the solar system</a></li>
+							<li><a href="#pioneers">Pioneers: First ambassadors to the outer planets</a></li>
+							<li><a href="#family">Space family reunion</a></li>
+							<li><a href="#legacy">Fusion - The ultimate legacy</a></li>
                         </ol>
                     <li><a href="#sources">Sources</a></li>
                 </ol>
             </nav>
         -->
         </div>
+		<div id="nav-expand">&nbsp;</div>
         
         
     <!-- Main Narrative -->    
@@ -170,6 +174,13 @@
                 </p>
                 <p>His wasn’t the only find with the V-2. Scientists reaped new information about weather currents and they reached and identified layers of the atmosphere – the ozone layer and the ionosphere, long known to mirror back radio waves that made radio transmission possible.
                 </p>
+				<aside>
+					<header class="fb" id="fbcosmicray"><h4>How cosmic rays create time machines</h4></header>
+                    <p>Cosmic rays striking atoms in the atmosphere trigger a cascade of reactions that create precision clocks for science. The reactions unleash neutrons that can interact with nitrogen atoms, kicking out a proton and taking its place in the nucleus. That transforms the nitrogen atom into an unusual form of carbon – carbon-14, with six protons and eight neutrons. Nitrogen atoms have seven protons and seven neutrons while carbon atoms, the building blocks of life, usually have six of each. Only living organisms absorb carbon – including carbon-14 – and they absorb it in consistent proportions. Changes in that proportion allow scientists to estimate the loss of carbon-14, an unstable isotope that decays away at a measurable rate. Carbon-14 dating give archeologists a tool to date bones, teeth, ancient garbage and other artifacts they find across thousands of year.
+                    </p>
+                    <p>Cosmic rays that do penetrate to the surface of the Earth generate beryllium-10, another isotope, when they strike rock and the buildup of beryllium-10 can tell climate scientists how long ago glaciers may have lumbered back from a rock buried in ice. They can do so because beryllium-10 doesn’t forms in an ice-covered rock. Beryllium-10 offers a calendar of the invasion and retreat of glaciers in the past, a calendar that helps build models needed to predict what we are facing with climate change now.
+                    </p>
+				</aside>
                 <p>With higher altitudes within his grasp, Van Allen wanted to measure the impact on cosmic ray intensity of the Earth’s magnetic field as it arched toward the poles and show how intensity changed with intense solar explosions such as solar flares. He wanted to do so by launching his detectors on rockets at the equator and comparing results at different latitudes as he approached the poles. A shipboard launch out in the middle of the ocean was the most sensible way to accomplish a nomadic itinerary of launches. But the heavy, four-story V-2 wasn’t a good candidate for such a program and a quick count told Van Allen the inventory of them would soon run out. Always planning ahead, he invented the Aerobee, a far smaller, work-house rocket designed strictly for science in space.
                 </p>
                 <p>A group of influential scientists visiting the Applied Physics Laboratory early in 1950 came to Van Allen’s small white frame house for dinner and Abbie Van Allen topped off the meal with her famous seven-layer chocolate cake. Van Allen credited the cake for the group’s sudden inspiration to ignite plans for another International Geophysical Year. It had been nearly a generation since the last geophysical year – a year of cooperative study of the Earth’s surface, atmosphere and magnetic field. As plans moved forward, organizers set the goal of placing a satellite in orbit. As the challenge became an immediate contest between Russian and the United States, Van Allen began designing a detector that could measure cosmic rays intensities in a whole new arena.  But he took a permanent detour back to Iowa on his way to outer space.
@@ -263,6 +274,11 @@
                 </p>
                 <p>The backlog of tapes piled ever higher in the cramped basement beehive where tapes played non-stop on Crown Royal consoles. The playback drove pens on long arms that pulsed and slithered across paper tapes to graph the audio tones. A squadron of students measured the peaks and valleys of the graphs and converted them into numerical counts.
                 </p>
+				<aside>
+					<header class="fb" id="fbNASA"><h4>The birth of NASA</h4></header>
+                    <p>The fight was on over the spring and summer of 1958 as James Van Allen clinched the discovery of the radiation belts and the army, navy and air force all planned competing space missions. Clearly, the United States needed a space agency. Eisenhower and a majority of scientists wanted it to be a civilian-led agency, in keeping with the mission of peaceful space exploration. Van Allen testified at the lengthy hearings chaired by Sen. Lyndon Johnson (D-Texas), one of dozens of witnesses. Van Allen promoted a strong role for universities in creating a national brain trust for civilian space exploration. The Explorers aside, he was a major stakeholder in an agency that would identify future missions. He had helped guide the way as chairman of a volunteer rocket panel representing all the civilian and military players to prioritize experiments for rocket flights starting with the V-2s at White Sands after World War II. The group morphed from the V-2 Panel, to the Upper Atmosphere Rocket Research Panel to the Rocket and Satellite Research Panel. His colleagues appointed him as chairman of the group early on and wouldn’t allow him to resign.  Van Allen’s detectors rode on Pioneer 1, one of five instruments on the first mission after NASA opened shop as a civilian agency on Oct. 1, 1958. But the military continued to play a key role. Pioneer, a U.S. Air Force probe, rocketed on a trajectory toward the moon, nearly 250,000 miles away. Pioneer I traveled a record 72,765 miles above the Earth and then fell back and disintegrated. That was enough for detectors designed by Van Allen and Carl McIlwain to fly through an entire swath of the inner and outer radiation belts for the first time.
+                    </p>
+				</aside>
                 <p>Faculty member Ernst Ray and graduate student Carl McIlwain worked with Van Allen to analyze the tapes. Ludwig returned from JPL and joined the effort, grading the quality of the taped data from A to F in his 120 pages of logs, an A designating noise-free data and an F meaning no readable data. From the first 10 orbits of <sname>Explorer I</sname> and 34 transmissions of data, Ludwig’s logs give nearly half of them an F. There were no back-up tapes. Nothing like them or the missions that generated them had ever existed before. Even NASA wouldn’t be organized until that fall. Iowa had the original and “the only archive of data tapes from those missions,” Ludwig said.
                 </p>
             </article>
@@ -324,7 +340,7 @@
                 <p>“Yes, that’s right,” Van Allen said, giving the trapped corpuscular radiation zones a handy nickname. 
                 </p>
                 </dialog>
-                <p>At a science conference in Europe soon after, NRL physicist Robert Jastrow referred to the Van Allen Radiation Belt for the first time and the name stuck. It was the most momentous discovery of the International Geophysical Year. It opened up a new mapping of the solar system, ushering in new fields of science such as magnetospheric physics to explore the magnetic fields of planets and plasma physics, devoted to the solar wind of energy radiating outward from the sun.
+                <p>At a science conference in Europe soon after, NRL physicist Robert Jastrow referred to the Van Allen Radiation Belt for the first time and the name stuck. It was the most momentous discovery of the International Geophysical Year. It opened up a new mapping of the solar system, ushering in new fields of science such as magnetospheric physics to explore the magnetic fields of planets and plasma physics, devoted to the solar wind of charged particles radiating outward from the sun.
                 </p>
                 <p>Now a celebrity scientist, Van Allen’s physics building basement became ever more crowded by the day. CBS news correspondent Walter Cronkite, Soviet space ambassador Leonid Sedov, military brass and streams of other reporters, politicians and scientists found their way there, amazed at the modest headquarters for some of the most innovative instruments on the frontier of space science. The miniaturized discs of electronics in Iowa’s detectors impressed Russian visitors immeasurably. They hoisted <sname>Sputnik</sname> into orbit at 184 pounds compared to a total weight of 30.8 pounds for <sname>Explorer I</sname> with everything in it.  It was just the start.
                 </p>
@@ -367,7 +383,7 @@
 				</p>
 			</article>
         </section>
-        <section class="doc-show section text" id="legacy">
+        <section class="doc-show section text" id="legacyofexplorer">
         <header><h2>From Earth to Interstellar Space - Legacy of <sname>Explorer I</sname></h2></header>
             <article class="text-container" id="chorus"><header><h3>The chorus of space history - Listen to <sname>Explorer I</sname> data tapes</h3></header>
                 <p>The original data tapes from the early Explorers and several other trail-blazing space missions lined floor to ceiling shelves for decades in an abandoned particle accelerator chamber in the basement of the 1910 physics building.<aside>Basement of MacLean Hall</aside> But after the severe floods of 2008 and changes in the ventilation system of the building, the tapes began to show the wear and tear of aging, humidity and mildew. The physics department and the University of Iowa Libraries launched a rescue and restore mission to preserve and digitize the 694 tapes from America’s first satellite mission, <sname>Explorer I</sname>.
@@ -387,7 +403,7 @@
 				<p>By serendipity, the <sname>Explorer I</sname> restoration program coincided with NASA’s <i>Van Allen Probes</i> satellite mission to the radiation belts and with <sname>Voyager 1</sname>’s crossing into interstellar space. Both missions hold intrinsic links to Van Allen’s work and to the legacy of the data tapes. <sname>Voyager</sname> reached interstellar space on Aug. 25, 2012, just days before the <i>Van Allen Probes</i> witnessed the emergence of a <a href="link to NASA video of 3rd radiation belt">third radiation belt</a> in early September, two unbelievable space adventures occurring in quick succession. Everything just lined up - almost like the orbits of the outer planets did as Voyagers 1 and 2 set out in 1977 to tour Jupiter, Saturn, Uranus and Neptune.
 				</p>
             </article>
-            <article class="text-container" id=""><header><h3>Space weather forecasting - Storm shelter for our "suberelectric cocoon"</h3></header>
+            <article class="text-container" id="stormshelter"><header><h3>Space weather forecasting - Storm shelter for our "suberelectric cocoon"</h3></header>
 				<p>Practical-minded kids – and lots of adults - always asked Van Allen to give them a job description for the radiation belts. What do they do? Van Allen liked to say they don’t do anything – they are simply a grand phenomenon of the Earth’s magnetic field. But everyone wanted the grand phenomenon to <em>do</em> something. Did they protect us from cosmic rays by trapping and confining them? Did they protect us from the eruptions of solar flares? Van Allen smiled – he had been this route before. No, our magnetic field deflected all but the most energetic cosmic rays and our atmosphere scoured most of the rest into showers of secondary particles. Solar storms generally had little impact at the surface of the Earth in the early era of the space age, other than sparking glorious light shows at the aurora of the North and South Poles. Of course, determining the presence of intense radiation zones held critical implications for human space flight. NASA mapped mission trajectories at higher latitudes so that astronauts would limit exposure to radiation in the belts as much as possible.
 				</p>
 				<p>In the field of space physics that Van Allen pioneered, scientists thought of the belts for decades as relatively stable landmarks above the Earth. But a changing world proved them wrong. Tumultuous solar weather rocks the belts and strikes havoc for life on Earth in an era of satellite communications. The <i>Van Allen Probes</i> returned to the belts to find out just what was going on. The twin probes – with twin sets of instruments - monitor interruptions to satellite telecommunications, television transmission and GPS systems as intense solar storms pump up the radiation belts in the regions of space where satellites roam. 
@@ -414,7 +430,7 @@
 				<p>“It suddenly got just eaten away but there was a little remnant storing the last little bit of stuff – you might call it a storage ring. And then gradually the outer belt began to fill back in – going from outward inward,” Kletzing said. “It’s very conceivable and even likely that this kind of thing has happened before but we couldn’t detect it.”
 				</p>
 			</article>
-			<article class="text-container" id=""><header><h3>Accelerator in the belly of the belts</h3></header>
+			<article class="text-container" id="acceslerator"><header><h3>Accelerator in the belly of the belts</h3></header>
 				<p>The <i>Van Allen Probes</i> soon delivered another discovery – <a href="http://vanallenprobes.jhuapl.edu/newscenter/newsArticles/20130725.php">the existence of a massive particle accelerator in the belly of the belts.</a> The discovery settles decades of debate about how particles in the belts accelerate to near light speed energies. One model theorized that charged particles hurling toward the Earth gain energy as they encounter the ever increasing strength of the planet’s magnetic field and then get trapped in the belts. Imagine a rock rolling down a hill and gaining speed as it accelerates due to gravity, NASA scientists suggest. But particles spiraling up and down within the belts could accelerate right there, boosted as intense electromagnetic waves kick up their energy and speed. Physicist Geoff Reeves, of the Los Alamos National Laboratory, proved that to be the case. He tapped data from the dual locations of varied twin instruments on the probes, including Iowa’s wave instruments, to make 3D measurements of electromagnetic waves that boost the energy of the accelerating particles.
 				</p>
 				<p>Reeves’ simple, elegant experiment measured the rising energies of particles in the radiation belts. He also measured the distances of the particles from the center of the Earth. If the particles were accelerating while on the move toward Earth, their distance from the planet would decrease as their energies increased. If they accelerated within the belts at a fixed distance from Earth, then the belts must be the accelerator. And the distance stood firm! 
@@ -422,7 +438,7 @@
 				<p>The frequencies of the waves emitted in the radiation belts during solar storms lines up with the build up of particles accelerated to high energies and speeds. Kletzing points to the busts of red in his data, which tells him there are lots of waves to deliver <a href="http://www.nasa.gov/content/goddard/van-allen-probes-find-source-of-fast-particles/">kicks of acceleration.<a> The accelerator in the Earth’s radiation belts gives space weather forecasters a better shot at figuring out just how the energy surges rev up
 				</p>
 			</article>
-			<article class="text-container" id=""><header><h3>Unchartered territory - <sname>Voyager 1</sname> explores interstellar space</h3></header>
+			<article class="text-container" id="interstellar"><header><h3>Unchartered territory - <sname>Voyager 1</sname> explores interstellar space</h3></header>
 				<p>University of Iowa physicist Don Gurnett keeps an ear on interstellar space. He records radio transmissions from afar – like 12 billion miles afar. He is listening in the vast reaches beyond the solar wind with a radio receiver called a plasma wave instrument, listening in a region where cosmic rays hurl across the galaxy from the explosions of giant stars. Gurnett calls up a recent recording - one that captures a first step as momentous as Neil Armstrong’s first step on the moon.
 				</p>
 				<p>“So I’m going to play now the first recording of sounds that have ever been made from interstellar space,” Gurnett says. “And these sounds are plasma oscillations so they have a very intense sound.” The tones of the sound waves confirmed that <sname>Voyager 1</sname> had crossed the heliopause, the boundary of the solar system’s bubble inflated by the solar wind. The gateway to the vast expanses of space between the stars opens here.
@@ -431,6 +447,11 @@
 				</p>
 				<p>The sun lent a hand with a massive coronal ejection in March 2012. The St. Patrick’s Day Solar Storms raged through the solar system, with jets of plasma streaming toward interstellar space and plowing into the interstellar plasma of galactic cosmic rays. When the impact hit, <sname>Voyager</sname> was there – on location – with Iowa’s plasma wave instrument to make the definitive discovery. <sname>Voyager</sname> scientists knew that the instrument could pick up the radio signals from plasma oscillations – or vibrations – triggered by the collisions. On April 9, 2013, the instrument tuned into the song of passage – radio waves at frequencies that correspond to interstellar space.
 				</p>
+				<aside>
+					<header class="fb" id="fbsymphony"><h4>Space symphony</h4></header>
+                    <p>University of Iowa physicist Don Gurnett records the songs of space and recognized the change of tune that told us Voyager 1 had reached the destination of interstellar space in 2012. There, Gurnett heard the high-pitched harmonics of radio transmissions created when the solar plasma of charged particles from the sun slams into cosmic rays, the plasma of charged particles streaming from other stars. As an undergraduate, Gurnett tuned into whistlers - radio transmissions from the heavens generated by lightning flashes. He tracked whistlers from the corn fields of his father’s farm in Fairfield, Iowa, from the Injun 3 satellite orbits a thousand miles above the Earth and from Jupiter. The whistlers his plasma wave instrument on Voyager 1 picked up at Jupiter meant he had discovered lightning at another planet for the first time. His  radio receiver trundled onto the Injun 3 satellite in 1962 picked up the radio show generated by the Earth’s radiation belts – a dawn chorus of transmissions, so-named by British radio enthusiasts who compared similar but fainter such transmissions heard on Earth to the dawn chorus of flocks of birds. Gurnett’s plasma wave instrument on Voyager recorded a dawn chorus from the radiation belts at Jupiter as well. The device sang with transmissions from solar storms that Gurnett used to remap the distance to the boundary of the solar system. Then came the big prize – the first recordings from interstellar space.
+                    </p>
+				</aside>
 				<p>"Normally, interstellar space is like a quiet lake," said <sname>Voyager</sname> project scientist Ed Stone in a NASA statement. "But when our sun has a burst, it sends a shock wave outward that reaches <sname>Voyager</sname> about a year later. The wave causes the plasma surrounding the spacecraft to sing." <aside>Audio of Voyager in interstellar space</aside>
 				</p>
 				<p>When you tune in to a radio station at 780 on your AM dial, it means the station is broadcasting at 780 kilohertz, a frequency where the rate of oscillation of the radio waves is 780 cycles per second. Gurnett detected and recorded electron plasma oscillations at the very low frequency of 2.6 kilohertz.
@@ -448,7 +469,7 @@
 				<p>Built for a 5-year mission, <sname>Voyager 1</sname> beat all the odds with less computing power than the average cell phone, project scientists point out. The camera and most of the instruments continue to function. The Iowa wave instrument that tuned into the radio frequency of interstellar space evolved from a home-made radio receiver tested in a cornfield in 1962.
 				</p>
 			</article>
-			<article class="text-container" id=""><header><h3>Catching the heavens whistling back</h3></header>
+			<article class="text-container" id="heavens"><header><h3>Catching the heavens whistling back</h3></header>
 				<p>Only the crickets broke the stillness that April of 1962 as University of Iowa electrical engineering senior Don Gurnett headed across his father’s farm in Fairfax, Iowa. He carried a handmade radio receiver with a loop antenna. Gurnett came to the field to detect whistlers, the tones of natural, very low frequency radio waves produced by bursts of lightning.
 				</p>
 				<p>Safely beyond the power line interference of Iowa City, he sat in the velvet darkness of a clear spring night. He didn’t need a local storm. Whistlers from distant storms – guided by the Earth’s magnetic field – dart back and forth between the hemispheres and then funnel to Earth producing a stream of whistling sounds picked up by VLF receivers. With his receiver, Gurnett plugged into the heavens and caught them whistling back.
@@ -462,7 +483,7 @@
 				<p><sname>Injun 3</sname> launched into orbit in December 1962 and the whistlers trapped in the Earth’s magnetic field sang loud and clear through the receiver with “all sorts of radio phenomena that frankly had never been heard before,” Gurnett said. Once inside the radiation belts, the receiver picked up a dawn chorus. British radio enthusiasts coined the term to describe a concert of natural radio tones they could pick up because it reminded them of the chorus of birds chirping when they awake at dawn. But the dawn chorus caught by VLF receivers on Earth couldn’t match the radio show from inside the belts and the chorus swelled dramatically with even mild solar storms. The songs of space gave Gurnett a new tool to explore the radiation belts and to follow the plasma of the solar wind.
 				</p>
 			</article>
-			<article class="text-container" id=""><header><h3>Remapping the solar system</h3></header>
+			<article class="text-container" id="remapping"><header><h3>Remapping the solar system</h3></header>
 				<p>Gurnett’s findings helped pioneer the field of plasma physics and remap the distance to the heliopause. Scientists had cautiously extended the boundary of the solar system farther and farther from the sun but estimates remained billions of miles off the mark. Then, the wave instrument caught the radio emissions from a raging solar storm.
 				</p>
 				<p>“In 1992-93, we detected a very intense radio emission” from <sname>Voyager</sname>, Gurnett says.  “For a long time we didn’t know where it was coming from. But we finally realized it was produced when a shock wave from a solar flare came out from the sun and reached this outer boundary that we call the heliopause. And we knew roughly the [speed] of the shock wave and that it took over a year - about 400 days – from the time of the explosion for this shock wave to reach the interstellar plasma. So we just did a calculation - distance equals speed times time. And we came up with a number of 116 to 177 astronomical units” to the heliopause.
@@ -474,7 +495,7 @@
 				<p>But no one on the mission is saying we’ve left the solar system. Even after crossing the heliopause, the sun’s magnetic field continues to dominate. “We’re in a mixed transitional region of interstellar space,” said Ed Stone, former director of the Jet Propulsion Laboratory that built and operates <sname>Voyager</sname>. “We don’t know when we’ll reach interstellar space free from the influence of our solar bubble, Stone said in NASA’s announcement of the crossing. “What we can say is <sname>Voyager 1</sname> is bathed in matter from other stars.” Amid the star dust, scientists expect more surprises from <sname>Voyager</sname> before the power supply runs out between 2020 and 2025. After that, the spacecraft heads onward, a silent ghost ship like the <sname>Pioneers</sname> in its legacy.
 				</p>
 			</article>
-			<article class="text-container" id=""><header><h3><sname>Pioneers</sname>: First ambassadors to the outer planets</h3></header>
+			<article class="text-container" id="pioneers"><header><h3><sname>Pioneers</sname>: First ambassadors to the outer planets</h3></header>
 				<p><sname>Pioneer 10</sname> and <sname>Pioneer 11</sname> trailblazed the way. Van Allen’s detectors on <sname>Pioneer 10</sname> confirmed the presence of massive radiation belts at Jupiter and found them to be furies of force. His detectors on <sname>Pioneer 11</sname> discovered the radiation belts at Saturn. There was plenty of glory to share. <sname>Pioneer 10</sname> sent back the first riveting close up images of Jupiter. Other instruments made new discoveries about the planet’s atmosphere, magnetic field and moons. <sname>Pioneer 11</sname> tapped momentum from Jupiter’s gravity to slingshot toward Saturn. In addition to the radiation belts, mission scientists discovered a new ring, another small moon and the disheartening realization that Titan is too cold to sustain life. And when <sname>Pioneer</sname> dipped beneath the rings of Saturn, the images melded scientific observation and transcendent surrealism.
 				</p>
 				<p>Van Allen followed <sname>Pioneer 10</sname> billions of miles past Jupiter, past Saturn, past Uranus, Neptune and Pluto, analyzing new cosmic ray findings with a 1972 Hewlett-Package graphics plotter sitting on his worn wooden desk in the new physics building – Van Allen Hall. Colleagues and friends who followed the faint whiff of pipe smoke into his seventh floor office could see the plotter spitting out charts and graphs from across half the solar system.
@@ -484,7 +505,7 @@
 				<p>The swifter Voyagers had passed <sname>Pioneer 10</sname> by then but Van Allen’s readings told him <sname>Voyager 1</sname> must be closing in on a critical intermediate boundary of the solar system - just in time for the Iowa space family to return home to celebrate his 90th birthday.
 				</p>
 			</article>
-			<article class="text-container" id=""><header><h3>Space family reunion</h3></header>
+			<article class="text-container" id="family"><header><h3>Space family reunion</h3></header>
 				<p>On a warm October weekend in 2004, the pantheon of Van Allen’s space family returned to Iowa City for the birthday bash of the father of space science. Former students returned, now luminaries in a field they had helped develop across the globe. Ludwig, McIlwain, Gurnett, Gurnett’s administrative assistant Kathy Kurth and several others organized three days of festivities that kicked off with a cocktail party. Electronics technicians Lowell Swartz and Michael Nowack came from nearly towns and introduced themselves by their old nicknames Ugh 1 and Ugh 2. Their motto was the impossible just took a bit longer. “We’d go ugh and tackle the job,” Nowack said. Instrument maker Ed Freund reminisced about improvising parts and hunting down lightweight metals for Ludwig’s latest tape recorder design. Van Allen’s feisty former secretary Agnes McLaughin, who even warded off federal agents on one busy day, reminded eminent scientists of their student pranks as thought they were 18 again. Ludwig opened the colloquium the next day with the adventures of Explorer I, retelling a favorite story to an audience who would never tire of discovering new details. Stone, an Iowa native son, recounted the odyssey of <sname>Voyager</sname> <span class="slide">during a packed public lecture.</span><div class="toggle initiallyHidden"><img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/CIA_document_-_1430-492-Y_-_Clay_Shaw_Part2.gif"></div>
 				</p>
 				<p>But underlying all the festivities simmered a fierce debate over whether <sname>Voyager 1</sname> had crossed the inner boundary of the solar system – the termination shock. Here, the force of the solar wind began to subside and pool with cosmic gases. Had they crossed? Were the pitching waves of the termination shock rocking <sname>Voyager</sname> like a tiny raft caught in an ocean storm? Magnetic field readings on <sname>Voyager</sname> confirmed the inner crossing a few months later as Van Allen had predicted with the final messages from <sname>Pioneer 10</sname>.
@@ -496,7 +517,7 @@
 				<p>His father had girt, his youngest son Peter Van Allen said at a packed memorial service in Hancher Hall on the University of Iowa campus. “And that really meant, if there was any kind of inspiration, it came after many long hours and, if there was genius, it was the result of many hours of toil applied to the same problem.”
 				</p>
 			</article>
-			<article class="text-container" id=""><header><h3>Fusion - The ultimate legacy</h3></header>
+			<article class="text-container" id="legacy"><header><h3>Fusion - The ultimate legacy</h3></header>
 				<p>The discovery of the radiation belts extended our sense of the Earth’s environment thousands of miles beyond the atmosphere into the vast regions of the magnetic field – the magnetosphere. Without it, cosmic rays and the plasma from the sun could rip away the protective ozone layer that makes life on Earth possible. But the magnetosphere, like the belts within it, still holds vast mysteries for future explorers and both could reveal clues to unleash the power of controlled fusion reactors.
 				</p>
 				<p>The dawn chorus generated in the radiation belts sings one of those mysteries in the radio waves transmitted by the collisions of particles as jet streams of electrons spiral up and down within the belts. The chorus waves can stretch the tight spiral orbit of the electrons and spring them into the upper atmosphere, an escape route in nature that mimics the daunting struggle to confine plasma for controlled fusion on Earth.
@@ -530,7 +551,7 @@
 		
 		
 		
-        <!-- Section includes Factboxes and Castboxes -->
+        <!-- Section includes Factboxes and Castboxes 
                <section>
                 <header class="fb" id="fbNASA"><h4>The birth of NASA</h4></header>
                     <p>The fight was on over the spring and summer of 1958 as James Van Allen clinched the discovery of the radiation belts and the army, navy and air force all planned competing space missions. Clearly, the United States needed a space agency. Eisenhower and a majority of scientists wanted it to be a civilian-led agency, in keeping with the mission of peaceful space exploration. Van Allen testified at the lengthy hearings chaired by Sen. Lyndon Johnson (D-Texas), one of dozens of witnesses. Van Allen promoted a strong role for universities in creating a national brain trust for civilian space exploration. The Explorers aside, he was a major stakeholder in an agency that would identify future missions. He had helped guide the way as chairman of a volunteer rocket panel representing all the civilian and military players to prioritize experiments for rocket flights starting with the V-2s at White Sands after World War II. The group morphed from the V-2 Panel, to the Upper Atmosphere Rocket Research Panel to the Rocket and Satellite Research Panel. His colleagues appointed him as chairman of the group early on and wouldn’t allow him to resign.  Van Allen’s detectors rode on Pioneer 1, one of five instruments on the first mission after NASA opened shop as a civilian agency on Oct. 1, 1958. But the military continued to play a key role. Pioneer, a U.S. Air Force probe, rocketed on a trajectory toward the moon, nearly 250,000 miles away. Pioneer I traveled a record 72,765 miles above the Earth and then fell back and disintegrated. That was enough for detectors designed by Van Allen and Carl McIlwain to fly through an entire swath of the inner and outer radiation belts for the first time.
@@ -546,17 +567,18 @@
                     <p>University of Iowa physicist Don Gurnett records the songs of space and recognized the change of tune that told us Voyager 1 had reached the destination of interstellar space in 2012. There, Gurnett heard the high-pitched harmonics of radio transmissions created when the solar plasma of charged particles from the sun slams into cosmic rays, the plasma of charged particles streaming from other stars. As an undergraduate, Gurnett tuned into whistlers - radio transmissions from the heavens generated by lightning flashes. He tracked whistlers from the corn fields of his father’s farm in Fairfield, Iowa, from the Injun 3 satellite orbits a thousand miles above the Earth and from Jupiter. The whistlers his plasma wave instrument on Voyager 1 picked up at Jupiter meant he had discovered lightning at another planet for the first time. His  radio receiver trundled onto the Injun 3 satellite in 1962 picked up the radio show generated by the Earth’s radiation belts – a dawn chorus of transmissions, so-named by British radio enthusiasts who compared similar but fainter such transmissions heard on Earth to the dawn chorus of flocks of birds. Gurnett’s plasma wave instrument on Voyager recorded a dawn chorus from the radiation belts at Jupiter as well. The device sang with transmissions from solar storms that Gurnett used to remap the distance to the boundary of the solar system. Then came the big prize – the first recordings from interstellar space.
                     </p>                
             </section>
+			-->
             
-            <div id="sources" >
+            <div id="sources" class="text-container">
                 <section class="section text-container">
                     <header><h2>Sources and Credits</h2></header>
                     <p>Website narrative by Abigail Foerstner. Content for many historic episodes draws on her biography, James Van Allen: The First Eight Billion Miles (University of Iowa Press).
 					</p>
                 </section>
-    </div>
+			</div>
         
     
-                
+		</div>           
     <!-- /container --> 
 
 
