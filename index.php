@@ -12,7 +12,7 @@
           });
         </script>
 
-        <script>
+       <script>
         $(document).ready(function () {
             $('.vanallen').slick({
                 dots: true,
@@ -22,12 +22,33 @@
         });
         </script>
 
+        <script>
+        jQuery(function($){
+            $(document).ready(function () {
+                 $('.pull').each(function () {
+                     $(this).clone()
+                     .removeClass('pull')
+                     .addClass('pulledquote')
+                     .prependTo($(this).prev('p'));
+                 });
+            });
+        });
+        </script>
+
+        <script>
+        $(document).ready(function(){
+          $(".fb-caption").click(function(){
+            $("p.caption").slideToggle(1000);
+          });
+        });
+        </script>
+
     </head>
     <body> 
     
         <!-- Main and Side Navigation / Table of Contents -->
-        <div id="nav">
-            <nav class="main">
+        <div>
+            <nav id="main">
                 <ul>
                     <li>Home</li>
                     <li>About</li>
@@ -36,12 +57,12 @@
                     <li>Contact</li>
                 </ul>
             </nav>
-            
-            <!-- invisible for now
-            <nav class="toc">
-                <ol>
-                    <li><a href="#intro">Introduction</a></li>
-                    <li><a href="#countdown">Countdown to Explorer I</a></li>
+        </div>
+        <div>
+            <nav id="nav">
+                <ol> Table of Contents
+                    <li class="top"><a href="#intro">Introduction</a></li>
+                    <li><a href="#countdown">Countdown to Explorer I</a>
                         <ol>
                             <li><a href="#sputnik">Sputnik beats America into space</a></li>
                             <li><a href="#wwii">World War II Rocketeers</a></li>
@@ -49,7 +70,8 @@
                             <li><a href="#cosmicrays">So, what are cosmic rays?</a></li>
                             <li><a href="#iowa">Return to Iowa</a></li>
                         </ol>
-                    <li><a href="#launch">Launch to Discovery</a></li>
+                    </li>
+                    <li class="top"><a href="#launch">Launch to Discovery</a>
                         <ol>
                             <li><a href="#moons">Making artificial moons</a></li>
                             <li><a href="#days">Give us 90 days</a></li>
@@ -59,9 +81,10 @@
                             <li><a href="#satellite">Satellite with a memory</a></li>
                             <li><a href="#music">The music of discovery</a></li>
                             <li><a href="#radiation">Radiation belts ring the Earth</a></li>
-							<li><a href="">Explorer IV - Star wars mission
+							<li><a href="#starwars">Explorer IV - Star wars mission</a>
                         </ol>
-                    <li><a href="#legacyofexplorer">From Earth to Interstellar Space - Legacy of Explorer I</a></li>
+                    </li>
+                    <li class="top"><a href="#legacyofexplorer">From Earth to Interstellar Space - Legacy of Explorer I</a>
                         <ol>
                             <li><a href="#chorus">Chorus of space history -  Listen to Explorer's data tapes</a></li>
                             <li><a href="#stormshelter">Storm shelter for our "cyberelectric cocoon"</a></li>
@@ -73,34 +96,42 @@
 							<li><a href="#family">Space family reunion</a></li>
 							<li><a href="#legacy">Fusion - The ultimate legacy</a></li>
                         </ol>
+                    </li>
                     <li><a href="#sources">Sources</a></li>
                 </ol>
             </nav>
-        -->
         </div>
-		<div id="nav-expand">&nbsp;</div>
+	<!-- invisable for now
+        <div id="nav-expand">&nbsp;</div>
+    -->
         
         
     <!-- Main Narrative -->    
         <div id="container">
             <div id="section-1" class="section image image0 bg-fixed" style="background-image: url(http://stillsound.files.wordpress.com/2012/04/outer-space-stars.jpeg);"><h2 id="header-1" class="animated fadeInUp">Explorer I</h2></div>
+            <div><header id="title" class="section text"><h3>The mission and the data tapes reveal the first discovery of the Space Age.</h3>
+                </div>
+       <div class="banner"> 
+           <div id="left"></div>
+           <div id="center">
+                <blockquote class="bi-line">The successful orbiting of <sname>Explorer I</sname> is one of the landmarks in the technical and scientific history of the human race. Its instrumentation revealed the existence of radiation belts around the Earth and opened a massive new field of scientific exploration in space. It inspired an entire generation of young men and women in the United States to higher achievement and propelled the Western World into the Space Age.” James Van Allen, March 31, 1970</blockquote>
+            <!--[if lt IE 7]>
+                <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+            <![endif]-->
 
-            
-        <header id="title" class="section text"><h3>The mission and the data tapes reveal the first discovery of the Space Age. </h3>
-            <blockquote>The successful orbiting of Explorer I is one of the landmarks in the technical and scientific history of the human race. Its instrumentation revealed the existence of radiation belts around the Earth and opened a massive new field of scientific exploration in space. It inspired an entire generation of young men and women in the United States to higher achievement and propelled the Western World into the Space Age.” James Van Allen, March 31, 1970</blockquote>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-        
-        </header>
+            </header>
+            </div>
+           <div id="right"></div>
+        </div>
 
         <section class="doc-show section text"><h2>Introduction</h2>                
             <article class="text-container">
-                <p><sname>Explorer</sname> I lifted off at Cape Canaveral at <span class="slide">10:48:16 on Jan. 31, 1958</span><div class="toggle initiallyHidden"><img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/CIA_document_-_1430-492-Y_-_Clay_Shaw_Part2.gif"></div>a mission hastily salvaged to redeem American honour, launched in the shadow of two <sname>Sputniks</sname> already in orbit. Both had beat the U.S into space. The <sname>Explorer</sname> satellite emerged from a sidelined mission that, sanctioned earlier, could have reached orbit a year before the <sname>Sputniks</sname> launched. It took flight with a cosmic ray detector invented by physicist James Van Allen with his graduate students in the basement of the University of Iowa’s 1910 physics building. Van Allen candidly called this extraordinary mission a “shakedown” operation that succeeded on “fool’s luck.”             <aside>The Explorer 1 team, from left to right: William Pickering, James Van Allen, and Wernher von Braun, holding the replica.<img src="http://projects.vestavia.k12.al.us/6th%20Webs/NASA/L1/exp1team.jpg"></aside>Clearly even he didn’t expect the instrumentation to reveal the first discovery of the space age – the existence of the Earth’s radiation belts that set the course for remapping the solar system. But the achievement was obvious by the time he reflected on the space age in March, 1970.
+                <p><sname>Explorer</sname> I lifted off at Cape Canaveral at <span class="slide">10:48:16 on Jan. 31, 1958</span><div class="toggle initiallyHidden"><img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/CIA_document_-_1430-492-Y_-_Clay_Shaw_Part2.gif"></div>a mission hastily salvaged to redeem American honour, launched in the shadow of two <sname>Sputniks</sname> already in orbit. Both had beat the U.S into space. The <sname>Explorer</sname> satellite emerged from a sidelined mission that, sanctioned earlier, could have reached orbit a year before the <sname>Sputniks</sname> launched. <span class="pull">It took flight with a cosmic ray detector invented by physicist James Van Allen with his graduate students in the basement of the University of Iowa’s 1910 physics building.</span> Van Allen candidly called this extraordinary mission a “shakedown” operation that succeeded on “fool’s luck.” Clearly even he didn’t expect the instrumentation to reveal the first discovery of the space age – the existence of the Earth’s radiation belts that set the course for remapping the solar system. But the achievement was obvious by the time he reflected on the space age in March, 1970.
                 </p>
+            <aside><img src="http://projects.vestavia.k12.al.us/6th%20Webs/NASA/L1/exp1team.jpg"><p class="caption">The Explorer 1 team, from left to right: William Pickering, James Van Allen, and Wernher von Braun, holding the replica.</p></aside>
                  <p><sname>Explorer I</sname> transmitted data about cosmic rays to a global picket fence of radio receivers that tuned in on the satellite signal as it flew over Tokyo, Lima, Antigua, Havana, Nigeria, Singapore, the Jet Propulsion Laboratory’s Codolock station, Patrick Air Force Base in Florida and the San Gabriel Radio Club in California. Data poured in, recorded on 694 Scotch reel-to-reel magnetic audio tapes. NASA didn’t exist yet. The U.S. Army steered <sname>Explorer I</sname> into space with a Jupiter C rocket but the data tapes shipped to Iowa City and Van Allen’s basement laboratory.
 				</p>
-				<p>The deluge of tapes arrived in metal canisters and cardboard sleeves, labelled with the collection time and location. Graduate student George Ludwig, a key participant in building the cosmic ray detector, logged 120 pages of data from the <sname>Explorer I</sname> tapes. The cosmic ray counts from space rose and fell with the rising and falling pitches in a staccato concert of tones on the tapes. But Ludwig riddled the log with entry upon frustrating entry that read “no data” where gaps in the recordings bristle with static. Listen to them yourself on this website. And then remember that the gaps played the music of discovery to just the right listeners. With immense courage and interpretive ingenuity, Van Allen and his team found – not in the data but in the gaps - the totally unexpected phenomenon of the radiation belts. The data tapes aren’t merely a record of that first discovery in space history. They are space history. They are the original and only record of <sname>Explorer I</sname>’s calls home. 
+				<p>The deluge of tapes arrived in metal canisters and cardboard sleeves, labelled with the collection time and location. Graduate student George Ludwig, a key participant in building the cosmic ray detector, logged 120 pages of data from the <sname>Explorer I</sname> tapes. The cosmic ray counts from space rose and fell with the rising and falling pitches in a staccato concert of tones on the tapes. But Ludwig riddled the log with entry upon frustrating entry that read “no data” where gaps in the recordings bristle with static. Listen to them yourself on this website. And then remember that the gaps played the music of discovery to just the right listeners. <span class="pull">With immense courage and interpretive ingenuity, Van Allen and his team found – not in the data but in the gaps - the totally unexpected phenomenon of the radiation belts.</span> The data tapes aren’t merely a record of that first discovery in space history. They are space history. They are the original and only record of <sname>Explorer I</sname>’s calls home. 
 				</p>
 				<p>This is the story of <sname>Explorer I</sname>, the radiation belts and the effort to preserve the data tapes. The 694 <sname>Explorer I</sname> tapes and those from numerous other early missions lined shelves for half a century in the basement of the old physics building, now MacLean Hall. MacLean and four other buildings surround Iowa’s stately Old Capitol on the hilltop Pentacrest of the campus. Still, during the devastating floods of 2008, puddles collected on the floor of an old particle accelerator chamber where the tapes were archived and some of them began to mold. Now, restored and newly digitized, the tapes will play the chorus of the early space age for generations to come. You may be among the first to hear some of these tapes. Pressed by deadlines for more instruments on other space missions, the frantic pace escalated in the basement warren. Van Allen saw no reason to plow through every data tape. He moved on to the new data from the next mission.
 				</p>
@@ -110,18 +141,19 @@
         </br>
         <div class="vanallen">
             <div><img src="http://www.nasa.gov/images/content/700368main_HalloweenBeltProfile-orig_full.jpg"></div>
-            <div><img src="http://www.nasa.gov/images/content/705997main_RBSP1280-orig_full.jpg"></div>
-            <div><img src="http://3.bp.blogspot.com/-DmwAdjPskmI/UAtqMSItPUI/AAAAAAAAAek/v5kxoADcBpo/s1600/magosphere.png"></div>
+            <div><img src=""></div>
+            <div><img src=""></div>
             <div><img src="http://svs.gsfc.nasa.gov/vis/a010000/a011000/a011047/July_19_Flare_triptych-half_size.jpg"></div>
         </div>
         <br/>
 
-        <section class="doc-show section text" d="countdown">
+        <section class="doc-show section text" id="countdown">
         <header><h2>Countdown to Explorer I</h2></header>
             <article class="text-container" id="sputnik"><header><h3><sname>Sputnik</sname> beats American into Space</h3></header>
                 <p>Shocked Americans listened to <sname>Sputnik</sname>’s A-flat beep – beep – beep on ham radios and news broadcasts for the first time on Oct. 4, 1957. People caught glimpses with their naked eyes of the silvery polished sphere orbiting above them. They marveled - and cringed. What kind of surveillance could the little artificial moon capture? What weapons might come next?
                 </p>
-                <p>University of Iowa physicist James Van Allen was sailing south toward Antartica on the Navy ice breaker USS Glacier that day. The Glacier opened its deck to Van Allen’s rockoons, his balloon-launched rockets that kept him in space exploration on a shoe-string college budget. The quirky but highly efficient hybrid meant stringing surplus rockets from surplus Skyhook weather balloons. Carried upward some 10 miles by balloons filled with helium on the deck, Van Allen launched the rockets remotely via radio at atmospheric heights with far less air resistance.<aside>Balloon Rackoon Launches<video style="background: #7f7f7f" src="" frameborder="0" controls class="autoplay" preload="auto" width="100%" onscroll=""></video></aside> From there the rockets could reach altitudes of about 60 miles, close to double the target range of the 52 Loki rockets he cached for the voyage at a cost of about $320 per assembly, not counting travel and freight. Of course there were some challenges. The rockets wouldn’t fire in the cold and Van Allen had to wrap them in an insulating sleeve and tuck a 32-ounce can of heated juice in the firing box to solve the problem. But the altitudes meant Van Allen could continue to explore the streams of cosmic rays hurling toward Earth from across the galaxy. He and grad student Larry Cahill launched a rockoon from near the equator that afternoon, the flawless rockoon flight Number 76. 
+                <aside><video style="background: #7f7f7f" src="" frameborder="0" controls class="autoplay" preload="auto" width="100%" onscroll=""></video><p class="caption">Balloon Rackoon Launches</p></aside>
+                <p>University of Iowa physicist James Van Allen was sailing south toward Antartica on the Navy ice breaker USS Glacier that day. The Glacier opened its deck to Van Allen’s rockoons, his balloon-launched rockets that kept him in space exploration on a shoe-string college budget. The quirky but highly efficient hybrid meant stringing surplus rockets from surplus Skyhook weather balloons. Carried upward some 10 miles by balloons filled with helium on the deck, Van Allen launched the rockets remotely via radio at atmospheric heights with far less air resistance. From there the rockets could reach altitudes of about 60 miles, close to double the target range of the 52 Loki rockets he cached for the voyage at a cost of about $320 per assembly, not counting travel and freight. Of course there were some challenges. The rockets wouldn’t fire in the cold and Van Allen had to wrap them in an insulating sleeve and tuck a 32-ounce can of heated juice in the firing box to solve the problem. But the altitudes meant Van Allen could continue to explore the streams of cosmic rays hurling toward Earth from across the galaxy. He and grad student Larry Cahill launched a rockoon from near the equator that afternoon, the flawless rockoon flight Number 76. 
                 </p>
 				<br/>
 				<div class="vanallen">
@@ -133,7 +165,7 @@
                 <br/>
                 <p>In the time it took Van Allen to go below deck to his makeshift lab and write the mission assessment in his field log, the world changed forever. Cahill burst in with the news of <sname>Sputnik</sname>. Van Allen, Cahill and ship officers quickly found <sname>Sputnik</sname>’s signature beep and pooled equipment to chart the signal and confirm that it came from a satellite in orbit. They measured the Doppler shift, the rise and fall of the frequency of <sname>Sputnik</sname>’s beep as it approached and passed overhead, the same shift that accounts for the change in tone of a train whistle as the train heads away. 
                 </p>
-                <p><sname>Sputnik</sname>’s Doppler shift measured from the ship matched perfectly with altitude the Russians reported for <sname>Sputnik</sname>. Van Allen wired his confirmation to the scientific community meeting at an international gathering in Washington, D.C. The next day, he returned to his field log. The field logs filled an entire shelf of brown-backed ledgers in Van Allen’s Iowa City office. With hundreds of entries dating back to the 1940s, only one storms beyond impartial scientific observations and that one entry is the 17-page appraisal of <sname>Sputnik</sname>. “Yesterday night – the 4th  -was very exciting for me (as well as for the civilized world in general,” he begins. “Brilliant achievement!” But then he lambasts the U.S. debacle that squandered an easy victory to reach orbit first. 
+                <p><sname>Sputnik</sname>’s Doppler shift measured from the ship matched perfectly with altitude the Russians reported for <sname>Sputnik</sname>. Van Allen wired his confirmation to the scientific community meeting at an international gathering in Washington, D.C. The next day, he returned to his field log. The field logs filled an entire shelf of brown-backed ledgers in Van Allen’s Iowa City office. <span class="pull">With hundreds of entries dating back to the 1940s, only one storms beyond impartial scientific observations and that one entry is the 17-page appraisal of <sname>Sputnik</sname>.</span> “Yesterday night – the 4th  -was very exciting for me (as well as for the civilized world in general,” he begins. “Brilliant achievement!” But then he lambasts the U.S. debacle that squandered an easy victory to reach orbit first. 
                 </p>
             <div class="shape"></div>
                 <p>While an ocean separated Van Allen from the shared furor across America, his graduate student George Ludwig stood in the middle of it. Ludwig gathered with scientists from around the world for five days of meetings for the International Geophysical Year and then joined everyone at a cocktail party hosted by the Soviet Embassy. While the guests sipped vodka and feasted on caviar, New York Times science reporter Walter Sullivan was summoned to the phone and the Washington bureau chief told him <sname>Sputnik</sname> was orbiting overhead. Sullivan informed IGY vice president Lloyd Berkner of the news. Berkner climbed on a chair, called the revelers to order and announced the <sname>Sputnik</sname> triumph. Reporters poured into the embassy, a citadel of secrecy where news now flowed as freely as the drinks. <sname>Sputnik</sname> literally meant “companion to the Earth,” adding a bit of poetry to the technological milestone.   
@@ -146,7 +178,7 @@
             <article class="text-container" id="wwii"><header><h3>World War II Rocketeers</h3></header>
                 <p>Von Braun, the son of a baron with a gift for rocket-making, decided he wanted to explore space when he was 12 years old and never turned back. He joined a popular rocket club as a  young engineering student in Berlin and his technical flair soon caught the attention of the German military. When the Nazis took over Germany, they commandeered von Braun’s talents and then arrested him in their motivational plan to redirect his sights from space launches to more down to earth weapons. He and his rocket team created the massive V-2 rockets that terrorized London and Antwerp. As the Russians closed in on the underground rocket plant at Nordhausen, von Braun shuffled through conflicting orders to justify an imaginary rocket mission for himself, half his rocket staff and their families and as many papers as he could transport in a truck caravan that moved west in the dead of night to be “captured” by the Americans.  When the Americans moved in on Nordhausen later, they found tools still on the ground and 100 rockets in various stages of completion beneath the bright lights of a ghost town. The rockets and documents filled 300 freight cars for transfer to White Sands Proving Grounds in New Mexico and the rocketeers settled under house arrest at Fort Bliss in El Paso where Texas steaks became an instant hit. The other half of von Braun’s rocket team landed in Russia. Now both groups raced to build ballistic missiles, unleashing the Cold War once the Soviets developed their own atom bomb in 1949.
                 </p>
-                <p>Testing on the V-2 began at once with General Electric and von Braun working together to reassemble and build parts under Army supervision at White Sands. The actual nose cone cavity that could hold a payload of weapons wasn’t needed and Army brass decided to invite a group of renegade scientists eager to load their instruments in a rocket and bring experiments into space. Most researchers wanted nothing to do with vehicles that might crash land carrying a precious cargo of detectors, scintillators and cameras. They preferred to stick to research with a graceful ride in a balloon even though the V-2 could reach altitudes that human beings had never touched before. Among the renegades, Van Allen raised his hand and got a seat for his cosmic rays detectors on the first V-2 test flight on April 16, 1946. Sure enough, as the rocket lifted, it began to veer off course and von Braun radioed a fuel cut-off command that sent it hurtling to the ground. Van Allen shrugged and returned to his home base of the Applied Physics Laboratory in Silver Spring, Md., to rebuild. He already had a lot of experience with this sort of thing - he too had been building weapons during World War II.
+                <p>Testing on the V-2 began at once with General Electric and von Braun working together to reassemble and build parts under Army supervision at White Sands. The actual nose cone cavity that could hold a payload of weapons wasn’t needed and Army brass decided to invite a group of renegade scientists eager to load their instruments in a rocket and bring experiments into space. Most researchers wanted nothing to do with vehicles that might crash land carrying a precious cargo of detectors, scintillators and cameras. They preferred to stick to research with a graceful ride in a balloon even though the V-2 could reach altitudes that human beings had never touched before. <span class="pull">Among the renegades, Van Allen raised his hand and got a seat for his cosmic rays detectors on the first V-2 test flight on April 16, 1946.</span> Sure enough, as the rocket lifted, it began to veer off course and von Braun radioed a fuel cut-off command that sent it hurtling to the ground. Van Allen shrugged and returned to his home base of the Applied Physics Laboratory in Silver Spring, Md., to rebuild. He already had a lot of experience with this sort of thing - he too had been building weapons during World War II.
                 </p>
             </article>
             <article class="text-container" id="smartweapon"><header><h3>America's first smart weapon to the rescue</h3></header>
@@ -174,11 +206,11 @@
                 </p>
                 <p>His wasn’t the only find with the V-2. Scientists reaped new information about weather currents and they reached and identified layers of the atmosphere – the ozone layer and the ionosphere, long known to mirror back radio waves that made radio transmission possible.
                 </p>
-				<aside>
-					<header class="fb" id="fbcosmicray"><h4>How cosmic rays create time machines</h4></header>
-                    <p>Cosmic rays striking atoms in the atmosphere trigger a cascade of reactions that create precision clocks for science. The reactions unleash neutrons that can interact with nitrogen atoms, kicking out a proton and taking its place in the nucleus. That transforms the nitrogen atom into an unusual form of carbon – carbon-14, with six protons and eight neutrons. Nitrogen atoms have seven protons and seven neutrons while carbon atoms, the building blocks of life, usually have six of each. Only living organisms absorb carbon – including carbon-14 – and they absorb it in consistent proportions. Changes in that proportion allow scientists to estimate the loss of carbon-14, an unstable isotope that decays away at a measurable rate. Carbon-14 dating give archeologists a tool to date bones, teeth, ancient garbage and other artifacts they find across thousands of year.
-                    </p>
-                    <p>Cosmic rays that do penetrate to the surface of the Earth generate beryllium-10, another isotope, when they strike rock and the buildup of beryllium-10 can tell climate scientists how long ago glaciers may have lumbered back from a rock buried in ice. They can do so because beryllium-10 doesn’t forms in an ice-covered rock. Beryllium-10 offers a calendar of the invasion and retreat of glaciers in the past, a calendar that helps build models needed to predict what we are facing with climate change now.
+				<aside class="fb-caption arrow_box">
+					<header id="fbcosmicray"><h4>How cosmic rays create time machines</h4></header>
+                    <p class="caption">Cosmic rays striking atoms in the atmosphere trigger a cascade of reactions that create precision clocks for science. The reactions unleash neutrons that can interact with nitrogen atoms, kicking out a proton and taking its place in the nucleus. That transforms the nitrogen atom into an unusual form of carbon – carbon-14, with six protons and eight neutrons. Nitrogen atoms have seven protons and seven neutrons while carbon atoms, the building blocks of life, usually have six of each. Only living organisms absorb carbon – including carbon-14 – and they absorb it in consistent proportions. Changes in that proportion allow scientists to estimate the loss of carbon-14, an unstable isotope that decays away at a measurable rate. Carbon-14 dating give archeologists a tool to date bones, teeth, ancient garbage and other artifacts they find across thousands of year.
+                    <br/>
+                    Cosmic rays that do penetrate to the surface of the Earth generate beryllium-10, another isotope, when they strike rock and the buildup of beryllium-10 can tell climate scientists how long ago glaciers may have lumbered back from a rock buried in ice. They can do so because beryllium-10 doesn’t forms in an ice-covered rock. Beryllium-10 offers a calendar of the invasion and retreat of glaciers in the past, a calendar that helps build models needed to predict what we are facing with climate change now.
                     </p>
 				</aside>
                 <p>With higher altitudes within his grasp, Van Allen wanted to measure the impact on cosmic ray intensity of the Earth’s magnetic field as it arched toward the poles and show how intensity changed with intense solar explosions such as solar flares. He wanted to do so by launching his detectors on rockets at the equator and comparing results at different latitudes as he approached the poles. A shipboard launch out in the middle of the ocean was the most sensible way to accomplish a nomadic itinerary of launches. But the heavy, four-story V-2 wasn’t a good candidate for such a program and a quick count told Van Allen the inventory of them would soon run out. Always planning ahead, he invented the Aerobee, a far smaller, work-house rocket designed strictly for science in space.
@@ -218,7 +250,7 @@
             <article class="text-container" id="days"><header><h3>Give us 90 days!</h3></header>
                 <p>As <sname>Sputnik</sname> first orbited over the heads of astounded Americans on Oct. 4, incoming Defense Secretary Neil McElroy was touring the Huntsville missile base. His hosts - Von Braun backed by two generals and the Secretary of the Army – immediately confronted him about resurrecting the Jupiter C satellite mission.
                 </p>
-                <p>“We could have been in orbit a year ago,” von Braun said. “Vanguard will never make it. We have the hardware on the shelf. For God’s sake turn us loose and let us do something. We can put up a satellite in 60 days.” General John Medaris, commander of the missile base, countered with 90 days. And 90 is the deadline Medaris quoted when he announced to his rocket team on Nov. 8 that the Ballistic Missile Agency had been tasked with launching a scientific satellite into orbit with the Jupiter C.  “Let’s go Wernher,” he says to the smiling von Braun in a newsreel released months later. But behind the scenes, the Jet Propulsion Laboratory took over von Braun’s dream assignment of building the satellite to fit JPL’s second and third stages for the rocket.
+                <p><span class="pull">“We could have been in orbit a year ago,”</span> von Braun said. “Vanguard will never make it. We have the hardware on the shelf. For God’s sake turn us loose and let us do something. We can put up a satellite in 60 days.” General John Medaris, commander of the missile base, countered with 90 days. And 90 is the deadline Medaris quoted when he announced to his rocket team on Nov. 8 that the Ballistic Missile Agency had been tasked with launching a scientific satellite into orbit with the Jupiter C.  “Let’s go Wernher,” he says to the smiling von Braun in a newsreel released months later. But behind the scenes, the Jet Propulsion Laboratory took over von Braun’s dream assignment of building the satellite to fit JPL’s second and third stages for the rocket.
                 </p>
                 <p>“Von Braun swallowed hard but did not comment,” Stuhlinger reported of the tumult in his memoir. Von Braun knew that JPL had saved the day for the Jupiter C, devising the re-entry testing program and lobbying to give the rocket back in the satellite program. He gave the laboratory a grateful and graceful pass, according to Stuhlinger.
                 </p>
@@ -274,9 +306,9 @@
                 </p>
                 <p>The backlog of tapes piled ever higher in the cramped basement beehive where tapes played non-stop on Crown Royal consoles. The playback drove pens on long arms that pulsed and slithered across paper tapes to graph the audio tones. A squadron of students measured the peaks and valleys of the graphs and converted them into numerical counts.
                 </p>
-				<aside>
-					<header class="fb" id="fbNASA"><h4>The birth of NASA</h4></header>
-                    <p>The fight was on over the spring and summer of 1958 as James Van Allen clinched the discovery of the radiation belts and the army, navy and air force all planned competing space missions. Clearly, the United States needed a space agency. Eisenhower and a majority of scientists wanted it to be a civilian-led agency, in keeping with the mission of peaceful space exploration. Van Allen testified at the lengthy hearings chaired by Sen. Lyndon Johnson (D-Texas), one of dozens of witnesses. Van Allen promoted a strong role for universities in creating a national brain trust for civilian space exploration. The Explorers aside, he was a major stakeholder in an agency that would identify future missions. He had helped guide the way as chairman of a volunteer rocket panel representing all the civilian and military players to prioritize experiments for rocket flights starting with the V-2s at White Sands after World War II. The group morphed from the V-2 Panel, to the Upper Atmosphere Rocket Research Panel to the Rocket and Satellite Research Panel. His colleagues appointed him as chairman of the group early on and wouldn’t allow him to resign.  Van Allen’s detectors rode on Pioneer 1, one of five instruments on the first mission after NASA opened shop as a civilian agency on Oct. 1, 1958. But the military continued to play a key role. Pioneer, a U.S. Air Force probe, rocketed on a trajectory toward the moon, nearly 250,000 miles away. Pioneer I traveled a record 72,765 miles above the Earth and then fell back and disintegrated. That was enough for detectors designed by Van Allen and Carl McIlwain to fly through an entire swath of the inner and outer radiation belts for the first time.
+				<aside class="fb-caption arrow_box">
+					<header id="fbNASA"><h4>The birth of NASA</h4></header>
+                    <p class="caption">The fight was on over the spring and summer of 1958 as James Van Allen clinched the discovery of the radiation belts and the army, navy and air force all planned competing space missions. Clearly, the United States needed a space agency. Eisenhower and a majority of scientists wanted it to be a civilian-led agency, in keeping with the mission of peaceful space exploration. Van Allen testified at the lengthy hearings chaired by Sen. Lyndon Johnson (D-Texas), one of dozens of witnesses. Van Allen promoted a strong role for universities in creating a national brain trust for civilian space exploration. The Explorers aside, he was a major stakeholder in an agency that would identify future missions. He had helped guide the way as chairman of a volunteer rocket panel representing all the civilian and military players to prioritize experiments for rocket flights starting with the V-2s at White Sands after World War II. The group morphed from the V-2 Panel, to the Upper Atmosphere Rocket Research Panel to the Rocket and Satellite Research Panel. His colleagues appointed him as chairman of the group early on and wouldn’t allow him to resign.  Van Allen’s detectors rode on Pioneer 1, one of five instruments on the first mission after NASA opened shop as a civilian agency on Oct. 1, 1958. But the military continued to play a key role. Pioneer, a U.S. Air Force probe, rocketed on a trajectory toward the moon, nearly 250,000 miles away. Pioneer I traveled a record 72,765 miles above the Earth and then fell back and disintegrated. That was enough for detectors designed by Van Allen and Carl McIlwain to fly through an entire swath of the inner and outer radiation belts for the first time.
                     </p>
 				</aside>
                 <p>Faculty member Ernst Ray and graduate student Carl McIlwain worked with Van Allen to analyze the tapes. Ludwig returned from JPL and joined the effort, grading the quality of the taped data from A to F in his 120 pages of logs, an A designating noise-free data and an F meaning no readable data. From the first 10 orbits of <sname>Explorer I</sname> and 34 transmissions of data, Ludwig’s logs give nearly half of them an F. There were no back-up tapes. Nothing like them or the missions that generated them had ever existed before. Even NASA wouldn’t be organized until that fall. Iowa had the original and “the only archive of data tapes from those missions,” Ludwig said.
@@ -305,13 +337,13 @@
                 </p>
                 <p>On Wednesday, April 2, Van Allen took a taxi to the center on Pennsylvania Avenue and picked up the paper tapes graphing the cosmic ray counts. He stopped at a drug store to pick up graph paper and a ruler on his way back to the Dupont Plaza Hotel. He used his slide rule and NRL’s fresh estimates of the orbit altitude to recalculate the peaks and troughs of cosmic rays as a function of the latitude and altitude of the satellite. He could see 15 minutes of cosmic ray levels rising to the maximum his detector could process, then a lengthy drop to zero counts, and then more counts, as though the satellite and space had an on-off switch.
                 </p>
-                <p><q>“At 3 a.m., I packed my work sheet and graph and turned in for the night with the conviction that our instruments on both Explorers I and III were working properly but that we were encountering a mysterious physical effect.”</q>
+                <p><span class="pull">“At 3 a.m., I packed my work sheet and graph and turned in for the night with the conviction that our instruments on both Explorers I and III were working properly but that we were encountering a mysterious physical effect.”</span>
                 </p>
                 <p>The audio tape data arrived at Iowa while Van Allen was gone. McIlwain, Ray and graduate student Joe Kasper immediately set to work processing data from the reel. “We were looking for a clear transition, the switching point from rising counts to zero,” McIlwain said. “Now there it was. So we knew at once that there was something of very high intensity out there. I immediately took the spare payload and put it in front of an x-ray machine.” The x-ray output showed that massive levels of radiation could choke off the detector.
                 </p>
-                <p>Van Allen returned to Iowa, welcomed by a sign Ray had left on his chair. 
+                <p>Van Allen returned to Iowa, <span class="slide">welcomed by a sign Ray had left on his chair. </span><div class="toggle initiallyHidden"><img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/CIA_document_-_1430-492-Y_-_Clay_Shaw_Part2.gif"></div>
                 </p>
-                <p><span class="slide">“Space is radioactive.”</span><div class="toggle initiallyHidden"><img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/CIA_document_-_1430-492-Y_-_Clay_Shaw_Part2.gif"></div>
+                <p><span class="pull">“Space is radioactive.”</span>
                 </p>
                 <p>Ray’s conscious exaggeration alerted Van Allen to the fact that he and McIlwain had their own confirmation. Van Allen laid out his graphs. McIlwain laid out his x-ray findings. The men looked over the results cautiously at first. But everything pointed to an abrupt boundary in space crossing into a zone where cosmic rays abruptly rose to unimagined levels. “Then it clicked right away. That was the moment when the light bulb went on – the Eureka Moment,” Van Allen said.
                 </p>
@@ -336,7 +368,7 @@
                 </p>
                 <dialog><p>“You mean they circle the Earth like a belt?” suggested science reporter William Hines of the Washington Evening Star.
                 </p>
-				<aside>The radiation belts cirling the Earth</aside>
+				<aside><p class="caption">The radiation belts cirling the Earth</p></aside>
                 <p>“Yes, that’s right,” Van Allen said, giving the trapped corpuscular radiation zones a handy nickname. 
                 </p>
                 </dialog>
@@ -356,12 +388,12 @@
 				</p>
 				<p>The three secret Argus blasts that followed, each from a 1.5 megaton bomb, detonated at 300 miles above the Earth and sparked a dazzling light show at each aurora. The electrons from the blast radiated around the globe and quickly created three thin radiation belts between the inner and outer natural ones. A beehive of students plotted the data tapes from <sname>Explorer IV</sname> without knowing what they meant. The tapes poured in from around the world and straight into the hands of a slender young woman with bobbed hair, a math degree and a security clearance. She was 22-year-old Annabelle Welsh Hudmon and she managed the beehive.
 				</p>
-				<aside>Annabelle Hudmon with <sname>Explorer I</sname> data tapes</aside>
+				<aside><p class="caption">Annabelle Hudmon with <sname>Explorer I</sname> data tapes</p></aside>
 				<p>A glowing recommendation backing her for any job in computational analysis landed at Van Allen’s office even before she did. It came from F. S. Atchison, a physicist and director of the Naval Ordnance Laboratory in Corona, Calif. “I was working [there] on a computer for the Navy pilots to tell them when to fire the Sidewinder rockets,” she says. She married shortly before returning to her home state of Iowa where her husband, Stanton Hudmon, took his medical residency at the University of Iowa Hospitals.
 				</p>
 				<p>Van Allen hired her on the spot the day before he had to leave town. She moved long tables into position, tested cadres of students to make sure their math skills were sharp and set out to graph an avalanche of data tapes. McIlwain showed her the ropes and she trained the students who came to work for her. They played the data tapes on consoles filling a corridor of the basement. The thin, spidery arms of graphics plotters leaped into action, transcribing the rising and falling tones of the data tapes into rising and falling <span class="slide">patterns on paper tapes</span><div class="toggle initiallyHidden"><img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/CIA_document_-_1430-492-Y_-_Clay_Shaw_Part2.gif"></div> that cascaded into neatly folded stacks.
 				</p>
-				<p>“After we transcribed everything onto paper tapes, we’d plot it from there,” Hudmon says. “We were plotting all those electrons and protons ---we had no idea what we were plotting. I just supplied all the data. I had everything checked twice. Dr. Van Allen never got incorrect data from me.”
+				<p>“After we transcribed everything onto paper tapes, we’d plot it from there,” Hudmon says. <span class="pull">“We were plotting all those electrons and protons ---we had no idea what we were plotting.</span> I just supplied all the data. I had everything checked twice. Dr. Van Allen never got incorrect data from me.”
 				</p>
 				<p>McIlwain, Van Allen, Ludwig and Ray huddled over the plots to map the massive reaches of space confined within the belts. The readings from <sname>Explorer IV</sname> clearly identified the outer radiation belt, the slot between the inner and outer zones, the impact of atmospheric nuclear missile tests and then the Project Argus blasts. Radiation levels from the belts and from the blasts crescendoed into tones on tapes and Hudmon’s team converted it all to the mathematical currency of plotted graphs.
 				</p>
@@ -377,7 +409,7 @@
 				</p>
 				<p>The detectors on <sname>Explorer IV</sname> could only explore particles in the horns of the outer belt as it arched toward the poles. Not even a satellite could navigate a cross-section of this vast radiation zone stretching thousands of miles outward from heights of about 10,000 miles above the earth at the equator. Satellites had eclipsed rockets to reach into space. Now Van Allen needed a new tool to take his detectors higher still. The <sname>Pioneer</sname> probes built by the Air Force for robotic launches to the moon gave him his wish in the fall of 1958. <sname>Pioneers 1</sname> and <sname>3</sname> fell back to Earth from altitudes of about 73,000 miles and 63,000 miles respectively, a far miss from the moon but a win for Van Allen. The missions carried his detectors through the entire swath of the inner and outer radiation belts for the first time.
 				</p>
-				<p>The belts arching above the Earth created a sense of unchanging permanence and stability – a domed cathedral ceiling of the Earth. Then, in August 2012, NASA sent the twin <i>Van Allen Probes</i> to the belts and soon discovered a newcomer – a third belt. <aside>Finding a third belt coalescing from the dynamic remnants in the ruins of the outer radiation belt so shocked mission scientists that they, like Van Allen so many years before, wondered if something was wrong with their instruments.</aside> Nothing was wrong. The instruments happened to be in place to witness a cataclysm forged by a solar flare. As a legacy to Explorer I, the discovery seemed hard to match. But Iowa scientists did match it with their songs from space, a radio recording of <sname>Voyager 1</sname>‘s passage into interstellar space after a journey across more than 11 billion miles.
+				<p>The belts arching above the Earth created a sense of unchanging permanence and stability – a domed cathedral ceiling of the Earth. Then, in August 2012, NASA sent the twin <i>Van Allen Probes</i> to the belts and soon discovered a newcomer – a third belt. <span class="pull"><p class="caption">Finding a third belt coalescing from the dynamic remnants in the ruins of the outer radiation belt so shocked mission scientists that they, like Van Allen so many years before, wondered if something was wrong with their instruments.</p></span> Nothing was wrong. The instruments happened to be in place to witness a cataclysm forged by a solar flare. As a legacy to Explorer I, the discovery seemed hard to match. But Iowa scientists did match it with their songs from space, a radio recording of <sname>Voyager 1</sname>‘s passage into interstellar space after a journey across more than 11 billion miles.
 				</p>
 				<p><sname>Voyager</sname> crossed the boundary just days before the discovery of the third belt.
 				</p>
@@ -386,9 +418,10 @@
         <section class="doc-show section text" id="legacyofexplorer">
         <header><h2>From Earth to Interstellar Space - Legacy of <sname>Explorer I</sname></h2></header>
             <article class="text-container" id="chorus"><header><h3>The chorus of space history - Listen to <sname>Explorer I</sname> data tapes</h3></header>
-                <p>The original data tapes from the early Explorers and several other trail-blazing space missions lined floor to ceiling shelves for decades in an abandoned particle accelerator chamber in the basement of the 1910 physics building.<aside>Basement of MacLean Hall</aside> But after the severe floods of 2008 and changes in the ventilation system of the building, the tapes began to show the wear and tear of aging, humidity and mildew. The physics department and the University of Iowa Libraries launched a rescue and restore mission to preserve and digitize the 694 tapes from America’s first satellite mission, <sname>Explorer I</sname>.
+                <p><span class="pull">The original data tapes from the early Explorers and several other trail-blazing space missions lined floor to ceiling shelves for decades in an abandoned particle accelerator chamber in the basement of the 1910 physics building.</span> But after the severe floods of 2008 and changes in the ventilation system of the building, the tapes began to show the wear and tear of aging, humidity and mildew. The physics department and the University of Iowa Libraries launched a rescue and restore mission to preserve and digitize the 694 tapes from America’s first satellite mission, <sname>Explorer I</sname>.
                 </p>
-                <p>“<sname>Explorer I</sname> is gone, subsequent early satellites that remain in orbit are long silent, the ramshackle tracking stations dotted around the globe that recoded the tones sent from space have either disappeared or been wholly transformed, and Dr. Van Allen’s offices in the basement of MacLean Hall on the University of Iowa campus were dismantled decades ago. Today, the most tangible material remnant of the extraordinary effort behind the United States’ first satellite missions lies in the thousands of magnetic tapes that contain the audio signals captured on Earth at the satellites orbited overhead,” noted Greg Prickman, head of <a href="">special collections and university archives</a>. The Roy J. Carver Charitable Trust in Muscatine, Iowa, where tire magnate Roy J. Carver operated his companies, provided funding for the restoration and digital conversion.
+                <aside><p class="caption">Basement of MacLean Hall</p></aside>
+                <p>“<sname>Explorer I</sname> is gone, subsequent early satellites that remain in orbit are long silent, the ramshackle tracking stations dotted around the globe that recoded the tones sent from space have either disappeared or been wholly transformed, and Dr. Van Allen’s offices in the basement of MacLean Hall on the University of Iowa campus were dismantled decades ago. Today, the most tangible material remnant of the extraordinary effort behind the United States’ first satellite missions lies in the thousands of magnetic tapes that contain the audio signals captured on Earth at the satellites orbited overhead,” noted Greg Prickman, head of <a href="http://www.lib.uiowa.edu/sc/">special collections and university archives</a>. The Roy J. Carver Charitable Trust in Muscatine, Iowa, where tire magnate Roy J. Carver operated his companies, provided funding for the restoration and digital conversion.
                 </p>
 				<br/>
 				<div class="vanallen">
@@ -400,7 +433,8 @@
                 <br/>
 				<p>The tapes hold the music of discovery - the original sound tracks and static gaps that revealed the radiation belts. The digital format makes them accessible to you. Sample them here. You can tune into short excerpts, as Explorer crossed receiving stations across the globe, or review the entire odyssey. Each tape incorporates several channels of data and even a channel where the voices of technicians at the receiving stations noted times, locations and an occasional comment on harnessing messages from outer space.
 				</p>
-				<p>By serendipity, the <sname>Explorer I</sname> restoration program coincided with NASA’s <i>Van Allen Probes</i> satellite mission to the radiation belts and with <sname>Voyager 1</sname>’s crossing into interstellar space. Both missions hold intrinsic links to Van Allen’s work and to the legacy of the data tapes. <sname>Voyager</sname> reached interstellar space on Aug. 25, 2012, just days before the <i>Van Allen Probes</i> witnessed the emergence of a <a href="link to NASA video of 3rd radiation belt">third radiation belt</a> in early September, two unbelievable space adventures occurring in quick succession. Everything just lined up - almost like the orbits of the outer planets did as Voyagers 1 and 2 set out in 1977 to tour Jupiter, Saturn, Uranus and Neptune.
+                <aside><iframe src="//www.youtube.com/embed/tDqahwSl5IY?list=PLiuUQ9asub3S235ZRyZmo8DKob4VOMo7k" frameborder="0" allowfullscreen></iframe><p class="caption">NASA visualization of the third radiation belt.</p></aside>
+				<p>By serendipity, the <sname>Explorer I</sname> restoration program coincided with NASA’s <i>Van Allen Probes</i> satellite mission to the radiation belts and with <sname>Voyager 1</sname>’s crossing into interstellar space. Both missions hold intrinsic links to Van Allen’s work and to the legacy of the data tapes. <sname>Voyager</sname> reached interstellar space on Aug. 25, 2012, just days before the <i>Van Allen Probes</i> witnessed the emergence of a third radiation belt in early September, two unbelievable space adventures occurring in quick succession. Everything just lined up - almost like the orbits of the outer planets did as Voyagers 1 and 2 set out in 1977 to tour Jupiter, Saturn, Uranus and Neptune.
 				</p>
             </article>
             <article class="text-container" id="stormshelter"><header><h3>Space weather forecasting - Storm shelter for our "suberelectric cocoon"</h3></header>
@@ -425,8 +459,9 @@
 				<p>Kletzing’s captured the same startling view with Iowa’s instruments that measured electromagnetic waves – “a zoo of waves” given off by solar plasma in the storm, he said. 
 				</p>
 				<p>
-				The sun radiates electromagnetic energy,<aside><img src="http://svs.gsfc.nasa.gov/vis/a010000/a011000/a011047/July_19_Flare_triptych-half_size.jpg"/>Solar flares emanating electromagnetic energy</aside> including the visible light that makes possible all life on Earth. But the fusion furnace of the sun also emits streams of plasma that create the solar wind. Plasma - the fourth state of matter – defies the atomic structure of gases, liquids and solids. It is a volatile soup of charged subatomic particles – positive ions and negative electrons - jetting across the solar system. Shock waves rip through the solar wind after coronal explosions and, as the <i>Van Allen Probes</i> witnessed, they can tear away the dynamic outer radiation belt.
+				The sun radiates electromagnetic energy, including the visible light that makes possible all life on Earth. But the fusion furnace of the sun also emits streams of plasma that create the solar wind. Plasma - the fourth state of matter – defies the atomic structure of gases, liquids and solids. It is a volatile soup of charged subatomic particles – positive ions and negative electrons - jetting across the solar system. Shock waves rip through the solar wind after coronal explosions and, as the <i>Van Allen Probes</i> witnessed, they can tear away the dynamic outer radiation belt.
 				</p>
+                <aside><img src="http://svs.gsfc.nasa.gov/vis/a010000/a011000/a011047/July_19_Flare_triptych-half_size.jpg"/><p class="caption">Solar flares emanating electromagnetic energy</p></aside>
 				<p>“It suddenly got just eaten away but there was a little remnant storing the last little bit of stuff – you might call it a storage ring. And then gradually the outer belt began to fill back in – going from outward inward,” Kletzing said. “It’s very conceivable and even likely that this kind of thing has happened before but we couldn’t detect it.”
 				</p>
 			</article>
@@ -447,15 +482,16 @@
 				</p>
 				<p>The sun lent a hand with a massive coronal ejection in March 2012. The St. Patrick’s Day Solar Storms raged through the solar system, with jets of plasma streaming toward interstellar space and plowing into the interstellar plasma of galactic cosmic rays. When the impact hit, <sname>Voyager</sname> was there – on location – with Iowa’s plasma wave instrument to make the definitive discovery. <sname>Voyager</sname> scientists knew that the instrument could pick up the radio signals from plasma oscillations – or vibrations – triggered by the collisions. On April 9, 2013, the instrument tuned into the song of passage – radio waves at frequencies that correspond to interstellar space.
 				</p>
-				<aside>
-					<header class="fb" id="fbsymphony"><h4>Space symphony</h4></header>
-                    <p>University of Iowa physicist Don Gurnett records the songs of space and recognized the change of tune that told us Voyager 1 had reached the destination of interstellar space in 2012. There, Gurnett heard the high-pitched harmonics of radio transmissions created when the solar plasma of charged particles from the sun slams into cosmic rays, the plasma of charged particles streaming from other stars. As an undergraduate, Gurnett tuned into whistlers - radio transmissions from the heavens generated by lightning flashes. He tracked whistlers from the corn fields of his father’s farm in Fairfield, Iowa, from the Injun 3 satellite orbits a thousand miles above the Earth and from Jupiter. The whistlers his plasma wave instrument on Voyager 1 picked up at Jupiter meant he had discovered lightning at another planet for the first time. His  radio receiver trundled onto the Injun 3 satellite in 1962 picked up the radio show generated by the Earth’s radiation belts – a dawn chorus of transmissions, so-named by British radio enthusiasts who compared similar but fainter such transmissions heard on Earth to the dawn chorus of flocks of birds. Gurnett’s plasma wave instrument on Voyager recorded a dawn chorus from the radiation belts at Jupiter as well. The device sang with transmissions from solar storms that Gurnett used to remap the distance to the boundary of the solar system. Then came the big prize – the first recordings from interstellar space.
+				<aside class="fb-caption arrow_box">
+					<header id="fbsymphony"><h4>Space symphony</h4></header>
+                    <p class="caption">University of Iowa physicist Don Gurnett records the songs of space and recognized the change of tune that told us Voyager 1 had reached the destination of interstellar space in 2012. There, Gurnett heard the high-pitched harmonics of radio transmissions created when the solar plasma of charged particles from the sun slams into cosmic rays, the plasma of charged particles streaming from other stars. As an undergraduate, Gurnett tuned into whistlers - radio transmissions from the heavens generated by lightning flashes. He tracked whistlers from the corn fields of his father’s farm in Fairfield, Iowa, from the Injun 3 satellite orbits a thousand miles above the Earth and from Jupiter. The whistlers his plasma wave instrument on Voyager 1 picked up at Jupiter meant he had discovered lightning at another planet for the first time. His  radio receiver trundled onto the Injun 3 satellite in 1962 picked up the radio show generated by the Earth’s radiation belts – a dawn chorus of transmissions, so-named by British radio enthusiasts who compared similar but fainter such transmissions heard on Earth to the dawn chorus of flocks of birds. Gurnett’s plasma wave instrument on Voyager recorded a dawn chorus from the radiation belts at Jupiter as well. The device sang with transmissions from solar storms that Gurnett used to remap the distance to the boundary of the solar system. Then came the big prize – the first recordings from interstellar space.
                     </p>
 				</aside>
-				<p>"Normally, interstellar space is like a quiet lake," said <sname>Voyager</sname> project scientist Ed Stone in a NASA statement. "But when our sun has a burst, it sends a shock wave outward that reaches <sname>Voyager</sname> about a year later. The wave causes the plasma surrounding the spacecraft to sing." <aside>Audio of Voyager in interstellar space</aside>
+				<p>"Normally, interstellar space is like a quiet lake," said <sname>Voyager</sname> project scientist Ed Stone in a NASA statement. "But when our sun has a burst, it sends a shock wave outward that reaches <sname>Voyager</sname> about a year later. The wave causes the plasma surrounding the spacecraft to sing."
 				</p>
 				<p>When you tune in to a radio station at 780 on your AM dial, it means the station is broadcasting at 780 kilohertz, a frequency where the rate of oscillation of the radio waves is 780 cycles per second. Gurnett detected and recorded electron plasma oscillations at the very low frequency of 2.6 kilohertz.
 				</p>
+                <aside><p class="caption">Audio of Voyager in interstellar space</p></aside>
 				<p>“We literally jumped out of our seats when we saw these oscillations in our data – they showed us the spacecraft was in an entirely new region comparable to what was expected in interstellar space,” Gurnett noted when NASA announced the momentous crossing to uncharted territory. 
 				</p>
 				<p>The high-pitched whine of Gurnett’s recording identifies the increased density of interstellar plasma at a point where the density of solar plasma had dropped to nearly nothing. Analyzing the data, Iowa’s plasma wave team of Gurnett and physicist Bill Kurth chronicled the passage back to an exact date: Aug. 25, 2012.
@@ -479,7 +515,7 @@
 				</p>
 				<p>His very low frequency receiver would fit like a crown on <sname>Injun 3</sname> and Gurnett asked permission to add it to the mission. Van Allen agreed but Gurnett suddenly realized that the receiver might blare with feedback from the satellite data receivers, acting as an amplifier that could cripple the mission. He had to test the system and, once again, he had to get away from the electrical power lines of Iowa City. Not a problem. The space physics team simply loaded up <sname>Injun 3</sname> with the VLF receiver and drove it to Fairfield to test it behind the Gurnett family barn. The system worked like a charm.
 				</p>
-				<aside>Audio from Space Gurnett Fav playlist</aside>
+				<aside><p class="caption">Audio from Space Gurnett Fav playlist</p></aside>
 				<p><sname>Injun 3</sname> launched into orbit in December 1962 and the whistlers trapped in the Earth’s magnetic field sang loud and clear through the receiver with “all sorts of radio phenomena that frankly had never been heard before,” Gurnett said. Once inside the radiation belts, the receiver picked up a dawn chorus. British radio enthusiasts coined the term to describe a concert of natural radio tones they could pick up because it reminded them of the chorus of birds chirping when they awake at dawn. But the dawn chorus caught by VLF receivers on Earth couldn’t match the radio show from inside the belts and the chorus swelled dramatically with even mild solar storms. The songs of space gave Gurnett a new tool to explore the radiation belts and to follow the plasma of the solar wind.
 				</p>
 			</article>

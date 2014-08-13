@@ -25,6 +25,8 @@
     echo head_css();
     ?>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Trocchi' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro' rel='stylesheet' type='text/css'>
    
     <!-- JavaScripts -->
     <script src="http://code.jquery.com/jquery-1.7.js"></script>

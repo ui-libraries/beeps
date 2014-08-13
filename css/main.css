@@ -196,6 +196,8 @@ h3 {
   font-size: 28px;
   line-height: 36px;
   font-weight: 800;
+/*  opacity: 0.4;  */
+
 }
 .big,
 h4 {
@@ -262,8 +264,6 @@ cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 body {
   width: 100%;
-  background: #f7f7f7;
-  color: #454545;
   -webkit-text-size-adjust: 100%;
   /* Stops Mobile Safari from auto-adjusting font-sizes */
 
@@ -319,7 +319,7 @@ a:visited {
 }
 @media only screen and (min-width: 768px) {
   h2 {
-    opacity: 0.4;
+    opacity: 1;
   }
 }
 .current-section h2,
@@ -452,7 +452,6 @@ a:visited {
   font-size: 1.2em;
   line-height: 1.65em;
   height: auto;
-  background-color: #f7f7f7;
   background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 200, from(#dedddf), to(#f7f7f7));
   background-image: -webkit-radial-gradient(50% 50%, #f7f7f7, #dedddf);
   background-image: -moz-radial-gradient(50% 50%, #f7f7f7, #dedddf);
@@ -482,7 +481,7 @@ a:visited {
 .section.text h3,
 .section.text h4,
 .section.text h5 {
-  color: black;
+  color: #E54B29;
   text-shadow: transparent 0 0 0;
 }
 .section.text h2 {
@@ -526,7 +525,7 @@ a:visited {
   width: 100%;
   font-style: italic;
   font-size: 0.75em;
-  padding: 4px 8px;
+  padding: 4px 8px; 
   background-color: white;
   border-radius: 2px;
   opacity: 0.6;
@@ -615,7 +614,7 @@ Elastic videos
   color: black;
 }
 #error-bar {
-  /*background-color: #ff9300;*/
+  background-color: #ff9300;
 
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 147, 0, 0.7)), to(rgba(214, 34, 0, 0.8)));
   background-image: -webkit-linear-gradient(top, rgba(255, 147, 0, 0.7), rgba(214, 34, 0, 0.8));
@@ -638,17 +637,19 @@ Elastic videos
   -o-transition: all 0.8s ease-out;
   transition: all 0.8s ease-out;
 }
+
+
+
 /* --- Navbar stuff --- */
 #nav {
   font-family: 'PT Sans Narrow', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  opacity: 0.75;
+    opacity: 0.75;  
   border-radius: 4px;
-  left: -180px;
+    left: -180px;  
   max-height: 100%;
   overflow-y: auto;
-  overflow-x: hidden;
   max-width: 224px;
-  font-size: 14px;
+  font-size: .5em;
   line-height: 1.25em;
   position: fixed;
   top: 0;
@@ -675,7 +676,7 @@ Elastic videos
   background-color: white;
   border-right: 3px solid #68221a;
   margin-right: -2px;
-  /*background-color: #f4f3f5;*/
+  background-color: #f4f3f5;
 
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f3f5), to(rgba(180, 179, 181, 0.75)));
   background-image: -webkit-linear-gradient(top, #f4f3f5, rgba(180, 179, 181, 0.75));
@@ -693,7 +694,7 @@ Elastic videos
   left: 0;
   top: 0;
   border-right: 1px solid rgba(250, 250, 250, 0.1);
-  /*background-color: #e5e4e6;*/
+  background-color: #e5e4e6;
 
   background-image: -webkit-gradient(radial, 0% 50%, 0, 0% 50%, 200, from(rgba(63, 62, 63, 0.49)), to(rgba(229, 228, 230, 0.18)));
   background-image: -webkit-radial-gradient(0% 50%, rgba(229, 228, 230, 0.18), rgba(63, 62, 63, 0.49));
@@ -735,6 +736,11 @@ Elastic videos
   top: 50%;
   margin-top: -9px;
 }
+
+
+
+
+
 /* --- Builder stuff --- */
 #builder {
   font-size: 12px;
@@ -1114,7 +1120,7 @@ px      68    160    252    344    436    */
   }
 }
 
-/* uiowa custom styles */
+/********************************************** uiowa custom styles ************************************************************************/
 
 
 /*		Default Layout: 992px.
@@ -1122,12 +1128,209 @@ px      68    160    252    344    436    */
 		Outer margins: 48px.
 		Leftover space for scrollbars @1024px: 32px.
 -------------------------------------------------------- */
+::selection {
+  background: #EA844E;
+}
+::-moz-selection {
+  background: #EA844E;
+}
+.nav-section:hover {
+    color: #fdf5e9;
+}
+body {
+      color: #28293c;
+      background: #F9EEDC;
+    font-family: 'Source Serif Pro', serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Trocchi', serif;
+}
+nav {
+    display: block;   
+    width: auto;
+} 
+#nav {
+    background: #26273B;
+    font-family: 'Trocchi', serif;
+}
+.main ul {
+    width: 100%;
+    padding-left: 40px;
+    list-style-type: none;
+}
+#main li {
+    display: inline;
+    padding: 1em;
+    font-size: .75em;
+}
+.section.text h1,
+.section.text h2,
+.section.text h3,
+.section.text h4,
+.section.text h5 {
+  color: #EA844E;
+}
+.section.text {
+  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 200, from(#F9EEDC), to(#FBF5EA));
+  background-image: -webkit-radial-gradient(50% 50%, #FBF5EA, #F9EEDC);
+  background-image: -moz-radial-gradient(50% 50%, #FBF5EA, #F9EEDC);
+  background-image: -o-radial-gradient(50% 50%, #FBF5EA, #F9EEDC);
+  background-image: -ms-radial-gradient(50% 50%, #FBF5EA, #F9EEDC);
+  background-image: radial-gradient(50% 50%, #FBF5EA, #F9EEDC);
+}
+#container {
+    background: #F9EEDC;
+}
+#title {
+    background: #F9EEDC;
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 20em;
+    padding-bottom: .5em;
+    box-shadow: none;
+    font-size: 1em;
+}
+#sources section {
+    height: auto;
+    width: 100%;
+}
+
+/* Beginning Banner */
+.banner {
+    width: 100%;
+    height: 250px;
+    background: #F9EEDC;
+    padding-bottom: 2em;
+
+}
+.banner div{
+    float: left;
+    display: inline;
+    padding: 2em;
+    margin:5px;
+}
+#left {
+    width: 7%;
+    height: 100%;
+    background: #5aada8;
+}
+#center {
+    width: 75%;   
+    height: 100%;
+    background: #ea844e;
+}
+#right {
+    width: 15%;  
+    height: 100%;
+    background: #88aa5c;
+}
+#title h3{
+    text-transform: uppercase;   
+    color: #28293c;
+}
+blockquote.bi-line {
+    color: #fdf5e9;
+}
+.section.text h1,
+.section.text h2,
+.section.text h3,
+.section.text h4,
+.section.text h5 {
+  color: #EA844E;
+}
+.doc-show {
+ background: #F9EEDC;
+}
+sname {
+    font-style: italic;
+}
+
+/*------------ ASIDES ---------------*/
+.text-container aside {
+    right: 0%;
+    width: 38%;
+}
+.text-container aside img {
+    float: left;
+    width: 70%;
+    height: 100;
+    margin-right: 10px;
+}
+.text-container aside .caption {
+    background-color: #5aada8;
+    border-radius: 0px;
+    color: #fdf5e9;
+    font-style: normal;
+    font-size: .8em;
+    opacity: 1;
+    padding: 3px;
+    position: absolute;
+    word-wrap: normal;
+    width: 30%;
+    height: 100%;
+    right: 0%;
+    margin: 0;
+}
+aside.fb-caption{
+    right: 5%; 
+    text-align: center;
+}
+aside.fb-caption>p.caption {
+    display: none;
+    border: solid;
+}
+<!----   http://cssarrowplease.com/ ------>
+.arrow_box { 
+    position: relative; 
+    background: #F9EEDC; 
+    border: 4px solid #58a8a3; 
+}
+.arrow_box:after, .arrow_box:before { 
+    top: 100%; left: 50%; 
+    border: solid transparent; 
+    content: " "; 
+    height: 0; 
+    width: 0; 
+    position: absolute; 
+    pointer-events: none; 
+} 
+.arrow_box:after { 
+    border-color: rgba(136, 183, 213, 0); 
+    border-top-color: #5aada8; 
+    border-width: 30px; 
+    margin-left: -30px; 
+} 
+.arrow_box:before { 
+    border-color: rgba(194, 225, 245, 0); 
+    border-top-color: #5aada8; 
+    border-width: 36px; 
+    margin-left: -36px; 
+}
+.pulledquote {
+    width: 40%;
+    float: right;
+    color: #5aada8;
+    margin: 7px;
+    padding: .5em 0em 1em;
+    border: solid;
+    border-width: medium;
+    border-right: hidden;
+    border-left: hidden;
+    border-color: #EA844E;
+    text-align: center;
+}
 .slide {
   color: red;
 }
 .slideshow {
     width: 100%;
 } 
+/* --------- Using Shape CSS
 .shape {
     float: left;
     width: 15em;
@@ -1136,16 +1339,17 @@ px      68    160    252    344    436    */
     background-position: center;
     background-size: 110%;
     background-color: #91D0B1;
-    border-color: #EC845C;
+    border-color: #EA844E;
     
-/* this is the fall back circle pattern to mimic clipping */ border-radius: 50%;
+ this is the fall back circle pattern to mimic clipping 
+    border-radius: 50%;
     shape-outside: circle(50%, 50%, 45%);
-   /* shape-outside: circle(45% at 50% 50%);
-        don't understand why this is here*/
+    shape-outside: circle(45% at 50% 50%);
+        don't understand why this is here
     -webkit-clip-path: circle(45% at 50% 50%);
     clip-path: circle(50%, 50%, 45%);
     margin: 10px;
-}
+} -----------------*/
 @media only screen and (min-width: 1024px) {
     .slideshow, .slideshow img {
         width: 100%

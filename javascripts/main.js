@@ -7,3 +7,18 @@ $(document).ready(function () {
         arrows: false
     });
 });
+jQuery(function($){
+    $(document).ready(function () {
+         $('.pull').each(function () {
+             $(this).clone()
+             .removeClass('pull')
+             .addClass('pulledquote')
+             .prependTo($(this).prev('p'));
+         });
+    });
+});
+$(document).ready(function(){
+  $(".fb-caption").click(function(){
+    $("p").slideToggle(1000);
+  });
+});
