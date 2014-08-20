@@ -1255,7 +1255,7 @@ sname {
     right: 0%;
     width: 38%;
 }
-.text-container aside img {
+.text-container aside > img {
     float: left;
     width: 70%;
     height: 100;
@@ -1283,6 +1283,8 @@ aside.fb-caption{
 aside.fb-caption>p.caption {
     display: none;
     border: solid;
+    width: 90%;
+    height: auto;
 }
 <!----   http://cssarrowplease.com/ ------>
 .arrow_box { 
@@ -1311,6 +1313,7 @@ aside.fb-caption>p.caption {
     border-width: 36px; 
     margin-left: -36px; 
 }
+<!-------------------------------------->
 .pulledquote {
     width: 40%;
     float: right;
@@ -1323,6 +1326,10 @@ aside.fb-caption>p.caption {
     border-left: hidden;
     border-color: #EA844E;
     text-align: center;
+}
+<!---------- SLIDE SHOWS ------------->
+.slick-track {
+    align-content: center;
 }
 .slide {
   color: red;

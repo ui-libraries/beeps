@@ -38,7 +38,7 @@
         <script>
         $(document).ready(function(){
           $(".fb-caption").click(function(){
-            $("p.caption").slideToggle(1000);
+            $(".fb-caption>p.caption").slideToggle(1000);
           });
         });
         </script>
@@ -108,7 +108,8 @@
         
     <!-- Main Narrative -->    
         <div id="container">
-            <div id="section-1" class="section image image0 bg-fixed" style="background-image: url(http://stillsound.files.wordpress.com/2012/04/outer-space-stars.jpeg);"><h2 id="header-1" class="animated fadeInUp">Explorer I</h2></div>
+            <div id="section-1" class="section image image0 bg-fixed" style="background-image: url(/vanallen/files/original/f0a1237f5826262b31276b0aa9a3453e.png);">
+			<!--<h2 id="header-1" class="animated fadeInUp">Explorer I</h2> --></div>
             <div><header id="title" class="section text"><h3>The mission and the data tapes reveal the first discovery of the Space Age.</h3>
                 </div>
        <div class="banner"> 
@@ -128,31 +129,45 @@
             <article class="text-container">
                 <p><sname>Explorer</sname> I lifted off at Cape Canaveral at <span class="slide">10:48:16 on Jan. 31, 1958</span><div class="toggle initiallyHidden"><img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/CIA_document_-_1430-492-Y_-_Clay_Shaw_Part2.gif"></div>a mission hastily salvaged to redeem American honour, launched in the shadow of two <sname>Sputniks</sname> already in orbit. Both had beat the U.S into space. The <sname>Explorer</sname> satellite emerged from a sidelined mission that, sanctioned earlier, could have reached orbit a year before the <sname>Sputniks</sname> launched. <span class="pull">It took flight with a cosmic ray detector invented by physicist James Van Allen with his graduate students in the basement of the University of Iowa’s 1910 physics building.</span> Van Allen candidly called this extraordinary mission a “shakedown” operation that succeeded on “fool’s luck.” Clearly even he didn’t expect the instrumentation to reveal the first discovery of the space age – the existence of the Earth’s radiation belts that set the course for remapping the solar system. But the achievement was obvious by the time he reflected on the space age in March, 1970.
                 </p>
-            <aside><img src="http://projects.vestavia.k12.al.us/6th%20Webs/NASA/L1/exp1team.jpg"><p class="caption">The Explorer 1 team, from left to right: William Pickering, James Van Allen, and Wernher von Braun, holding the replica.</p></aside>
+            <aside class="image"><img src="http://projects.vestavia.k12.al.us/6th%20Webs/NASA/L1/exp1team.jpg"><p class="caption">The Explorer 1 team, from left to right: William Pickering, James Van Allen, and Wernher von Braun, holding the replica.</p></aside>
                  <p><sname>Explorer I</sname> transmitted data about cosmic rays to a global picket fence of radio receivers that tuned in on the satellite signal as it flew over Tokyo, Lima, Antigua, Havana, Nigeria, Singapore, the Jet Propulsion Laboratory’s Codolock station, Patrick Air Force Base in Florida and the San Gabriel Radio Club in California. Data poured in, recorded on 694 Scotch reel-to-reel magnetic audio tapes. NASA didn’t exist yet. The U.S. Army steered <sname>Explorer I</sname> into space with a Jupiter C rocket but the data tapes shipped to Iowa City and Van Allen’s basement laboratory.
 				</p>
 				<p>The deluge of tapes arrived in metal canisters and cardboard sleeves, labelled with the collection time and location. Graduate student George Ludwig, a key participant in building the cosmic ray detector, logged 120 pages of data from the <sname>Explorer I</sname> tapes. The cosmic ray counts from space rose and fell with the rising and falling pitches in a staccato concert of tones on the tapes. But Ludwig riddled the log with entry upon frustrating entry that read “no data” where gaps in the recordings bristle with static. Listen to them yourself on this website. And then remember that the gaps played the music of discovery to just the right listeners. <span class="pull">With immense courage and interpretive ingenuity, Van Allen and his team found – not in the data but in the gaps - the totally unexpected phenomenon of the radiation belts.</span> The data tapes aren’t merely a record of that first discovery in space history. They are space history. They are the original and only record of <sname>Explorer I</sname>’s calls home. 
 				</p>
+            
+            
+            <aside class="fb-caption arrow_box">
+					<header id="fbcosmicray"><h4>How cosmic rays create time machines</h4></header>
+                    <p class="caption">Cosmic rays striking atoms in the atmosphere trigger a cascade of reactions that create precision clocks for science. The reactions unleash neutrons that can interact with nitrogen atoms, kicking out a proton and taking its place in the nucleus. That transforms the nitrogen atom into an unusual form of carbon – carbon-14, with six protons and eight neutrons. Nitrogen atoms have seven protons and seven neutrons while carbon atoms, the building blocks of life, usually have six of each. Only living organisms absorb carbon – including carbon-14 – and they absorb it in consistent proportions. Changes in that proportion allow scientists to estimate the loss of carbon-14, an unstable isotope that decays away at a measurable rate. Carbon-14 dating give archeologists a tool to date bones, teeth, ancient garbage and other artifacts they find across thousands of year.
+                    <br/>
+                    Cosmic rays that do penetrate to the surface of the Earth generate beryllium-10, another isotope, when they strike rock and the buildup of beryllium-10 can tell climate scientists how long ago glaciers may have lumbered back from a rock buried in ice. They can do so because beryllium-10 doesn’t forms in an ice-covered rock. Beryllium-10 offers a calendar of the invasion and retreat of glaciers in the past, a calendar that helps build models needed to predict what we are facing with climate change now.
+                    </p>
+				</aside>
+            
+            
+            
+            
 				<p>This is the story of <sname>Explorer I</sname>, the radiation belts and the effort to preserve the data tapes. The 694 <sname>Explorer I</sname> tapes and those from numerous other early missions lined shelves for half a century in the basement of the old physics building, now MacLean Hall. MacLean and four other buildings surround Iowa’s stately Old Capitol on the hilltop Pentacrest of the campus. Still, during the devastating floods of 2008, puddles collected on the floor of an old particle accelerator chamber where the tapes were archived and some of them began to mold. Now, restored and newly digitized, the tapes will play the chorus of the early space age for generations to come. You may be among the first to hear some of these tapes. Pressed by deadlines for more instruments on other space missions, the frantic pace escalated in the basement warren. Van Allen saw no reason to plow through every data tape. He moved on to the new data from the next mission.
 				</p>
             </article>
         </section>
         
-        </br>
+      <!--  </br>
         <div class="vanallen">
             <div><img src="http://www.nasa.gov/images/content/700368main_HalloweenBeltProfile-orig_full.jpg"></div>
             <div><img src=""></div>
             <div><img src=""></div>
             <div><img src="http://svs.gsfc.nasa.gov/vis/a010000/a011000/a011047/July_19_Flare_triptych-half_size.jpg"></div>
         </div>
-        <br/>
-
+        <br/>  -->
+		<div id="section-1" class="section image image0 bg-fixed" style="background-image: url(/vanallen/files/original/6cbec108390fffc97b714b1698f6fd18.png);">
+			<!--<h2 id="header-1" class="animated fadeInUp">Countdown to Explorer I</h2> --></div>
         <section class="doc-show section text" id="countdown">
-        <header><h2>Countdown to Explorer I</h2></header>
+        <!-- <header><h2>Countdown to Explorer I</h2></header> -->
             <article class="text-container" id="sputnik"><header><h3><sname>Sputnik</sname> beats American into Space</h3></header>
                 <p>Shocked Americans listened to <sname>Sputnik</sname>’s A-flat beep – beep – beep on ham radios and news broadcasts for the first time on Oct. 4, 1957. People caught glimpses with their naked eyes of the silvery polished sphere orbiting above them. They marveled - and cringed. What kind of surveillance could the little artificial moon capture? What weapons might come next?
                 </p>
-                <aside><video style="background: #7f7f7f" src="" frameborder="0" controls class="autoplay" preload="auto" width="100%" onscroll=""></video><p class="caption">Balloon Rackoon Launches</p></aside>
+                <aside class="video"><p class="caption">Balloon Rackoon Launches</p><video style="background: #7f7f7f" src="" frameborder="0" controls class="autoplay" preload="auto" onscroll=""></video></aside>
                 <p>University of Iowa physicist James Van Allen was sailing south toward Antartica on the Navy ice breaker USS Glacier that day. The Glacier opened its deck to Van Allen’s rockoons, his balloon-launched rockets that kept him in space exploration on a shoe-string college budget. The quirky but highly efficient hybrid meant stringing surplus rockets from surplus Skyhook weather balloons. Carried upward some 10 miles by balloons filled with helium on the deck, Van Allen launched the rockets remotely via radio at atmospheric heights with far less air resistance. From there the rockets could reach altitudes of about 60 miles, close to double the target range of the 52 Loki rockets he cached for the voyage at a cost of about $320 per assembly, not counting travel and freight. Of course there were some challenges. The rockets wouldn’t fire in the cold and Van Allen had to wrap them in an insulating sleeve and tuck a 32-ounce can of heated juice in the firing box to solve the problem. But the altitudes meant Van Allen could continue to explore the streams of cosmic rays hurling toward Earth from across the galaxy. He and grad student Larry Cahill launched a rockoon from near the equator that afternoon, the flawless rockoon flight Number 76. 
                 </p>
 				<br/>
@@ -229,8 +244,10 @@
                 </p>
             </article>
         </section>
+		<div id="section-1" class="section image image0 bg-fixed" style="background-image: url(/vanallen/files/original/6cbec108390fffc97b714b1698f6fd18.png);">
+			<!--<h2 id="header-1" class="animated fadeInUp">Launch to Discovery</h2> --></div>
         <section class="doc-show section text" id="launch">
-        <header><h2>Launch to Discovery</h2></header>
+        <!-- <header><h2>Launch to Discovery</h2></header> -->
             <article class="text-container" id="moons"><header><h3>Making artificial Moons</h3></header>
                 <p>How would the Russians react if a military rocket launched a satellite into orbit, trespassing over their air space with an artificial moon? For the Eisenhower administration, the question hung in the unchartered boundary marking the “freedom of space.” And it became a factor in selecting the Navy’s Project Vanguard over the Orbiter that von Braun and the Army proposed for the race to get a satellite into space. The Jupiter C military booster rocket and JPL’s upper stages existed already but configuring them together, testing them and completing the satellite was to take an estimated 18 months. The Naval Research Laboratory offered the Vanguard as an alternative rocket and satellite system that could be designed and built for civilian space exploration in the about same amount of time – 18 months. All things being equal, an advisory committee backed the Vanguard as America’s official satellite mission in 1955 despite the committee chairman’s heated pleas and objections.
                 </p>
@@ -368,7 +385,7 @@
                 </p>
                 <dialog><p>“You mean they circle the Earth like a belt?” suggested science reporter William Hines of the Washington Evening Star.
                 </p>
-				<aside><p class="caption">The radiation belts cirling the Earth</p></aside>
+				<aside class="image"><p class="caption">The radiation belts cirling the Earth</p></aside>
                 <p>“Yes, that’s right,” Van Allen said, giving the trapped corpuscular radiation zones a handy nickname. 
                 </p>
                 </dialog>
@@ -388,7 +405,7 @@
 				</p>
 				<p>The three secret Argus blasts that followed, each from a 1.5 megaton bomb, detonated at 300 miles above the Earth and sparked a dazzling light show at each aurora. The electrons from the blast radiated around the globe and quickly created three thin radiation belts between the inner and outer natural ones. A beehive of students plotted the data tapes from <sname>Explorer IV</sname> without knowing what they meant. The tapes poured in from around the world and straight into the hands of a slender young woman with bobbed hair, a math degree and a security clearance. She was 22-year-old Annabelle Welsh Hudmon and she managed the beehive.
 				</p>
-				<aside><p class="caption">Annabelle Hudmon with <sname>Explorer I</sname> data tapes</p></aside>
+				<aside class="image"><img src=""><p class="caption">Annabelle Hudmon with <sname>Explorer I</sname> data tapes</p></aside>
 				<p>A glowing recommendation backing her for any job in computational analysis landed at Van Allen’s office even before she did. It came from F. S. Atchison, a physicist and director of the Naval Ordnance Laboratory in Corona, Calif. “I was working [there] on a computer for the Navy pilots to tell them when to fire the Sidewinder rockets,” she says. She married shortly before returning to her home state of Iowa where her husband, Stanton Hudmon, took his medical residency at the University of Iowa Hospitals.
 				</p>
 				<p>Van Allen hired her on the spot the day before he had to leave town. She moved long tables into position, tested cadres of students to make sure their math skills were sharp and set out to graph an avalanche of data tapes. McIlwain showed her the ropes and she trained the students who came to work for her. They played the data tapes on consoles filling a corridor of the basement. The thin, spidery arms of graphics plotters leaped into action, transcribing the rising and falling tones of the data tapes into rising and falling <span class="slide">patterns on paper tapes</span><div class="toggle initiallyHidden"><img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/CIA_document_-_1430-492-Y_-_Clay_Shaw_Part2.gif"></div> that cascaded into neatly folded stacks.
@@ -415,31 +432,35 @@
 				</p>
 			</article>
         </section>
+		<div id="section-1" class="section image image0 bg-fixed" style="background-image: url(/vanallen/files/original/ee2dc4845854429a1b5e896a22554bbd.png);">
+			<!--<h2 id="header-1" class="animated fadeInUp">The Legacy</h2> --></div>
         <section class="doc-show section text" id="legacyofexplorer">
         <header><h2>From Earth to Interstellar Space - Legacy of <sname>Explorer I</sname></h2></header>
             <article class="text-container" id="chorus"><header><h3>The chorus of space history - Listen to <sname>Explorer I</sname> data tapes</h3></header>
                 <p><span class="pull">The original data tapes from the early Explorers and several other trail-blazing space missions lined floor to ceiling shelves for decades in an abandoned particle accelerator chamber in the basement of the 1910 physics building.</span> But after the severe floods of 2008 and changes in the ventilation system of the building, the tapes began to show the wear and tear of aging, humidity and mildew. The physics department and the University of Iowa Libraries launched a rescue and restore mission to preserve and digitize the 694 tapes from America’s first satellite mission, <sname>Explorer I</sname>.
                 </p>
-                <aside><p class="caption">Basement of MacLean Hall</p></aside>
-                <p>“<sname>Explorer I</sname> is gone, subsequent early satellites that remain in orbit are long silent, the ramshackle tracking stations dotted around the globe that recoded the tones sent from space have either disappeared or been wholly transformed, and Dr. Van Allen’s offices in the basement of MacLean Hall on the University of Iowa campus were dismantled decades ago. Today, the most tangible material remnant of the extraordinary effort behind the United States’ first satellite missions lies in the thousands of magnetic tapes that contain the audio signals captured on Earth at the satellites orbited overhead,” noted Greg Prickman, head of <a href="http://www.lib.uiowa.edu/sc/">special collections and university archives</a>. The Roy J. Carver Charitable Trust in Muscatine, Iowa, where tire magnate Roy J. Carver operated his companies, provided funding for the restoration and digital conversion.
+                <aside class="image"><img src="/vanallen/files/thumbnails/e545cf8a269f9ad23f15a685a9a07d80.jpg"><p class="caption">Basement of MacLean Hall</p></aside>
+                <p>“<sname>Explorer I</sname> is gone, subsequent early satellites that remain in orbit are long silent, the ramshackle tracking stations dotted around the globe that recoded the tones sent from space have either disappeared or been wholly transformed, and Dr. Van Allen’s offices in the basement of MacLean Hall on the University of Iowa campus were dismantled decades ago. Today, the most tangible material remnant of the extraordinary effort behind the United States’ first satellite missions lies in the thousands of magnetic tapes that contain the audio signals captured on Earth at the satellites orbited overhead,” noted Greg Prickman, head of <a href="http://www.lib.uiowa.edu/sc/" target="_blank">special collections and university archives</a>. The Roy J. Carver Charitable Trust in Muscatine, Iowa, where tire magnate Roy J. Carver operated his companies, provided funding for the restoration and digital conversion.
                 </p>
-				<br/>
-				<div class="vanallen">
-                    <div><img src="http://dummyimage.com/480x320"></div>
-                    <div><img src="http://dummyimage.com/480x320"></div>
-                    <div><img src="http://dummyimage.com/480x320"></div>
-                    <div><img src="http://dummyimage.com/480x320"></div>
-                </div>
-                <br/>
 				<p>The tapes hold the music of discovery - the original sound tracks and static gaps that revealed the radiation belts. The digital format makes them accessible to you. Sample them here. You can tune into short excerpts, as Explorer crossed receiving stations across the globe, or review the entire odyssey. Each tape incorporates several channels of data and even a channel where the voices of technicians at the receiving stations noted times, locations and an occasional comment on harnessing messages from outer space.
 				</p>
-                <aside><iframe src="//www.youtube.com/embed/tDqahwSl5IY?list=PLiuUQ9asub3S235ZRyZmo8DKob4VOMo7k" frameborder="0" allowfullscreen></iframe><p class="caption">NASA visualization of the third radiation belt.</p></aside>
+				
+				<br/>
+				<div class="vanallen">
+                    <div><img src="/vanallen/files/square_thumbnails/673e798d4e765960ca31f59d2ebbebe7.jpg"></div>
+                    <div><img src="/vanallen/files/square_thumbnails/471f4d36b4e74ab6a61c9c5fda250193.jpg"></div>
+                    <div><img src="/vanallen/files/square_thumbnails/77f92546c140621c523f5adfbd7070ed.jpg"></div>
+					<div><img src="/vanallen/files/square_thumbnails/6c87d614a2813655e1248d951e5456de.jpg"></div>
+                </div>
+                <br/>
+				
 				<p>By serendipity, the <sname>Explorer I</sname> restoration program coincided with NASA’s <i>Van Allen Probes</i> satellite mission to the radiation belts and with <sname>Voyager 1</sname>’s crossing into interstellar space. Both missions hold intrinsic links to Van Allen’s work and to the legacy of the data tapes. <sname>Voyager</sname> reached interstellar space on Aug. 25, 2012, just days before the <i>Van Allen Probes</i> witnessed the emergence of a third radiation belt in early September, two unbelievable space adventures occurring in quick succession. Everything just lined up - almost like the orbits of the outer planets did as Voyagers 1 and 2 set out in 1977 to tour Jupiter, Saturn, Uranus and Neptune.
 				</p>
             </article>
             <article class="text-container" id="stormshelter"><header><h3>Space weather forecasting - Storm shelter for our "suberelectric cocoon"</h3></header>
 				<p>Practical-minded kids – and lots of adults - always asked Van Allen to give them a job description for the radiation belts. What do they do? Van Allen liked to say they don’t do anything – they are simply a grand phenomenon of the Earth’s magnetic field. But everyone wanted the grand phenomenon to <em>do</em> something. Did they protect us from cosmic rays by trapping and confining them? Did they protect us from the eruptions of solar flares? Van Allen smiled – he had been this route before. No, our magnetic field deflected all but the most energetic cosmic rays and our atmosphere scoured most of the rest into showers of secondary particles. Solar storms generally had little impact at the surface of the Earth in the early era of the space age, other than sparking glorious light shows at the aurora of the North and South Poles. Of course, determining the presence of intense radiation zones held critical implications for human space flight. NASA mapped mission trajectories at higher latitudes so that astronauts would limit exposure to radiation in the belts as much as possible.
 				</p>
+				<aside class="video"><p class="caption">NASA visualization of the third radiation belt.</p><iframe src="//www.youtube.com/embed/tDqahwSl5IY?list=PLiuUQ9asub3S235ZRyZmo8DKob4VOMo7k" frameborder="0" allowfullscreen></iframe></aside>
 				<p>In the field of space physics that Van Allen pioneered, scientists thought of the belts for decades as relatively stable landmarks above the Earth. But a changing world proved them wrong. Tumultuous solar weather rocks the belts and strikes havoc for life on Earth in an era of satellite communications. The <i>Van Allen Probes</i> returned to the belts to find out just what was going on. The twin probes – with twin sets of instruments - monitor interruptions to satellite telecommunications, television transmission and GPS systems as intense solar storms pump up the radiation belts in the regions of space where satellites roam. 
 				</p>
 				<p>“Fifty plus years ago we had a relatively modest dependence on assets in space. But as time has gone on we have literally hundreds of thousands of spacecraft [in orbit]. We as a society have built ourselves inside a cyberelectric cocoon – layer after layer of technology and spacecraft operation that move within the Van Allen Radiation Belts now are subject to these immense transient effects from the high energy particles,” says Dan Baker, who lead the way to discovering the new belt with the Relativistic Electron Proton Telescope onboard the probes. A Van Allen protégé, Baker directs the Atmospheric and Space Physics Laboratory at the University of Colorado at Boulder. “The technology can be very severely damaged by these space storms and so [the belts], a curiosity in the earliest part of the space age, are now a necessity to understand.”
@@ -452,7 +473,7 @@
 				</p>
 				<p>Trying to figure out and forecast the impact in a satellite-dependent world led the scientists to return to the radiation belts in the first place. But none of them expected what they found when they got there shortly after the launch of the probes on Aug. 30, 2012.
 				</p>
-				<p>The probes reached the belts amid the fireworks of a solar storm unleashed by a coronal mass ejection – a massive eruption of gases from the corona of the sun. Scientists turned on mission instruments immediately, ahead of schedule, just in time to witness the collateral damage of the storm as it obliterated the outer radiation belt. Baker could barely believe the data from his electron and proton detectors - the massive outer belt, stretching thousands of miles across space, torn away. <a href="http://vanallenprobes.jhuapl.edu/newscenter/newsArticles/20140423.php">Then his instruments detected a third belt</a> between the inner and outer belts – a “storage ring” of what was left of the outer ring as it began to coalesce once again.
+				<p>The probes reached the belts amid the fireworks of a solar storm unleashed by a coronal mass ejection – a massive eruption of gases from the corona of the sun. Scientists turned on mission instruments immediately, ahead of schedule, just in time to witness the collateral damage of the storm as it obliterated the outer radiation belt. Baker could barely believe the data from his electron and proton detectors - the massive outer belt, stretching thousands of miles across space, torn away. <a href="http://vanallenprobes.jhuapl.edu/newscenter/newsArticles/20140423.php" target="_blank">Then his instruments detected a third belt</a> between the inner and outer belts – a “storage ring” of what was left of the outer ring as it began to coalesce once again.
 				</p>
 				<p>“My first thought actually was -  is there something wrong with our instrument,” says Baker, who learned the ropes about radiation belts at Jupiter as one of Van Allen graduate students during the <snamem>Pioneer 10</sname> mission to the planet in the 1970s.
 				</p>
@@ -461,16 +482,16 @@
 				<p>
 				The sun radiates electromagnetic energy, including the visible light that makes possible all life on Earth. But the fusion furnace of the sun also emits streams of plasma that create the solar wind. Plasma - the fourth state of matter – defies the atomic structure of gases, liquids and solids. It is a volatile soup of charged subatomic particles – positive ions and negative electrons - jetting across the solar system. Shock waves rip through the solar wind after coronal explosions and, as the <i>Van Allen Probes</i> witnessed, they can tear away the dynamic outer radiation belt.
 				</p>
-                <aside><img src="http://svs.gsfc.nasa.gov/vis/a010000/a011000/a011047/July_19_Flare_triptych-half_size.jpg"/><p class="caption">Solar flares emanating electromagnetic energy</p></aside>
+                <aside class="image"><img src="http://svs.gsfc.nasa.gov/vis/a010000/a011000/a011047/July_19_Flare_triptych-half_size.jpg"/><p class="caption">Solar flares emanating electromagnetic energy</p></aside>
 				<p>“It suddenly got just eaten away but there was a little remnant storing the last little bit of stuff – you might call it a storage ring. And then gradually the outer belt began to fill back in – going from outward inward,” Kletzing said. “It’s very conceivable and even likely that this kind of thing has happened before but we couldn’t detect it.”
 				</p>
 			</article>
 			<article class="text-container" id="acceslerator"><header><h3>Accelerator in the belly of the belts</h3></header>
-				<p>The <i>Van Allen Probes</i> soon delivered another discovery – <a href="http://vanallenprobes.jhuapl.edu/newscenter/newsArticles/20130725.php">the existence of a massive particle accelerator in the belly of the belts.</a> The discovery settles decades of debate about how particles in the belts accelerate to near light speed energies. One model theorized that charged particles hurling toward the Earth gain energy as they encounter the ever increasing strength of the planet’s magnetic field and then get trapped in the belts. Imagine a rock rolling down a hill and gaining speed as it accelerates due to gravity, NASA scientists suggest. But particles spiraling up and down within the belts could accelerate right there, boosted as intense electromagnetic waves kick up their energy and speed. Physicist Geoff Reeves, of the Los Alamos National Laboratory, proved that to be the case. He tapped data from the dual locations of varied twin instruments on the probes, including Iowa’s wave instruments, to make 3D measurements of electromagnetic waves that boost the energy of the accelerating particles.
+				<p>The <i>Van Allen Probes</i> soon delivered another discovery – the existence of a <a href="http://vanallenprobes.jhuapl.edu/newscenter/newsArticles/20130725.php" target="_blank">massive particle accelerator</a> in the belly of the belts. The discovery settles decades of debate about how particles in the belts accelerate to near light speed energies. One model theorized that charged particles hurling toward the Earth gain energy as they encounter the ever increasing strength of the planet’s magnetic field and then get trapped in the belts. Imagine a rock rolling down a hill and gaining speed as it accelerates due to gravity, NASA scientists suggest. But particles spiraling up and down within the belts could accelerate right there, boosted as intense electromagnetic waves kick up their energy and speed. Physicist Geoff Reeves, of the Los Alamos National Laboratory, proved that to be the case. He tapped data from the dual locations of varied twin instruments on the probes, including Iowa’s wave instruments, to make 3D measurements of electromagnetic waves that boost the energy of the accelerating particles.
 				</p>
 				<p>Reeves’ simple, elegant experiment measured the rising energies of particles in the radiation belts. He also measured the distances of the particles from the center of the Earth. If the particles were accelerating while on the move toward Earth, their distance from the planet would decrease as their energies increased. If they accelerated within the belts at a fixed distance from Earth, then the belts must be the accelerator. And the distance stood firm! 
 				</p>
-				<p>The frequencies of the waves emitted in the radiation belts during solar storms lines up with the build up of particles accelerated to high energies and speeds. Kletzing points to the busts of red in his data, which tells him there are lots of waves to deliver <a href="http://www.nasa.gov/content/goddard/van-allen-probes-find-source-of-fast-particles/">kicks of acceleration.<a> The accelerator in the Earth’s radiation belts gives space weather forecasters a better shot at figuring out just how the energy surges rev up
+				<p>The frequencies of the waves emitted in the radiation belts during solar storms lines up with the build up of particles accelerated to high energies and speeds. Kletzing points to the busts of red in his data, which tells him there are lots of waves to deliver <a href="http://www.nasa.gov/content/goddard/van-allen-probes-find-source-of-fast-particles/" target="_blank">kicks of acceleration.</a> The accelerator in the Earth’s radiation belts gives space weather forecasters a better shot at figuring out just how the energy surges rev up
 				</p>
 			</article>
 			<article class="text-container" id="interstellar"><header><h3>Unchartered territory - <sname>Voyager 1</sname> explores interstellar space</h3></header>
@@ -496,7 +517,7 @@
 				</p>
 				<p>The high-pitched whine of Gurnett’s recording identifies the increased density of interstellar plasma at a point where the density of solar plasma had dropped to nearly nothing. Analyzing the data, Iowa’s plasma wave team of Gurnett and physicist Bill Kurth chronicled the passage back to an exact date: Aug. 25, 2012.
 				</p>
-				<p><sname>Voyager 1</sname> had journeyed across the solar system for 35 years and more than 11 billion miles to reach that point. The spacecraft launched in 1977 with more than a dozen scientific instruments, two cameras, a thermonuclear power supply and Carl Sagan’s famous gold record that includes images, natural sounds, a time capsule of music, greetings spoken in 55 languages, printed messages and a cover plate with a map of the Earth’s position in the galaxy. The mission completed close encounters to explore Jupiter and Saturn in 1979 and 1980. Voyager 2 followed with flyby approaches to Jupiter, Saturn, Neptune and Uranus between 1979 and 1989. Between them, the twin Voyagers explored 48 of the moons of these outer planets. <a href="http://voyager.jpl.nasa.gov/science/planetary.html">Thousands of stunning photographs</a> gave people a front row seat to share Voyager’s spellbinding views.
+				<p><sname>Voyager 1</sname> had journeyed across the solar system for 35 years and more than 11 billion miles to reach that point. The spacecraft launched in 1977 with more than a dozen scientific instruments, two cameras, a thermonuclear power supply and Carl Sagan’s famous gold record that includes images, natural sounds, a time capsule of music, greetings spoken in 55 languages, printed messages and a cover plate with a map of the Earth’s position in the galaxy. The mission completed close encounters to explore Jupiter and Saturn in 1979 and 1980. Voyager 2 followed with flyby approaches to Jupiter, Saturn, Neptune and Uranus between 1979 and 1989. Between them, the twin Voyagers explored 48 of the moons of these outer planets. <a href="http://voyager.jpl.nasa.gov/science/planetary.html" target="_blank">Thousands of stunning photographs</a> gave people a front row seat to share Voyager’s spellbinding views.
 				</p>
 				<p>Where is <sname>Voyager 1</sname> now? The spacecraft registered what NASA called a “tsunami  wave” from another coronal mass ejection. The surge sang through the plasma wave instrument in March 2014 from some 12 billion miles away, confirming the continuing venture through interstellar space.
 				</p>
@@ -566,7 +587,7 @@
 				</p>
 				<p>The Earth’s surface collects about a millionth of the energy released at the surface of the sun. But that amounts to some 120 billion kilowatt-hours of energy per square mile of Earth each year, enough to meet current electrical needs of our planet with about 1,200 square miles if all of the energy could be collected, distributed and stored - big ifs with today’s technology. Controlled fusion continues to defy technology as well.
 				</p>
-				<p>Scientists have worked for nearly 70 years to magnetically confine plasma at temperatures and pressures to generate energy in a fusion reactor. The best they can do so far is break even. Mimicking the stars for an unlimited source of clean energy continues at the huge fusion laboratories such as the <a href="http://en.wikipedia.org/wiki/National_Ignition_Facility">National Ignition Facility</a> and <a href="http://en.wikipedia.org/wiki/ITER">ITER</a>.
+				<p>Scientists have worked for nearly 70 years to magnetically confine plasma at temperatures and pressures to generate energy in a fusion reactor. The best they can do so far is break even. Mimicking the stars for an unlimited source of clean energy continues at the huge fusion laboratories such as the <a href="http://en.wikipedia.org/wiki/National_Ignition_Facility" target="_blank">National Ignition Facility</a> and <a href="http://en.wikipedia.org/wiki/ITER" target="_blank">ITER</a>.
 				</p>
 				<p>Baker, too, looks to the alternative on-location laboratory of space to tackle the fusion puzzle. “What’s magnificent about space physics – the field that was invented by Professor Van Allen - is that we can really go there” and make direct measurements. Now he plans to tap a laboratory in the Earth’s magnetic field via a space mission he’s planning with Kletzing and scientists from across the county. The <i>Magnetospheric Multiscale Mission</i> will tap into fundamental forces of the Earth’s magnetic field and the turbulence that rocks them during solar storms.
 				</p>
