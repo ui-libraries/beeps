@@ -14,36 +14,41 @@
 
        <script>
         $(document).ready(function () {
-            $('.vanallen').slick({
+            $(".vanallen").slick({
                 dots: true,
                 autoplay: true,
                 arrows: false
             });
+			$(".book").slick({
+				dots: true,
+				autoplay: false,
+				arrows: true
+			});
         });
         </script>
 
         <script>
-        jQuery(function($){
-            $(document).ready(function () {
-                 $('.pull').each(function () {
-                     $(this).clone()
-                     .removeClass('pull')
-                     .addClass('pulledquote')
-                     .prependTo($(this).prev('p'));
-                 });
-            });
-        });
+		jQuery(function ($) {
+			$(document).ready(function () {
+				$('.pull').each(function () {
+					$(this).clone()
+						.removeClass('pull')
+						.addClass('pulledquote')
+						.prependTo($(this).parent('p'));
+				});
+			});
+		});
         </script>
 
         <script>
         $(document).ready(function(){
           $(".fb-caption").click(function(){
-            $(".fb-caption>p.caption").slideToggle(1000);
+            $(this).children(".caption").slideToggle(1000);
           });
         });
         </script>
+		
 
-    </head>
     <body> 
     
         <!-- Main and Side Navigation / Table of Contents -->
@@ -110,43 +115,30 @@
         <div id="container">
             <div id="section-1" class="section image image0 bg-fixed" style="background-image: url(/vanallen/files/original/f0a1237f5826262b31276b0aa9a3453e.png);">
 			<!--<h2 id="header-1" class="animated fadeInUp">Explorer I</h2> --></div>
-            <div><header id="title" class="section text"><h3>The mission and the data tapes reveal the first discovery of the Space Age.</h3>
-                </div>
-       <div class="banner"> 
-           <div id="left"></div>
-           <div id="center">
-                <blockquote class="bi-line">The successful orbiting of <sname>Explorer I</sname> is one of the landmarks in the technical and scientific history of the human race. Its instrumentation revealed the existence of radiation belts around the Earth and opened a massive new field of scientific exploration in space. It inspired an entire generation of young men and women in the United States to higher achievement and propelled the Western World into the Space Age.” James Van Allen, March 31, 1970</blockquote>
-            <!--[if lt IE 7]>
-                <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-            <![endif]-->
+            <div class="header"><header id="title" class="section text"><h3>The mission and the data tapes reveal the first discovery of the Space Age.</h3></header></div>
+			<div class="banner"> 
+			   <div id="left"></div>
+			   <div id="center">
+					<blockquote class="bi-line">The successful orbiting of <sname>Explorer I</sname> is one of the landmarks in the technical and scientific history of the human race. Its instrumentation revealed the existence of radiation belts around the Earth and opened a massive new field of scientific exploration in space. It inspired an entire generation of young men and women in the United States to higher achievement and propelled the Western World into the Space Age.” James Van Allen, March 31, 1970</blockquote>
+				<!--[if lt IE 7]>
+					<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+				<![endif]-->
 
-            </header>
-            </div>
-           <div id="right"></div>
-        </div>
+				</div>
+				<div id="right"></div>
+			</div>
 
         <section class="doc-show section text"><h2>Introduction</h2>                
             <article class="text-container">
                 <p><sname>Explorer</sname> I lifted off at Cape Canaveral at <span class="slide">10:48:16 on Jan. 31, 1958</span><div class="toggle initiallyHidden"><img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/CIA_document_-_1430-492-Y_-_Clay_Shaw_Part2.gif"></div>a mission hastily salvaged to redeem American honour, launched in the shadow of two <sname>Sputniks</sname> already in orbit. Both had beat the U.S into space. The <sname>Explorer</sname> satellite emerged from a sidelined mission that, sanctioned earlier, could have reached orbit a year before the <sname>Sputniks</sname> launched. <span class="pull">It took flight with a cosmic ray detector invented by physicist James Van Allen with his graduate students in the basement of the University of Iowa’s 1910 physics building.</span> Van Allen candidly called this extraordinary mission a “shakedown” operation that succeeded on “fool’s luck.” Clearly even he didn’t expect the instrumentation to reveal the first discovery of the space age – the existence of the Earth’s radiation belts that set the course for remapping the solar system. But the achievement was obvious by the time he reflected on the space age in March, 1970.
                 </p>
-            <aside class="image"><img src="http://projects.vestavia.k12.al.us/6th%20Webs/NASA/L1/exp1team.jpg"><p class="caption">The Explorer 1 team, from left to right: William Pickering, James Van Allen, and Wernher von Braun, holding the replica.</p></aside>
+            <aside class="image"><img src="/vanallen/files/fullsize/c2573e328bf803baa79d07ca8003f14b.jpg"><p class="caption">The Explorer 1 team, from left to right: William Pickering, James Van Allen, and Wernher von Braun, holding the replica.</p></aside>
                  <p><sname>Explorer I</sname> transmitted data about cosmic rays to a global picket fence of radio receivers that tuned in on the satellite signal as it flew over Tokyo, Lima, Antigua, Havana, Nigeria, Singapore, the Jet Propulsion Laboratory’s Codolock station, Patrick Air Force Base in Florida and the San Gabriel Radio Club in California. Data poured in, recorded on 694 Scotch reel-to-reel magnetic audio tapes. NASA didn’t exist yet. The U.S. Army steered <sname>Explorer I</sname> into space with a Jupiter C rocket but the data tapes shipped to Iowa City and Van Allen’s basement laboratory.
 				</p>
-				<p>The deluge of tapes arrived in metal canisters and cardboard sleeves, labelled with the collection time and location. Graduate student George Ludwig, a key participant in building the cosmic ray detector, logged 120 pages of data from the <sname>Explorer I</sname> tapes. The cosmic ray counts from space rose and fell with the rising and falling pitches in a staccato concert of tones on the tapes. But Ludwig riddled the log with entry upon frustrating entry that read “no data” where gaps in the recordings bristle with static. Listen to them yourself on this website. And then remember that the gaps played the music of discovery to just the right listeners. <span class="pull">With immense courage and interpretive ingenuity, Van Allen and his team found – not in the data but in the gaps - the totally unexpected phenomenon of the radiation belts.</span> The data tapes aren’t merely a record of that first discovery in space history. They are space history. They are the original and only record of <sname>Explorer I</sname>’s calls home. 
+				<p>The deluge of tapes arrived in metal canisters and cardboard sleeves, labelled with the collection time and location. Graduate student George Ludwig, a key participant in building the cosmic ray detector, logged 120 pages of data from the <sname>Explorer I</sname> tapes. The cosmic ray counts from space rose and fell with the rising and falling pitches in a staccato concert of tones on the tapes. But Ludwig riddled the log with entry upon frustrating entry that read “no data” where gaps in the recordings bristle with static. Listen to them yourself on this website. And then remember that the gaps played the music of discovery to just the right listeners. With immense courage and interpretive ingenuity, Van Allen and his team found – not in the data but in the gaps - the totally unexpected phenomenon of the radiation belts. The data tapes aren’t merely a record of that first discovery in space history. They are space history. They are the original and only record of <sname>Explorer I</sname>’s calls home. 
 				</p>
-            
-            
-            <aside class="fb-caption arrow_box">
-					<header id="fbcosmicray"><h4>How cosmic rays create time machines</h4></header>
-                    <p class="caption">Cosmic rays striking atoms in the atmosphere trigger a cascade of reactions that create precision clocks for science. The reactions unleash neutrons that can interact with nitrogen atoms, kicking out a proton and taking its place in the nucleus. That transforms the nitrogen atom into an unusual form of carbon – carbon-14, with six protons and eight neutrons. Nitrogen atoms have seven protons and seven neutrons while carbon atoms, the building blocks of life, usually have six of each. Only living organisms absorb carbon – including carbon-14 – and they absorb it in consistent proportions. Changes in that proportion allow scientists to estimate the loss of carbon-14, an unstable isotope that decays away at a measurable rate. Carbon-14 dating give archeologists a tool to date bones, teeth, ancient garbage and other artifacts they find across thousands of year.
-                    <br/>
-                    Cosmic rays that do penetrate to the surface of the Earth generate beryllium-10, another isotope, when they strike rock and the buildup of beryllium-10 can tell climate scientists how long ago glaciers may have lumbered back from a rock buried in ice. They can do so because beryllium-10 doesn’t forms in an ice-covered rock. Beryllium-10 offers a calendar of the invasion and retreat of glaciers in the past, a calendar that helps build models needed to predict what we are facing with climate change now.
-                    </p>
-				</aside>
-            
-            
-            
-            
+				<aside class="audio"><p>Audio from Explorer I</p></aside>
+				<aside class="in-text"><p class="caption">Test reel from Sadiego May 8, 1960</p><img src="/vanallen/files/square_thumbnails/21f788b0a7f40c52666834530b812c44.jpg"></aside>
 				<p>This is the story of <sname>Explorer I</sname>, the radiation belts and the effort to preserve the data tapes. The 694 <sname>Explorer I</sname> tapes and those from numerous other early missions lined shelves for half a century in the basement of the old physics building, now MacLean Hall. MacLean and four other buildings surround Iowa’s stately Old Capitol on the hilltop Pentacrest of the campus. Still, during the devastating floods of 2008, puddles collected on the floor of an old particle accelerator chamber where the tapes were archived and some of them began to mold. Now, restored and newly digitized, the tapes will play the chorus of the early space age for generations to come. You may be among the first to hear some of these tapes. Pressed by deadlines for more instruments on other space missions, the frantic pace escalated in the basement warren. Van Allen saw no reason to plow through every data tape. He moved on to the new data from the next mission.
 				</p>
             </article>
@@ -167,15 +159,16 @@
             <article class="text-container" id="sputnik"><header><h3><sname>Sputnik</sname> beats American into Space</h3></header>
                 <p>Shocked Americans listened to <sname>Sputnik</sname>’s A-flat beep – beep – beep on ham radios and news broadcasts for the first time on Oct. 4, 1957. People caught glimpses with their naked eyes of the silvery polished sphere orbiting above them. They marveled - and cringed. What kind of surveillance could the little artificial moon capture? What weapons might come next?
                 </p>
-                <aside class="video"><p class="caption">Balloon Rackoon Launches</p><video style="background: #7f7f7f" src="" frameborder="0" controls class="autoplay" preload="auto" onscroll=""></video></aside>
+                <aside class="image"><img src="/vanallen/files/fullsize/d760caac86d1df1dbad9b42628ca3a77.jpg"><p class="caption">Meredith Expedition Photos 1953-55</p></aside>
                 <p>University of Iowa physicist James Van Allen was sailing south toward Antartica on the Navy ice breaker USS Glacier that day. The Glacier opened its deck to Van Allen’s rockoons, his balloon-launched rockets that kept him in space exploration on a shoe-string college budget. The quirky but highly efficient hybrid meant stringing surplus rockets from surplus Skyhook weather balloons. Carried upward some 10 miles by balloons filled with helium on the deck, Van Allen launched the rockets remotely via radio at atmospheric heights with far less air resistance. From there the rockets could reach altitudes of about 60 miles, close to double the target range of the 52 Loki rockets he cached for the voyage at a cost of about $320 per assembly, not counting travel and freight. Of course there were some challenges. The rockets wouldn’t fire in the cold and Van Allen had to wrap them in an insulating sleeve and tuck a 32-ounce can of heated juice in the firing box to solve the problem. But the altitudes meant Van Allen could continue to explore the streams of cosmic rays hurling toward Earth from across the galaxy. He and grad student Larry Cahill launched a rockoon from near the equator that afternoon, the flawless rockoon flight Number 76. 
                 </p>
 				<br/>
 				<div class="vanallen">
-                    <div><img src="http://dummyimage.com/480x320"></div>
-                    <div><img src="http://dummyimage.com/480x320"></div>
-                    <div><img src="http://dummyimage.com/480x320"></div>
-                    <div><img src="http://dummyimage.com/480x320"></div>
+                    <div><img src="/vanallen/files/square_thumbnails/0258afa60b198ccea4e07409d0ba0f3f.jpg"></div>
+                    <div><img src="/vanallen/files/square_thumbnails/e91628ca48f2796c06664ef0014e5199.jpg"></div>
+                    <div><img src="/vanallen/files/square_thumbnails/8c4717208196f0a9163ba1402dbd1ef1.jpg"></div>
+                    <div><img src="/vanallen/files/square_thumbnails/1decd61da5b29c50615e41eab11ceada.jpg"></div>
+					<div><img src="/vanallen/files/square_thumbnails/d1d7954dfbb4b6cc634e1b8736d4a29a.jpg"></div>
                 </div>
                 <br/>
                 <p>In the time it took Van Allen to go below deck to his makeshift lab and write the mission assessment in his field log, the world changed forever. Cahill burst in with the news of <sname>Sputnik</sname>. Van Allen, Cahill and ship officers quickly found <sname>Sputnik</sname>’s signature beep and pooled equipment to chart the signal and confirm that it came from a satellite in orbit. They measured the Doppler shift, the rise and fall of the frequency of <sname>Sputnik</sname>’s beep as it approached and passed overhead, the same shift that accounts for the change in tone of a train whistle as the train heads away. 
@@ -185,6 +178,7 @@
             <div class="shape"></div>
                 <p>While an ocean separated Van Allen from the shared furor across America, his graduate student George Ludwig stood in the middle of it. Ludwig gathered with scientists from around the world for five days of meetings for the International Geophysical Year and then joined everyone at a cocktail party hosted by the Soviet Embassy. While the guests sipped vodka and feasted on caviar, New York Times science reporter Walter Sullivan was summoned to the phone and the Washington bureau chief told him <sname>Sputnik</sname> was orbiting overhead. Sullivan informed IGY vice president Lloyd Berkner of the news. Berkner climbed on a chair, called the revelers to order and announced the <sname>Sputnik</sname> triumph. Reporters poured into the embassy, a citadel of secrecy where news now flowed as freely as the drinks. <sname>Sputnik</sname> literally meant “companion to the Earth,” adding a bit of poetry to the technological milestone.   
                 </p>
+				<aside class="image"><img src="/vanallen/files/fullsize/64e3ff2f8bab29e310016953d3596f20.jpg"><p class="caption">George Ludwig, one of Van Allen's graduate students, posing with Explorer I</p></aside>
                 <p>By the time the IGY was first envisioned in 1950, scientists had been promising each other for years that it was time to launch a satellite. IGY needed a crown jewel for the year-long program of international research. Organizers threw down the gauntlet, calling for a satellite to orbit the Earth and igniting the space race. There were only two contenders for this first lap of the race – the U.S and the Soviet Union. Americans complacently assumed that the U.S. would prevail. Van Allen knew as few others did that America had held the winning hand – and then bet it away on the wrong rocket.
                 </p>
                 <p>Cut off from home, Van Allen didn’t know that a political firestorm was resurrecting the orphaned space mission that he, space visionary Wernher von Braun and CalTech’s Jet Propulsion Laboratory turned into the <sname>Explorer I</sname> mission. 
@@ -199,6 +193,7 @@
             <article class="text-container" id="smartweapon"><header><h3>America's first smart weapon to the rescue</h3></header>
                 <p>With a freshly minted Ph.D. in nuclear physics, Van Allen headed to the Department of Terrestrial Magnetism of the Carnegie Institution in Washington, D.C., and soon joined the war effort at the fledgling Applied Physics Laboratory created at Johns Hopkins University in Maryland.
                 </p>
+				<aside class="image"><img src="/vanallen/files/fullsize/4c15d605d68c9687dce65a280d28637b.jpg"><p class="caption"> </p></aside>
                 <p>Many young nuclear physicists found themselves recruited to the secret Manhattan Project at Los Alamos in New Mexico to build the atom bomb. Van Allen started work with an equally secret corps inventing America’s first smart weapon, a proximity fuze for the antiaircraft guns in the South Pacific. The shipboard guns shot missiles with time fuses – fire them and the missiles exploded after a designated interval whether or not a target was in range.
                 </p>
                 <p>But the proximity fuze was a “smart” weapon encasing a miniature radio. It transmitted a signal and, if an aircraft target was in range, the signal radioed back to the fuze to fire it. Development of a radio that could stand up to a missile blast presented enormous challenges. Van Allen tested fuze after fuze but tiny wire filaments needed for the vacuum tubes in the radio shattered every time with the force of firing.  In an era before transistors and semi-conductors, vacuum tubes were critical to controlling electrical signals. Van Allen decided the filaments needed a shock absorber and he replaced the rigid wires with metal springs. The spring-loaded vacuum tubes in the proximity fuze held together and the Navy enlisted Lt. James Van Allen and sent him off to the South Pacific to demonstrate the new weapons to the gunnery officers.
@@ -230,34 +225,44 @@
 				</aside>
                 <p>With higher altitudes within his grasp, Van Allen wanted to measure the impact on cosmic ray intensity of the Earth’s magnetic field as it arched toward the poles and show how intensity changed with intense solar explosions such as solar flares. He wanted to do so by launching his detectors on rockets at the equator and comparing results at different latitudes as he approached the poles. A shipboard launch out in the middle of the ocean was the most sensible way to accomplish a nomadic itinerary of launches. But the heavy, four-story V-2 wasn’t a good candidate for such a program and a quick count told Van Allen the inventory of them would soon run out. Always planning ahead, he invented the Aerobee, a far smaller, work-house rocket designed strictly for science in space.
                 </p>
-                <p>A group of influential scientists visiting the Applied Physics Laboratory early in 1950 came to Van Allen’s small white frame house for dinner and Abbie Van Allen topped off the meal with her famous seven-layer chocolate cake. Van Allen credited the cake for the group’s sudden inspiration to ignite plans for another International Geophysical Year. It had been nearly a generation since the last geophysical year – a year of cooperative study of the Earth’s surface, atmosphere and magnetic field. As plans moved forward, organizers set the goal of placing a satellite in orbit. As the challenge became an immediate contest between Russian and the United States, Van Allen began designing a detector that could measure cosmic rays intensities in a whole new arena.  But he took a permanent detour back to Iowa on his way to outer space.
+                <p>A group of influential scientists visiting the Applied Physics Laboratory early in 1950 came to Van Allen’s small white frame house for dinner and Abbie Van Allen topped off the meal with her famous seven-layer chocolate cake. Van Allen credited the cake for the group’s sudden inspiration to ignite plans for another International Geophysical Year. It had been nearly a generation since the last geophysical year – a year of cooperative study of the Earth’s surface, atmosphere and magnetic field. As plans moved forward, organizers set the goal of placing a satellite in orbit. <span class="pull">As the challenge became an immediate contest between Russian and the United States, Van Allen began designing a detector that could measure cosmic rays intensities in a whole new arena.</span> But he took a permanent detour back to Iowa on his way to outer space.
                 </p>
             </article>
             <article class="text-container" id="iowa"><header><h3>Return to Iowa</h3></header>
                 <p>In 1951, Van Allen came home after his alma mater the University of Iowa offered him the chair of the Department of Physics and Astronomy. He liked to quip that Long Island-bred Abbie skeptically asked, “Where’s Iowa?”
                 </p>
-                <p>He returned to the 1910 physics building where he had earned his Ph.D. assessing a critical nuclear reaction on a temperamental early particle accelerator. He had helped build this beast with recycled parts junked from gasoline pumps and lots of faith in glyptal, a vacuum sealant goop made by General Electric. Now, Van Allen’s return brought one enormous problem for a space explorer – a net zero budget to continue his research. He couldn’t afford to fly his own Aerobee rockets any longer. He quickly applied small-town Iowa ingenuity to space missions by calling on contacts in the Navy and at the Jet Propulsion Laboratory to obtain the balloons and rockets for his rockoons.
+				<aside class="image"><p class="caption">Selection of interior pages from the 1951 State University of Iowa year book.</p><img src="/vanallen/files/fullsize/dc642623e93b82eec644d1671138e5b9.jpg"></aside>
+                <p>He returned to the 1910 physics building where he had earned his Ph.D. assessing a critical nuclear reaction on a temperamental early particle accelerator. He had helped build this beast with recycled parts junked from gasoline pumps and lots of faith in glyptal, a vacuum sealant goop made by General Electric. Now, Van Allen’s return brought one enormous problem for a space explorer – a net zero budget to continue his research. He couldn’t afford to fly his own Aerobee rockets any longer. <span class="slide">He quickly applied small-town Iowa ingenuity</span><div class="toggle initiallyHidden"><img src="/vanallen/files/fullsize/7f09b1e2cbef4c1752586f36ad4597a1.jpg"></div> to space missions by calling on contacts in the Navy and at the Jet Propulsion Laboratory to obtain the balloons and rockets for his rockoons.
                 </p>
+				<aside class="image"><p class="caption">State University of Iowa students releasing weather ballons in front of Kinneck Stadium from Leslie Meredith's scrapbook, 1951-1955.</p><img src="/vanallen/files/fullsize/e98c43fcbcb178c6946350eedf665a91.jpg"></aside>
                 <p>He hitched rides on a series of ice breakers for annual trips that brought him near the poles, shooting rockets from various latitudes along the way as he had planned. And, just as quickly, he began recruiting a series of brilliant graduate students into a space program they hadn’t known existed five minutes before they walked into his office. George Ludwig was one of them, an Air Force pilot with an instinct for electronics who returned to his father’s Iowa farm when he completed military service.
                 </p>
                 <p>Fairly confident that von Braun’s next generation of rockets, under construction at the Army Ballistic Missile Agency (now the Marshall Space Flight Center) in Huntsville, Ala., would carry the first satellite into space and knowing von Braun had a satellite in the works, Van Allen and Ludwig began to develop a cosmic ray detector for orbit. Then, suddenly, in 1955 all bets were off as politics invaded the space race.   
                 </p>
             </article>
         </section>
-		<div id="section-1" class="section image image0 bg-fixed" style="background-image: url(/vanallen/files/original/6cbec108390fffc97b714b1698f6fd18.png);">
+		<div id="section-1" class="section image image0 bg-fixed" style="background-image: url(/vanallen/files/original/84b3e789ea830a3d48f91e7f56f9858a.png);">
 			<!--<h2 id="header-1" class="animated fadeInUp">Launch to Discovery</h2> --></div>
         <section class="doc-show section text" id="launch">
         <!-- <header><h2>Launch to Discovery</h2></header> -->
             <article class="text-container" id="moons"><header><h3>Making artificial Moons</h3></header>
-                <p>How would the Russians react if a military rocket launched a satellite into orbit, trespassing over their air space with an artificial moon? For the Eisenhower administration, the question hung in the unchartered boundary marking the “freedom of space.” And it became a factor in selecting the Navy’s Project Vanguard over the Orbiter that von Braun and the Army proposed for the race to get a satellite into space. The Jupiter C military booster rocket and JPL’s upper stages existed already but configuring them together, testing them and completing the satellite was to take an estimated 18 months. The Naval Research Laboratory offered the Vanguard as an alternative rocket and satellite system that could be designed and built for civilian space exploration in the about same amount of time – 18 months. All things being equal, an advisory committee backed the Vanguard as America’s official satellite mission in 1955 despite the committee chairman’s heated pleas and objections.
+                <p>How would the Russians react if a military rocket launched a satellite into orbit, trespassing over their air space with an artificial moon? <span class="pull">For the Eisenhower administration, the question hung in the unchartered boundary marking the “freedom of space.”</span> And it became a factor in selecting the Navy’s Project Vanguard over the Orbiter that von Braun and the Army proposed for the race to get a satellite into space. The Jupiter C military booster rocket and JPL’s upper stages existed already but configuring them together, testing them and completing the satellite was to take an estimated 18 months. The Naval Research Laboratory offered the Vanguard as an alternative rocket and satellite system that could be designed and built for civilian space exploration in the about same amount of time – 18 months. All things being equal, an advisory committee backed the Vanguard as America’s official satellite mission in 1955 despite the committee chairman’s heated pleas and objections.
                 </p>
                 <p>Delays soon plagued the untried Vanguard while orders to abandon Army satellite development officially handcuffed von Braun’s project. Still, von Braun and his team moonlighted on the  mission on their own time. Ernst Stuhlinger, a key physicist on the team, worked in his garage, creating the hand-operated detonator to fire the upper stages of the rocket. He also designed an apex calculator to predict when the Jupiter C had reached its highest point, the point where the upper stages must be fired with split-second timing. Josef Boehm worked on perfecting the satellite from a design he and von Braun nurtured over the years. 
                 </p>
+				<br/>
+				<div class="vanallen">
+                    <div><img src="/vanallen/files/thumbnails/c87c97819b4ea2c65859c7705e9ed6f7.jpg"></div>
+                    <div><img src="/vanallen/files/thumbnails/e6d394acc6f7b934ba6f1f03967ddc15.jpg"></div>
+                    <div><img src="/vanallen/files/thumbnails/62c5006a7a581c69fcabe662e895d1ef.jpg"></div>
+                    <div><img src="/vanallen/files/thumbnails/38b573a1d23858e6d5bc8bee7445d3ee.jpg"></div>
+                </div>
+                <br/>
                 <p>Testing went forward on the Jupiter C booster rocket, with JPL’s two upper stages and a dummy payload in the nosecone as part of the Army’s ballistics program. Military brass kept the program under surveillance, though, so no one could sneak a stowaway satellite in that nosecone instead. A perfect test on Sept. 20, 1956 propelled an inert fourth-stage payload at the thrust and altitude needed to inject a live satellite into orbit. The launch convinced the von Braun team that they could have sent a satellite into orbit that day, more than a year ahead of <sname>Sputnik</sname>. Stuhlinger phoned his trusted friend James Van Allen with the news.
                 </p>
                 <p>At White Sands, the American scientists and the German rocketeers generally kept their distance. But the courtly Stuhlinger bridged the gap, climbing up ladders with the experimenters to the nose cone of the gleaming, four-story V-2 to check instruments and secure battery connections. Van Allen characterized him as the “ombudsman” for the scientists and a kindred spirit. He and Stuhlinger shared an interest in cosmic rays and detectors. Stuhlinger had studied with Hans Geiger in Germany in the 1930s and helped develop the Geiger counter used to detect nuclear reactions and cosmic rays. 
                 </p>
-                <p>Stuhlinger first approached Van Allen about building a cosmic ray instrument for a small experimental satellite in 1954 while Van Allen was on sabbatical at Princeton. Abbie invited him to dinner and the two physicists sat in Van Allen’s study afterwards. Van Allen lit his pipe and Stuhlinger laid out the plan. “The only sign of life was the vivid smoke production,” Stuhlinger recalled later in his memoir <i>Wernehr von Braun, Crusader for Space</i>. “All he said was, ‘Thanks for telling me all this. Keep me posted on your progress will you?’” Stuhlinger thought he had failed to spike any interest or confidence but he had only encountered Van Allen’s cautious ability to stand fast and wait for the right moment.
+                <p>Stuhlinger first approached Van Allen about <span class="slide">building a cosmic ray instrument</span><div class="toggle initiallyHidden"><img src="/vanallen/files/fullsize/6399337e5e007d96611170c2afb3c069.jpg"></div> for a small experimental satellite in 1954 while Van Allen was on sabbatical at Princeton. Abbie invited him to dinner and the two physicists sat in Van Allen’s study afterwards. Van Allen lit his pipe and Stuhlinger laid out the plan. “The only sign of life was the vivid smoke production,” Stuhlinger recalled later in his memoir <i>Wernehr von Braun, Crusader for Space</i>. “All he said was, ‘Thanks for telling me all this. Keep me posted on your progress will you?’” Stuhlinger thought he had failed to spike any interest or confidence but he had only encountered Van Allen’s cautious ability to stand fast and wait for the right moment.
                 </p>
                 <p>That moment arrived with Stuhlinger’s 1956 phone call and word of the Jupiter C’s success. “The Vanguard program won’t deliver on time,” Stuhlinger predicted, an opinion both scientists heartily shared. Stuhlinger asked Van Allen to develop a hush-hush cosmic ray experiment for the undercover satellite being built for the Jupiter C. This time, Van Allen gambled. His detector design, already selected as a top priority instrument for the Vanguard, could do double duty. With a risky secret agenda, Van Allen and George Ludwig began retooling it so it would fly on either the Vanguard or the Jupiter C. 
                 </p>
@@ -269,9 +274,10 @@
                 </p>
                 <p><span class="pull">“We could have been in orbit a year ago,”</span> von Braun said. “Vanguard will never make it. We have the hardware on the shelf. For God’s sake turn us loose and let us do something. We can put up a satellite in 60 days.” General John Medaris, commander of the missile base, countered with 90 days. And 90 is the deadline Medaris quoted when he announced to his rocket team on Nov. 8 that the Ballistic Missile Agency had been tasked with launching a scientific satellite into orbit with the Jupiter C.  “Let’s go Wernher,” he says to the smiling von Braun in a newsreel released months later. But behind the scenes, the Jet Propulsion Laboratory took over von Braun’s dream assignment of building the satellite to fit JPL’s second and third stages for the rocket.
                 </p>
+				<aside class="image"><img src="/vanallen/files/fullsize/f51ea71bb5ae00030ed47386af66026c.jpg"><p class="caption">Front cover of <i>Space Explorers</i> published by the Jet Propulsion Laboratory</p></aside>
                 <p>“Von Braun swallowed hard but did not comment,” Stuhlinger reported of the tumult in his memoir. Von Braun knew that JPL had saved the day for the Jupiter C, devising the re-entry testing program and lobbying to give the rocket back in the satellite program. He gave the laboratory a grateful and graceful pass, according to Stuhlinger.
                 </p>
-                <p>Now all they needed was an official scientific instrument for their scientific satellite. JPL director William Pickering met with the Huntsville team the next day to hammer out details and announced that the University of Iowa cosmic ray instrument would just happen to fit the Jupiter C, keeping the civilian character of the mission. “You don’t say,” von Braun blandly noted.
+                <p>Now all they needed was <span class="slide">an official scientific instrument</span><div class="toggle initiallyHidden"><img src="/vanallen/files/fullsize/97d548f64a7e98f9aaee65b888140e0c.jpg"></div> for their scientific satellite. JPL director William Pickering met with the Huntsville team the next day to hammer out details and announced that the University of Iowa cosmic ray instrument would just happen to fit the Jupiter C, keeping the civilian character of the mission. “You don’t say,” von Braun blandly noted.
                 </p>
                 <p>But where was Van Allen? Sailing on the fringes of Antarctica by now, he remained remote from the political fireworks and the sudden change of status for the Jupiter C in an all-out push to get an American satellite into orbit.
                 </p>
@@ -283,6 +289,7 @@
             <article class="text-container" id="warroom"><header><h3>The War Room wait</h3></header>
                 <p>Van Allen, von Braun and Pickering had partnered so long for the launch of <sname>Explorer I</sname> but they didn’t witness it.  They gathered in the War Room of the Pentagon with Army Secretary Wilbur M. Brucker and General Lyman Lemnitzer, Army vice chief of staff, on Jan. 31, 1958. There was no television or even a loud speaker to bring them news in this inner sanctum – just a phone. A call from the cape reported a successful launch with the satellite reaching an orbital path and moving eastward around the globe. The group in the War Room bantered in high spirits as they awaited the next call to confirm the satellite was in orbit.
                 </p>
+				<aside class="image"><p class="caption">Illustration of <sname>Explorer I</sname>'s approximate orbital path around the Earth at the orbital velocity of 18,000 miles per hour. The official U.S. Army photograph release by the Department of Defence in 1958.</p><img src="/vanallen/files/fullsize/fc44a8a74a07ed42ca4cf127df2c94c0.jpg"></aside>
                 <p>“Boys, this is just like waiting for the precincts to come in,” Brucker wisecracked. But even an election could be fixed  - and the satellite was now beyond anyone’s control. A tense mood gripped everyone as time passed.
                 </p>
                 <p>“It was a really anxious period and silence settled over the whole group. We drank coffee and chewed our nails and wondered what had happened because the expectation was that the satellite would go into orbit and should come around the Earth [and reach California] in about 91 minutes, but 91 minutes passed and we got to reception, no reception,” Van Allen recalled.
@@ -295,6 +302,7 @@
                 </p>
                 <p>“We’ve got the bird,” Goddard shouted.
                 </p>
+				<aside class="image"><p class="caption">Press photograph of <sname>Explorer I</sname> satellite</p><img src="/vanallen/files/fullsize/88bcc3103c29fb52be2e79aad9a0a239.jpg"></aside>
                 <p>“Pickering announced the good news and everyone was jubilant and everyone slapped one another on the back. Then, we had to leave for a press conference at the National Academy of Sciences,” Van Allen said. It was now close to 2 a.m. on February 1 and a military chauffeur drove Van Allen, von Braun and Pickering through deserted Washington streets in a steady rain. He unceremoniously dropped them off at the back door of the academy.
                 </p>
                 <p>“We wondered if anyone would be there,” Van Allen said. “We walked in and there were cameras and reporters – the room was full. And we stood there for two hours answering questions.”
@@ -307,13 +315,39 @@
                 </p>
             </article>
             <article class="text-container" id="mystery"><header><h3>Mystery in the gaps</h3></header>
-                <p>Scientists invented early space instruments from scratch - improvising from other fields as they went along. Van Allen and his graduate students cobbled together cosmic ray detectors with miniaturized parts meant for watches, hearing aids, nuclear research and the latest rage – transistor radios. The machine shop in the physics building fabricated other parts non-stop. Harried graduate students rushing in to buy wire or miniscule screws for instruments became a familiar sight at Iowa City hardware stores.
+                <p>Scientists invented early space instruments from scratch - improvising from other fields as they went along. Van Allen and his graduate students cobbled together cosmic ray detectors with miniaturized 
+				<span class="slide">parts meant for watches, hearing aids, nuclear research and the latest rage – transistor radios.</span><div class="toggle initiallyHidden">
+					<br/>
+					<div class="book">
+						<div><img src="/vanallen/files/fullsize/c0c0cd2c90535894ab0893986107d7ad.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/790bd15914abbb17d617a479f0a4b164.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/bf6b9dfecf358bf733ef026039c84044.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/5e6aea54903ad91bba69e295d97d48bb.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/20ae5182d48d2210fda8c0991add12a7.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/011d61d3d31f4fef0fc863018dd4b141.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/dcdaefc718aa776d233871f762b66f1c.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/d659e1cf1c01a34931de9182dfe32801.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/d13b4930330ab8e2b29cce2931867dda.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/d3c1c118d6da5abc7d1d93b720fb3278.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/bd1fa9c570951791c3561eaa601fa574.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/fcf009ded249247dd79872c14639b79f.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/053b57ac5497c470cffb1265ce562f97.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/7aff965f33f97cb40c7473e280fe8442.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/c9fa3a0e7be359c2829f7a3395c3c3e5.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/7922fb1feb89e069637b43476db38965.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/bece177c0ebe3627917b695e88c46213.jpg"></div>
+						<div><img src="/vanallen/files/fullsize/b17e448c7b94c2ad148c24f7fcf9e949.jpg"></div>
+					</div>
+					<br/>
+				</div>
+				The machine shop in the physics building fabricated other parts non-stop. Harried graduate students rushing in to buy wire or miniscule screws for instruments became a familiar sight at Iowa City hardware stores.
                 </p>
                 <p>The Geiger tubes needed to count the cosmic rays remained a critical part of the whole system. Van Allen scouted down special Geiger tubes for <sname>Explorer I</sname> to Anton Electronics, a dingy storefront in Brooklyn that looked like a neighborhood repair shop. “I made Geiger tubes myself when I was in graduate school but nothing of the quality that Anton achieved. It was pretty amazing what came out of this little hole in the wall, grubby place,” Van Allen said.
                 </p>
+				<aside class="image"><p class="caption">Photograph of <sname>Explorer I</sname>'s tape recorder from the side. September 1968</p><img src="/vanallen/files/fullsize/a904a481f27d4b6b7135ecff1d0f33c6.jpg"></aside>
                 <p>Looking through the window of the wood-burning stove in his Iowa hometown as a boy, Van Allen could have found a clue to his future in space. “The window was covered with mica. It’s a natural material and can withstand heat, cold, the damp and the dry. It’s really fantastic stuff,” Van Allen noted. Nicholas Anton developed his signature detectors for physicists analyzing nuclear reactions. They were perfect for a trip in a satellite to count cosmic rays because Anton’s proprietary design sealed a sturdy mica window with a fine beading of glass around the rim. The tiniest leak in a Geiger tube renders them useless since they are filled with gas. Cosmic rays enter the tube, ionize a gas molecule and generate an electric pulse. It’s the pulses that were counted by palm-sized discs of miniature electronics “potted” in a pink foam that hardened around them, holding them in place in the cylindrical detector. The instrument reflected a single-minded creation of simplicity, sophistication and mechanical strength. Still, no one had sent such a creation up in a satellite before or tried to record messages from it.
                 </p>
-                <p>“I’ve got bad news for you. My people tell me your counter stopped working,” Pickering told Van Allen the day after the launch.
+                <p><span class="pull">“I’ve got bad news for you. My people tell me your counter stopped working,” Pickering told Van Allen the day after the launch.</span>
                 </p>
                 <p>“I thought he was wrong because we had all pieces [to show] where it was and wasn’t working,” Van Allen recalled.
                 </p>
@@ -338,6 +372,7 @@
                 </p>
                 <p>Ludwig started working on the recorder in 1956. “To initiate playback, a ratchet was released, permitting a spring to rewind the tape onto the supply reel,” Ludwig explains in his book, <i>Opening Space Research</i>. The playback head transmitted the data but also erased it for another round of recording on the same tape. The tape moved in short stops like the hands of a mechanical clock. It recorded 200 seconds of data per inch of tape until the playback command from the ground released the ratchet and spring.
                 </p>
+				<aside class="image"><img src="/vanallen/files/fullsize/03e3bcb27efef3a18e86d90d792eb235.jpg"><p class="caption">George Ludwig recording data tape playback into his personal notebook</p></aside>
                 <p>No one had ever tried recording in space before and Ludwig predicted what would happen to standard components. Mylar magnetic tape could stretch at high temperatures, for instance. That had to go. Ludwig found a far more rugged 0.001 thick metal tape electroplated with a nickel-cobalt recording surface. The recorder with its metal tape was ready to be configured for <sname>Explorer I</sname> but was sacrificed in the frantic effort to place a satellite into orbit as quickly as possible. It flew on <sname>Explorer II</sname>, but that satellite failed to fire into orbit. Now everything was riding on <sname>Explorer III</sname>, launched on March 26, 1958.
                 </p>
                 <p>A near miss threatened to cut off <sname>Explorer III</sname> instrument operations when Ludwig found faulty wiring during countdown at the cape.
@@ -350,6 +385,7 @@
                 </p>
                 <p>His youthful curiosity about the magnetic field of the Earth escalated as his rockoon launches showed how cosmic ray intensities increased with distance from the equator, pooling near the poles where clusters of arching magnetic field lines intersect the Earth. Now with the music from <sname>Explorer III</sname>, Van Allen discovered how the magnetic field of the Earth reshapes space thousands of miles beyond the atmosphere.
                 </p>
+				<aside class="image"><p class="caption">Earth's Magnetosphere. Five spacecraft from the THEMIS mission have helped map out this area and improve our ability to predict dynamic space weather events – events that at their worst can impact satellites in space.<br/>Credit: Courtesy of NASA</p><img src="/vanallen/files/fullsize/5995db44368a29a709fde588c3a6d3b2.jpg"></aside>
                 <p>The Naval Research Laboratory in Washington, D.C., worked to optimize data capture for the satellite at their receiving stations and the San Diego station downloaded the first complete global recording of cosmic ray counts made by the detector. Van Allen came to Washington to confer with NRL scientists and learned that the first chants of the <sname>Explorer III</sname> readings had been transmitted to the D.C. data reduction center that NRL developed for the Vanguard missions.
                 </p>
                 <p>On Wednesday, April 2, Van Allen took a taxi to the center on Pennsylvania Avenue and picked up the paper tapes graphing the cosmic ray counts. He stopped at a drug store to pick up graph paper and a ruler on his way back to the Dupont Plaza Hotel. He used his slide rule and NRL’s fresh estimates of the orbit altitude to recalculate the peaks and troughs of cosmic rays as a function of the latitude and altitude of the satellite. He could see 15 minutes of cosmic ray levels rising to the maximum his detector could process, then a lengthy drop to zero counts, and then more counts, as though the satellite and space had an on-off switch.
@@ -358,11 +394,11 @@
                 </p>
                 <p>The audio tape data arrived at Iowa while Van Allen was gone. McIlwain, Ray and graduate student Joe Kasper immediately set to work processing data from the reel. “We were looking for a clear transition, the switching point from rising counts to zero,” McIlwain said. “Now there it was. So we knew at once that there was something of very high intensity out there. I immediately took the spare payload and put it in front of an x-ray machine.” The x-ray output showed that massive levels of radiation could choke off the detector.
                 </p>
-                <p>Van Allen returned to Iowa, <span class="slide">welcomed by a sign Ray had left on his chair. </span><div class="toggle initiallyHidden"><img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/CIA_document_-_1430-492-Y_-_Clay_Shaw_Part2.gif"></div>
+                <p>Van Allen returned to Iowa, <span class="slide">welcomed by a sign Ray had left on his chair. </span><div class="toggle initiallyHidden"><img src="/vanallen/files/fullsize/c62bd2cb4f68a839f4a0bca6c8a620d2.jpg"></div>
                 </p>
-                <p><span class="pull">“Space is radioactive.”</span>
+                <p>“Space is radioactive.”
                 </p>
-                <p>Ray’s conscious exaggeration alerted Van Allen to the fact that he and McIlwain had their own confirmation. Van Allen laid out his graphs. McIlwain laid out his x-ray findings. The men looked over the results cautiously at first. But everything pointed to an abrupt boundary in space crossing into a zone where cosmic rays abruptly rose to unimagined levels. “Then it clicked right away. That was the moment when the light bulb went on – the Eureka Moment,” Van Allen said.
+                <p>Ray’s conscious exaggeration alerted Van Allen to the fact that he and McIlwain had their own confirmation. Van Allen laid out his graphs. McIlwain laid out his x-ray findings. The men looked over the results cautiously at first. But everything pointed to an abrupt boundary in space crossing into a zone where cosmic rays abruptly rose to unimagined levels. “Then it clicked right away. That was the moment when the light bulb went on – the Eureka Moment,” Van Allen said. 
                 </p>
                 <p>Ludwig returned from “foreign duty” at JPL a few days later, Van Allen noted in his journal.  Data analysis from <sname>Explorers I</sname> and <sname>III</sname> scaled up to fever pitch. With streams of paper tapes cascading across a table, Van Allen, Ludwig, Ray and McIlwain had ample evidence to hammer out a description of an intense radiation zone encircling the Earth – the first discovery of the space race.  They were ready to go public with their findings at an upcoming conference of scientists on May 1, 1958 in Washington, D.C.
                 </p>
@@ -385,7 +421,7 @@
                 </p>
                 <dialog><p>“You mean they circle the Earth like a belt?” suggested science reporter William Hines of the Washington Evening Star.
                 </p>
-				<aside class="image"><p class="caption">The radiation belts cirling the Earth</p></aside>
+				<aside class="image"><p class="caption">Two giant radiation belts cirling the Earth<br/>Credit: Courtesy of NASA</p><img src="/vanallen/files/fullsize/bdd732cf3dfef9bcca9d05fbd7e9ed9a.jpg"></aside>
                 <p>“Yes, that’s right,” Van Allen said, giving the trapped corpuscular radiation zones a handy nickname. 
                 </p>
                 </dialog>
@@ -451,6 +487,9 @@
                     <div><img src="/vanallen/files/square_thumbnails/471f4d36b4e74ab6a61c9c5fda250193.jpg"></div>
                     <div><img src="/vanallen/files/square_thumbnails/77f92546c140621c523f5adfbd7070ed.jpg"></div>
 					<div><img src="/vanallen/files/square_thumbnails/6c87d614a2813655e1248d951e5456de.jpg"></div>
+					<div><img src="/vanallen/files/square_thumbnails/df72a999c2aa5978e16e529c7b2a3c51.jpg"></div>
+					<div><img src="/vanallen/files/square_thumbnails/60d3d90913d77b3cd9b04edae062346b.jpg"></div>
+					<div><img src="/vanallen/files/square_thumbnails/ad4f4caf2c9291a0333750e455edaa92.jpg"></div>
                 </div>
                 <br/>
 				
@@ -467,6 +506,7 @@
 				</p>
 				<p>Powerful solar flares and even more powerful coronal mass ejections erupt with gales of charged particles that kick up geomagnetic storms in the Earth’s magnetic field just as hurricanes batter coastlines with winds that churn up walls of water. The solar storms can rip apart the outer radiation belt or pump it up to intensities that pound the satellites orbiting there. Geomagnetic storms ignite high electrical currents, vaulting the current in power lines until they trigger blow outs and massive power outages.
 				</p>
+				<aside class="image"><img src="http://svs.gsfc.nasa.gov/vis/a010000/a011000/a011047/July_19_Flare_triptych-half_size.jpg"/><p class="caption">Solar flares emanating electromagnetic energy</p></aside>
 				<p>With the storms unleashing such destruction, forecasting space weather is now a must, says University of Iowa physicist Craig Kletzing, with an instrument on each probe that measures electromagnetic waves. “The holy grail really is to get to a place like we can with terrestrial weather systems where we predict in advance what’s going to happen. That’s a ways off yet because [space is] such a complex system. The desire of almost everyone is to get to a point where, if we see this happening on the sun then - in a couple of days - this is what’s going to happen” in the belts and on Earth.” 
 				</p>
 				<p>The radiation belts pulse, surge and paralyze satellites much as they saturated Van Allen instruments into static silence.  Accurate space weather forecasting would deliver the ability to model satellites of just the right strength – sturdy enough to stand up to solar storms but not weighed down with costly extra armor they don’t need, Kletzing says.
@@ -475,6 +515,7 @@
 				</p>
 				<p>The probes reached the belts amid the fireworks of a solar storm unleashed by a coronal mass ejection – a massive eruption of gases from the corona of the sun. Scientists turned on mission instruments immediately, ahead of schedule, just in time to witness the collateral damage of the storm as it obliterated the outer radiation belt. Baker could barely believe the data from his electron and proton detectors - the massive outer belt, stretching thousands of miles across space, torn away. <a href="http://vanallenprobes.jhuapl.edu/newscenter/newsArticles/20140423.php" target="_blank">Then his instruments detected a third belt</a> between the inner and outer belts – a “storage ring” of what was left of the outer ring as it began to coalesce once again.
 				</p>
+				<aside class="video"><p class="caption">Animation of early electron flux measurements of the Van Allen radiation belts</p><iframe width="" height="" src="//www.youtube.com/embed/3YfKeXqVLPQ" frameborder="0" allowfullscreen></iframe></aside>
 				<p>“My first thought actually was -  is there something wrong with our instrument,” says Baker, who learned the ropes about radiation belts at Jupiter as one of Van Allen graduate students during the <snamem>Pioneer 10</sname> mission to the planet in the 1970s.
 				</p>
 				<p>Kletzing’s captured the same startling view with Iowa’s instruments that measured electromagnetic waves – “a zoo of waves” given off by solar plasma in the storm, he said. 
@@ -482,18 +523,20 @@
 				<p>
 				The sun radiates electromagnetic energy, including the visible light that makes possible all life on Earth. But the fusion furnace of the sun also emits streams of plasma that create the solar wind. Plasma - the fourth state of matter – defies the atomic structure of gases, liquids and solids. It is a volatile soup of charged subatomic particles – positive ions and negative electrons - jetting across the solar system. Shock waves rip through the solar wind after coronal explosions and, as the <i>Van Allen Probes</i> witnessed, they can tear away the dynamic outer radiation belt.
 				</p>
-                <aside class="image"><img src="http://svs.gsfc.nasa.gov/vis/a010000/a011000/a011047/July_19_Flare_triptych-half_size.jpg"/><p class="caption">Solar flares emanating electromagnetic energy</p></aside>
 				<p>“It suddenly got just eaten away but there was a little remnant storing the last little bit of stuff – you might call it a storage ring. And then gradually the outer belt began to fill back in – going from outward inward,” Kletzing said. “It’s very conceivable and even likely that this kind of thing has happened before but we couldn’t detect it.”
 				</p>
 			</article>
 			<article class="text-container" id="acceslerator"><header><h3>Accelerator in the belly of the belts</h3></header>
 				<p>The <i>Van Allen Probes</i> soon delivered another discovery – the existence of a <a href="http://vanallenprobes.jhuapl.edu/newscenter/newsArticles/20130725.php" target="_blank">massive particle accelerator</a> in the belly of the belts. The discovery settles decades of debate about how particles in the belts accelerate to near light speed energies. One model theorized that charged particles hurling toward the Earth gain energy as they encounter the ever increasing strength of the planet’s magnetic field and then get trapped in the belts. Imagine a rock rolling down a hill and gaining speed as it accelerates due to gravity, NASA scientists suggest. But particles spiraling up and down within the belts could accelerate right there, boosted as intense electromagnetic waves kick up their energy and speed. Physicist Geoff Reeves, of the Los Alamos National Laboratory, proved that to be the case. He tapped data from the dual locations of varied twin instruments on the probes, including Iowa’s wave instruments, to make 3D measurements of electromagnetic waves that boost the energy of the accelerating particles.
 				</p>
+				<aside class="video"><p class="caption">The Launch of the Twin Van Allen Probes August 30, 2013</p><iframe width="" height="" src="//www.youtube.com/embed/0YC1LgStykU?list=PLiuUQ9asub3S235ZRyZmo8DKob4VOMo7k" frameborder="0" allowfullscreen></iframe></aside>
 				<p>Reeves’ simple, elegant experiment measured the rising energies of particles in the radiation belts. He also measured the distances of the particles from the center of the Earth. If the particles were accelerating while on the move toward Earth, their distance from the planet would decrease as their energies increased. If they accelerated within the belts at a fixed distance from Earth, then the belts must be the accelerator. And the distance stood firm! 
 				</p>
 				<p>The frequencies of the waves emitted in the radiation belts during solar storms lines up with the build up of particles accelerated to high energies and speeds. Kletzing points to the busts of red in his data, which tells him there are lots of waves to deliver <a href="http://www.nasa.gov/content/goddard/van-allen-probes-find-source-of-fast-particles/" target="_blank">kicks of acceleration.</a> The accelerator in the Earth’s radiation belts gives space weather forecasters a better shot at figuring out just how the energy surges rev up
 				</p>
 			</article>
+			<!-- video of Twin Van Allen Probes orbiting Earth --->
+			<div><iframe width="1280" height="720" src="//www.youtube.com/embed/MBbqi86DiYY?list=PLiuUQ9asub3S235ZRyZmo8DKob4VOMo7k" frameborder="0" allowfullscreen></iframe></div>
 			<article class="text-container" id="interstellar"><header><h3>Unchartered territory - <sname>Voyager 1</sname> explores interstellar space</h3></header>
 				<p>University of Iowa physicist Don Gurnett keeps an ear on interstellar space. He records radio transmissions from afar – like 12 billion miles afar. He is listening in the vast reaches beyond the solar wind with a radio receiver called a plasma wave instrument, listening in a region where cosmic rays hurl across the galaxy from the explosions of giant stars. Gurnett calls up a recent recording - one that captures a first step as momentous as Neil Armstrong’s first step on the moon.
 				</p>
@@ -532,6 +575,8 @@
 				<p>Safely beyond the power line interference of Iowa City, he sat in the velvet darkness of a clear spring night. He didn’t need a local storm. Whistlers from distant storms – guided by the Earth’s magnetic field – dart back and forth between the hemispheres and then funnel to Earth producing a stream of whistling sounds picked up by VLF receivers. With his receiver, Gurnett plugged into the heavens and caught them whistling back.
 				</p>
 				<p>Radio pioneers discovered whistlers in 1918 and a near mystical following of radio amateurs headed to the countryside to hear the musical tones and static hisses from on high. Gurnett learned about whistlers from a talk at the University of Iowa. He perfected his own design but carried it dejectedly back to Iowa City after the first night of his vigil in the fields. The receiver hadn’t picked up a thing. So he returned to the farm the next night. Hour after hour, he listened. Then suddenly, he picked up a series of faint whistling tones. Gurnett had big plans for the receiver after that. He just happened to have access to a spacecraft that could capture the radio songs of space.
+				</p>
+				<aside class="video"><p class="caption">ScienceCasts: The Sound of Earthsong</p><iframe width="" height="" src="//www.youtube.com/embed/TqFWhj9UiTw" frameborder="0" allowfullscreen></iframe></aside>
 				<p>The first semester of his freshman year, <sname>Sputnik</sname> launched and Gurnett decided to help springboard America’s leap into orbit. The tall, lanky boy heard about Van Allen and the basement space lab in the physics building so he walked over and asked for a job. Van Allen could sniff out a kid with a knack for electronics from about a mile away and hired him immediately. Gurnett eventually started working on Van Allen’s homegrown satellite, <sname>Injun I</sname>, the first university-built satellite to go into orbit. Gurnett, while still an undergraduate, advanced to the position of project engineer for <sname>Injuns 2</sname> and <sname>3</sname>. <sname>Injun 3</sname> resembled two mirror-finish domes fused at the middle, with solar cells lining part of the lightweight magnesium skin.
 				</p>
 				<p>His very low frequency receiver would fit like a crown on <sname>Injun 3</sname> and Gurnett asked permission to add it to the mission. Van Allen agreed but Gurnett suddenly realized that the receiver might blare with feedback from the satellite data receivers, acting as an amplifier that could cripple the mission. He had to test the system and, once again, he had to get away from the electrical power lines of Iowa City. Not a problem. The space physics team simply loaded up <sname>Injun 3</sname> with the VLF receiver and drove it to Fairfield to test it behind the Gurnett family barn. The system worked like a charm.
@@ -625,7 +670,9 @@
                     </p>                
             </section>
 			-->
-            
+		</div>
+
+			<!-- /container --> 
             <div id="sources" class="text-container">
                 <section class="section text-container">
                     <header><h2>Sources and Credits</h2></header>
@@ -635,7 +682,6 @@
 			</div>
         
     
-		</div>           
-    <!-- /container --> 
+	</body>
 
 

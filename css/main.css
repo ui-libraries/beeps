@@ -1130,6 +1130,8 @@ px      68    160    252    344    436    */
 -------------------------------------------------------- */
 ::selection {
   background: #EA844E;
+  background-image: url("");
+  background-repeat: no-repeat;
 }
 ::-moz-selection {
   background: #EA844E;
@@ -1176,15 +1178,24 @@ nav {
   color: #EA844E;
 }
 .section.text {
-  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 200, from(#F9EEDC), to(#FBF5EA));
+	background-image: none;
+ /* background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 200, from(#F9EEDC), to(#FBF5EA));
   background-image: -webkit-radial-gradient(50% 50%, #FBF5EA, #F9EEDC);
   background-image: -moz-radial-gradient(50% 50%, #FBF5EA, #F9EEDC);
   background-image: -o-radial-gradient(50% 50%, #FBF5EA, #F9EEDC);
   background-image: -ms-radial-gradient(50% 50%, #FBF5EA, #F9EEDC);
-  background-image: radial-gradient(50% 50%, #FBF5EA, #F9EEDC);
+  background-image: radial-gradient(50% 50%, #FBF5EA, #F9EEDC);  
+ */ }
+ .doc-show.section.text {
+     background-image: url('/vanallen/files/original/980f2f5f03068b43258ca998dffd01ed.png');
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: top;
+	background-size: 100%;
+	box-shadow: none;
 }
 #container {
-    background: #F9EEDC;
+    background: none;
 }
 #title {
     background: #F9EEDC;
@@ -1199,12 +1210,23 @@ nav {
     height: auto;
     width: 100%;
 }
+.container, .section {
+	overflow: hidden;
+}
+article {
+	overflow: visible;
+}
 
 /* Beginning Banner */
-.banner {
+header#title {
+   background-image: url('/vanallen/files/original/c7dffc029716dafab17e1b48da92d53f.png');
+   background-size: 100%;
+   padding-top: 50px;
+}
+div.banner {
     width: 100%;
     height: 250px;
-    background: #F9EEDC;
+    background: transparent;
     padding-bottom: 2em;
 
 }
@@ -1213,6 +1235,7 @@ nav {
     display: inline;
     padding: 2em;
     margin:5px;
+	background: none;
 }
 #left {
     width: 7%;
@@ -1244,11 +1267,12 @@ blockquote.bi-line {
   color: #EA844E;
 }
 .doc-show {
- background: #F9EEDC;
+ /*background: #F9EEDC;*/
 }
 sname {
     font-style: italic;
 }
+
 
 /*------------ ASIDES ---------------*/
 .text-container aside {
@@ -1283,8 +1307,9 @@ aside.fb-caption{
 aside.fb-caption>p.caption {
     display: none;
     border: solid;
-    width: 90%;
+    width: 100%;
     height: auto;
+	position: relative;
 }
 <!----   http://cssarrowplease.com/ ------>
 .arrow_box { 
@@ -1313,12 +1338,24 @@ aside.fb-caption>p.caption {
     border-width: 36px; 
     margin-left: -36px; 
 }
-<!-------------------------------------->
+aside.in-text, aside.in-text>p.caption{
+	position: inherit;
+	float: left;
+	width: 50%;
+	padding: 5px;
+	margin: 0px;
+}
+aside.in-text>p.caption {
+	width: auto;
+	
+}
+/*--------------------------------------*/
 .pulledquote {
-    width: 40%;
+display: block;
     float: right;
     color: #5aada8;
     margin: 7px;
+	margin-right: -70%;
     padding: .5em 0em 1em;
     border: solid;
     border-width: medium;
@@ -1326,10 +1363,20 @@ aside.fb-caption>p.caption {
     border-left: hidden;
     border-color: #EA844E;
     text-align: center;
+	width: 100%;
 }
-<!---------- SLIDE SHOWS ------------->
+/*---------- SLIDE SHOWS -------------*/
 .slick-track {
     align-content: center;
+}
+.slick-prev:before, .slick-next:before  {
+	color: #88aa5c !important;
+}
+.slick-dots li button:before {
+	color: #88aa5c !important;
+}
+.slick-dots li.slick-active button:before {
+	opacity: 0.95 !important;
 }
 .slide {
   color: red;
@@ -1337,6 +1384,9 @@ aside.fb-caption>p.caption {
 .slideshow {
     width: 100%;
 } 
+aside.video {
+
+}
 /* --------- Using Shape CSS
 .shape {
     float: left;
