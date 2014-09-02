@@ -32,7 +32,16 @@
     <script src="http://code.jquery.com/jquery-1.7.js"></script>
     <?php 
         queue_js_file('vendor/modernizr');    
-        queue_js_file('vendor/bigvideo/lib/bigvideo');    
+        queue_js_file('vendor/bigvideo/lib/bigvideo'); 
+        queue_js_file('createjs/utils/Proxy'); 
+        queue_js_file('createjs/utils/IndexOf');   
+        queue_js_file('createjs/utils/definePropertySupported');   
+        queue_js_file('createjs/events/Event');   
+        queue_js_file('createjs/events/EventDispatcher');  
+        queue_js_file('soundjs/Sound'); 
+        queue_js_file('soundjs/WebAudioPlugin');  
+        queue_js_file('soundjs/HTMLAudioPlugin'); 
+        queue_js_file('player');   
         echo head_js(); 
     ?>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>

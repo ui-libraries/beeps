@@ -47,9 +47,17 @@
           });
         });
         </script>
+
+        <script type="text/javascript">
+
+        //DEFINE PATH TO MP3 HERE. 
+        //load in dynamically from external source
+        var src = "files/ExplorerI_8022_Track02_streaming.mp3";
+
+    </script>
 		
 
-    <body> 
+    <body onload="init()"> 
     
         <!-- Main and Side Navigation / Table of Contents -->
         <div>
@@ -137,7 +145,24 @@
 				</p>
 				<p>The deluge of tapes arrived in metal canisters and cardboard sleeves, labelled with the collection time and location. Graduate student George Ludwig, a key participant in building the cosmic ray detector, logged 120 pages of data from the <sname>Explorer I</sname> tapes. The cosmic ray counts from space rose and fell with the rising and falling pitches in a staccato concert of tones on the tapes. But Ludwig riddled the log with entry upon frustrating entry that read “no data” where gaps in the recordings bristle with static. Listen to them yourself on this website. And then remember that the gaps played the music of discovery to just the right listeners. With immense courage and interpretive ingenuity, Van Allen and his team found – not in the data but in the gaps - the totally unexpected phenomenon of the radiation belts. The data tapes aren’t merely a record of that first discovery in space history. They are space history. They are the original and only record of <sname>Explorer I</sname>’s calls home. 
 				</p>
-				<aside class="audio"><p>Audio from Explorer I</p></aside>
+				<aside class="audio"><p>Audio from Explorer I</p>
+                    <!-- preloader -->
+                    <div id="loader"></div>
+
+                    <!-- the player -->
+                    <div id="content" class="content">
+                        <div id="player">
+                            <div id="playBtn" class="button playBtn"></div>
+                            <div id="labels">
+                                <label id="song">Tape 8022, Track 02</label><br />                
+                            </div>
+                            <div id="track">
+                                <div id="progress"></div>
+                                <div id="thumb"></div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
 				<aside class="in-text"><p class="caption">Test reel from Sadiego May 8, 1960</p><img src="/vanallen/files/square_thumbnails/21f788b0a7f40c52666834530b812c44.jpg"></aside>
 				<p>This is the story of <sname>Explorer I</sname>, the radiation belts and the effort to preserve the data tapes. The 694 <sname>Explorer I</sname> tapes and those from numerous other early missions lined shelves for half a century in the basement of the old physics building, now MacLean Hall. MacLean and four other buildings surround Iowa’s stately Old Capitol on the hilltop Pentacrest of the campus. Still, during the devastating floods of 2008, puddles collected on the floor of an old particle accelerator chamber where the tapes were archived and some of them began to mold. Now, restored and newly digitized, the tapes will play the chorus of the early space age for generations to come. You may be among the first to hear some of these tapes. Pressed by deadlines for more instruments on other space missions, the frantic pace escalated in the basement warren. Van Allen saw no reason to plow through every data tape. He moved on to the new data from the next mission.
 				</p>

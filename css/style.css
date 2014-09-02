@@ -1,0 +1,66 @@
+#player {
+	width: 451px;
+	height: 101px;	
+
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+#blocker {
+	background-color: #f00;
+	opacity: 0;
+	width: 451px;
+	height: 101px;
+	cursor: pointer;
+}
+#player DIV {
+	position: absolute;
+}
+.button {
+	width: 64px;
+	height: 64px;
+	top: 31px;
+}
+#playBtn {
+	left: 0px;
+}
+.playBtn {
+	background-image: url('../images/buttonPause.png');
+}
+
+.pauseBtn {
+	background-image: url('../images/buttonPlay.png');
+}
+#labels {
+	top: 40px;
+	left: 77px;
+	position: absolute;
+}
+#player LABEL {
+	color: #336666;
+}
+#song {
+}
+#artist {
+	top: 52px;
+	left: 57px;
+}
+
+#track {
+	width: 262px;
+	height: 5px;
+	top: 75px;
+	left: 75px;
+	background-image: url("../images/scubberBar.png");
+}
+
+#thumb {
+	cursor: pointer;
+	background-image: url("../images/scrubberPlayhead.png");
+	width: 16px;
+	height: 16px;
+	top: -5px;
+}
+.disabled {
+	opacity: 0.5;
+}
