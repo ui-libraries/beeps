@@ -55,9 +55,64 @@
         var src = "files/ExplorerI_8022_Track02_streaming.mp3";
 
     </script>
+
+
 		
 
     <body onload="init()"> 
+        <ul id="toc" class="sticklr">
+            <li>
+                <a href="#" class="icon-toc" title="Table of Contents"></a>
+
+                <ul>
+
+                    <li class="sticklr-title">
+                        <a href="#countdown">Countdown to Explorer I</a>
+                    </li>
+                    <li><a href="#sputnik">Sputnik beats America into space</a></li>
+                    <li><a href="#wwii">World War II Rocketeers</a></li>
+                    <li><a href="#smartweapon">America's first smart weapon to the rescue</a></li>
+                    <li><a href="#cosmicrays">So, what are cosmic rays?</a></li>
+                    <li><a href="#iowa">Return to Iowa</a></li>
+
+                </ul>
+
+                <ul>
+
+                    <li class="sticklr-title">
+                        <a href="#launch">Launch to Discovery</a>
+                    </li>
+                    <li><a href="#moons">Making artificial moons</a></li>
+                    <li><a href="#days">Give us 90 days</a></li>
+                    <li><a href="#warroom">The War Room wait</a></li>
+                    <li><a href="#bird">We've got the bird"</a></li>
+                    <li><a href="#mystery">The mystery in the gaps</a></li>
+                    <li><a href="#satellite">Satellite with a memory</a></li>
+                    <li><a href="#music">The music of discovery</a></li>
+                    <li><a href="#radiation">Radiation belts ring the Earth</a></li>
+                    <li><a href="#starwars">Explorer IV - Star wars mission</a>
+
+                </ul>
+
+                <ul>
+
+                    <li class="sticklr-title">
+                        <a href="#legacyofexplorer">From Earth to Interstellar Space - Legacy of Explorer I</a>
+                    </li>
+                    <li><a href="#chorus">Chorus of space history -  Listen to Explorer's data tapes</a></li>
+                    <li><a href="#stormshelter">Storm shelter for our "cyberelectric cocoon"</a></li>
+                    <li><a href="#accelerator">Accelerator in the belly of the belts</a></li>
+                    <li><a href="#interstellar">Unchartered territory - Voyager 1 explores interstellar space</a></li>
+                    <li><a href="#heavens">Catching the heavens whistling back</a></li>
+                    <li><a href="#remapping">Remapping the solar system</a></li>
+                    <li><a href="#pioneers">Pioneers: First ambassadors to the outer planets</a></li>
+                    <li><a href="#family">Space family reunion</a></li>
+                    <li><a href="#legacy">Fusion - The ultimate legacy</a></li>
+
+                </ul>                    
+                                
+            </li>            
+        </ul>
     
         <!-- Main and Side Navigation / Table of Contents -->
         <div>
@@ -71,49 +126,7 @@
                 </ul>
             </nav>
         </div>
-        <div>
-            <nav id="nav">
-                <ol> Table of Contents
-                    <li class="top"><a href="#intro">Introduction</a></li>
-                    <li><a href="#countdown">Countdown to Explorer I</a>
-                        <ol>
-                            <li><a href="#sputnik">Sputnik beats America into space</a></li>
-                            <li><a href="#wwii">World War II Rocketeers</a></li>
-                            <li><a href="#smartweapon">America's first smart weapon to the rescue</a></li>
-                            <li><a href="#cosmicrays">So, what are cosmic rays?</a></li>
-                            <li><a href="#iowa">Return to Iowa</a></li>
-                        </ol>
-                    </li>
-                    <li class="top"><a href="#launch">Launch to Discovery</a>
-                        <ol>
-                            <li><a href="#moons">Making artificial moons</a></li>
-                            <li><a href="#days">Give us 90 days</a></li>
-                            <li><a href="#warroom">The War Room wait</a></li>
-                            <li><a href="#bird">We've got the bird"</a></li>
-                            <li><a href="#mystery">The mystery in the gaps</a></li>
-                            <li><a href="#satellite">Satellite with a memory</a></li>
-                            <li><a href="#music">The music of discovery</a></li>
-                            <li><a href="#radiation">Radiation belts ring the Earth</a></li>
-							<li><a href="#starwars">Explorer IV - Star wars mission</a>
-                        </ol>
-                    </li>
-                    <li class="top"><a href="#legacyofexplorer">From Earth to Interstellar Space - Legacy of Explorer I</a>
-                        <ol>
-                            <li><a href="#chorus">Chorus of space history -  Listen to Explorer's data tapes</a></li>
-                            <li><a href="#stormshelter">Storm shelter for our "cyberelectric cocoon"</a></li>
-                            <li><a href="#accelerator">Accelerator in the belly of the belts</a></li>
-                            <li><a href="#interstellar">Unchartered territory - Voyager 1 explores interstellar space</a></li>
-                            <li><a href="#heavens">Catching the heavens whistling back</a></li>
-                            <li><a href="#remapping">Remapping the solar system</a></li>
-							<li><a href="#pioneers">Pioneers: First ambassadors to the outer planets</a></li>
-							<li><a href="#family">Space family reunion</a></li>
-							<li><a href="#legacy">Fusion - The ultimate legacy</a></li>
-                        </ol>
-                    </li>
-                    <li><a href="#sources">Sources</a></li>
-                </ol>
-            </nav>
-        </div>
+        
 	<!-- invisable for now
         <div id="nav-expand">&nbsp;</div>
     -->

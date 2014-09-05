@@ -20,8 +20,9 @@
     <?php fire_plugin_hook('public_head',array('view'=>$this)); ?>
     <!-- Stylesheets -->
     <?php 
-    queue_css_file('bootstrap-theme.min');   
-    queue_css_file('main');
+    queue_css_file('bootstrap-theme.min'); 
+    queue_css_file('main');  
+    queue_css_file('vendor/jquery-sticklr-1.4-light-color');
     echo head_css();
     ?>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.css"/>
@@ -29,10 +30,14 @@
     <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro' rel='stylesheet' type='text/css'>
    
     <!-- JavaScripts -->
-    <script src="http://code.jquery.com/jquery-1.7.js"></script>
-    <?php 
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.min.js"></script>
+
+
+    <?php        
         queue_js_file('vendor/modernizr');    
-        queue_js_file('vendor/bigvideo/lib/bigvideo'); 
+        //queue_js_file('vendor/bigvideo/lib/bigvideo'); 
         queue_js_file('createjs/utils/Proxy'); 
         queue_js_file('createjs/utils/IndexOf');   
         queue_js_file('createjs/utils/definePropertySupported');   
@@ -40,13 +45,14 @@
         queue_js_file('createjs/events/EventDispatcher');  
         queue_js_file('soundjs/Sound'); 
         queue_js_file('soundjs/WebAudioPlugin');  
-        queue_js_file('soundjs/HTMLAudioPlugin'); 
+        queue_js_file('soundjs/HTMLAudioPlugin');
+        //queue_js_file('vendor/jquery-sticklr-1.4.min');
+        //queue_js_file('main');   
         queue_js_file('player');   
         echo head_js(); 
     ?>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.min.js"></script>
+    
+
                 
     
 </head>

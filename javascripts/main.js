@@ -6,7 +6,16 @@ $(document).ready(function () {
         autoplay: true,
         arrows: false
     });
+
 });
+
+
+$(document).ready(function() {
+    $('#toc').sticklr({
+        menuWidth   : 500,
+    });
+});
+
 jQuery(function($){
     $(document).ready(function () {
          $('.pull').each(function () {
