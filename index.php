@@ -135,7 +135,7 @@
         
     <!-- Main Narrative -->    
         <div id="container">
-            <div id="section-1" class="section image image0 bg-fixed" style="background-image: url(/vanallen/files/original/f0a1237f5826262b31276b0aa9a3453e.png);">
+            <div id="section-1" class="section image image0 bg-fixed" style="background-image: url(/vanallen/files/original/6d001f65d3460937856ff92109742dab.jpg);">
 			<!--<h2 id="header-1" class="animated fadeInUp">Explorer I</h2> --></div>
             <div class="header"><header id="title" class="section text"><h3>The mission and the data tapes reveal the first discovery of the Space Age.</h3></header></div>
 			<div class="banner"> 
