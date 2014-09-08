@@ -1138,6 +1138,7 @@ px      68    160    252    344    436    */
 }
 .nav-section:hover {
     color: #fdf5e9;
+	width: 300px;
 }
 body {
       color: #28293c;
@@ -1154,11 +1155,20 @@ h6 {
 }
 nav {
     display: block;   
-    width: auto;
 } 
+#main {
+	margin-left: 5em;
+}
 #nav {
     background: #26273B;
     font-family: 'Trocchi', serif;
+	top: 20em;
+
+	-webkit-transition: width 2s; /* Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+#nav:hover {
+	width: 200%;
 }
 .main ul {
     width: 100%;
@@ -1169,6 +1179,10 @@ nav {
     display: inline;
     padding: 1em;
     font-size: .75em;
+	font-family: 'Trocchi', serif;
+}
+#main a:link {
+	text-decoration: none;
 }
 .section.text h1,
 .section.text h2,
@@ -1279,11 +1293,15 @@ sname {
     right: 0%;
     width: 38%;
 }
-.text-container aside > img {
+.text-container aside > img, iframe {
     float: left;
     width: 70%;
     height: 100;
     margin-right: 10px;
+}
+div > iframe {
+	width: 100%;
+	padding: 2em;
 }
 .text-container aside .caption {
     background-color: #5aada8;
@@ -1343,10 +1361,14 @@ aside.in-text, aside.in-text>p.caption{
 	float: left;
 	width: 50%;
 	padding: 5px;
-	margin: 0px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+aside.in-text>p.caption, aside.in-text>img {
+	width: 100%;
 }
 aside.in-text>p.caption {
-	width: auto;
+	width: 100%;
 	
 }
 /*--------------------------------------*/
@@ -1379,7 +1401,7 @@ display: block;
 	opacity: 0.95 !important;
 }
 .slide {
-  color: red;
+  color: #88aa5c;
 }
 .slideshow {
     width: 100%;
