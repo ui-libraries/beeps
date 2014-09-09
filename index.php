@@ -836,7 +836,9 @@
 			-->
 		</div>
 
-			<!-- /container --> 
+			<!-- /container -->
+			
+		<!-- 
             <div id="sources" class="text-container">
                 <section class="section text-container">
                     <header><h2>Sources and Credits</h2></header>
@@ -844,8 +846,7 @@
 					</p>
                 </section>
 			</div>
-        
-    
-	</body>
-
+			
+			-->
+<?php echo foot(); ?>
 
