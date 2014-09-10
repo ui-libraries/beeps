@@ -814,7 +814,7 @@
         </section>
 		
 		
-		
+
 		
 		
         <!-- Section includes Factboxes and Castboxes 
@@ -848,5 +848,9 @@
 			</div>
 			
 			-->
+		<div class="top-arrow">
+			<a href="#main"><div id="to-top"></div>
+			<p class="to-top">Back to top</p></a>
+		</div>
 <?php echo foot(); ?>
 

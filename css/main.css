@@ -1175,7 +1175,7 @@ nav {
     font-size: .75em;
 	font-family: 'Trocchi', serif;
 }
-#main a:link {
+a:link {
 	text-decoration: none;
 }
 .section.text h1,
@@ -1213,10 +1213,6 @@ nav {
     padding-bottom: .5em;
     box-shadow: none;
     font-size: 1em;
-}
-#sources section {
-    height: auto;
-    width: 100%;
 }
 .container, .section {
 	overflow: hidden;
@@ -1261,15 +1257,6 @@ div.banner {
     background: #88aa5c;
 }
 
-/* Footer  */
-footer {
-	background: black;
-	text-align: center;
-}
-footer>li {
-	float:left;
-}
-
 #title h3{
     text-transform: uppercase;   
     color: #28293c;
@@ -1291,6 +1278,50 @@ sname {
     font-style: italic;
 }
 
+
+/* Footer  and "to-top" arrow */
+.top-arrow>a {
+	display: block;
+}
+#to-top {
+	margin: auto;
+	height: 0;
+	width: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 30px solid #EA844E;
+}
+.to-top {
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 30px;
+}
+footer {
+	background: #111111;
+	text-align: center;
+}
+footer>li {
+	float:left;
+}
+#sources>header>h2 {
+	color: #F9EEDC !important;
+}
+#sources{
+	padding: 10px;
+    height: auto;
+    width: 100%;
+	color: #F9EEDC;
+}
+#bottom-anchor>a:link {
+	text-decoration: underline;
+	color: #F9EEDC;
+}
+#bottom-anchor>a:hover {
+	color: #FFE100 !important;
+}
+#bottom-anchor>a:visited {
+	color: #F9EEDC;
+}
 
 /*------------ ASIDES ---------------*/
 .text-container aside {

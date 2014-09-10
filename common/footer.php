@@ -1,19 +1,20 @@
 </div><!-- end content -->
 
 <footer>
-
+		
     <div id="footer-content" class="center-div bg-fixed">  
+
 		<div id="sources">
-			<section class="section ">
+
 				<header><h2>Sources and Credits</h2></header>
 				<p>Website narrative by Abigail Foerstner. Content for many historic episodes draws on her biography, James Van Allen: The First Eight Billion Miles (University of Iowa Press).
 				</p>
-			</section>
+				<p id="bottom-anchor">All of the University of Iowa archival material presented on this site is available in the <a href="http://digital.lib.uiowa.edu/cdm/search/collection/vanallen" target="_blank">Iowa Digital Library James Van Allen collection</a></p>
+				<p>&copy University of Iowa Libraries 2014</p>
 		</div>
 		
-		<img src="/vanallen/files/fullsize/93080b187c0b07df3ed12156fd70e5ad.jpg">
-		<img src="">
-			
+		<img src="/vanallen/files/fullsize/b8cfb82ea7f62b337b6fa10248702ac1.jpg">
+		
     </div><!-- end footer-content -->
 
      <?php fire_plugin_hook('public_footer', array('view'=>$this)); ?>
