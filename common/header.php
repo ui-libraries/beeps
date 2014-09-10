@@ -22,12 +22,14 @@
     <?php 
     queue_css_file('bootstrap-theme.min'); 
     queue_css_file('main');  
+	queue_css_file('pages');
     queue_css_file('vendor/jquery-sticklr-1.4-light-color');
     echo head_css();
     ?>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.css"/>
     <link href='http://fonts.googleapis.com/css?family=Trocchi' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro' rel='stylesheet' type='text/css'>
+
    
     <!-- JavaScripts -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -52,7 +54,19 @@
         echo head_js(); 
     ?>
     
-
+        <!-- Main and Side Navigation / Table of Contents -->
+        <div>
+            <nav id="main">
+                <ul>
+                    <li><a href="/vanallen/">Home</a></li>
+                    <li><a href="/vanallen/about">About</a></li>
+                  <!--  <li>Data for Researchers</li>
+                    <li>Lesson-plans for Teachers</li> -->
+                    <li><a href="/vanallen/contact">Contact</a></li>
+					<!-- <li><a href="/vanallen/map">Station Map</a></li> -->
+                </ul>
+            </nav>
+        </div>
                 
     
 </head>

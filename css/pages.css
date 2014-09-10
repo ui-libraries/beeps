@@ -1,0 +1,20 @@
+/**** Univeristy of Iowa styles for Van Allen Static Pages
+		About/Contact/ForTeachers/ForResearchers ********/
+		
+.static-banner>img {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.ppages {
+	text-align: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#simple-pages-breadcrumbs {
+	display: none;
+}
+#primary>h1 {
+	display: none;
+}

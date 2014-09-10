@@ -57,7 +57,7 @@
         var src = "files/ExplorerI_8022_Track02_streaming.mp3";
     </script>
 		
-
+        <!-- Table of Contents -->
     <body onload="init()"> 
         <ul id="toc" class="sticklr">
             <li>
@@ -114,20 +114,6 @@
         </ul>
 				
 				
-        <!-- Main and Side Navigation / Table of Contents -->
-        <div>
-            <nav id="main">
-                <ul>
-                    <li><a href="/vanallen/">Home</a></li>
-                    <li><a href="/vanallen/about">About</a></li>
-                  <!--  <li>Data for Researchers</li>
-                    <li>Lesson-plans for Teachers</li> -->
-                    <li><a href="/vanallen/contact">Contact</a></li>
-					<!-- <li><a href="/vanallen/map">Station Map</a></li> -->
-                </ul>
-            </nav>
-        </div>
-
 	<!-- invisable for now
         <div id="nav-expand">&nbsp;</div>
     -->
