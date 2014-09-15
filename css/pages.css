@@ -32,11 +32,34 @@ section#location {
 .ppages p {
 	margin-bottom: 10px;
 }
+.ppages ul, ol {
+list-style-position: inside;
+list-style: none;
+}
+
+/******** ASIDES **********/
+.ppages  > aside .caption {
+    background-color: #5aada8;
+    border-radius: 0px;
+    color: #fdf5e9;
+    font-style: normal;
+    font-size: .8em;
+    opacity: 1;
+    padding: 3px;
+    position: absolute;
+    word-wrap: normal;
+    width: 30%;
+    height: 100%;
+    right: 0%;
+    margin: 0;
+}
 #main_lib-map {
 	float: left;
 	padding-top: 50px;
 	margin: 10px;
 }
+
+/******* FORM *******/
 #form {
 	clear: both;
 	margin: 10px;
