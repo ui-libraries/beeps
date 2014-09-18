@@ -50,15 +50,87 @@
         });
         </script>
 
-        <script type="text/javascript">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>        
+        <script type="text/javascript" src="http://s-lib018.lib.uiowa.edu/vanallen/themes/beeps/javascripts/vendor/circleplayer/jquery.transform2d.js"></script>
+        <script type="text/javascript" src="http://s-lib018.lib.uiowa.edu/vanallen/themes/beeps/javascripts/vendor/circleplayer/jquery.grab.js"></script>
+        <script type="text/javascript" src="http://s-lib018.lib.uiowa.edu/vanallen/themes/beeps/javascripts/vendor/circleplayer/jquery.jplayer.js"></script>
+        <script type="text/javascript" src="http://s-lib018.lib.uiowa.edu/vanallen/themes/beeps/javascripts/vendor/circleplayer/mod.csstransforms.min.js"></script>
+        <script type="text/javascript" src="http://s-lib018.lib.uiowa.edu/vanallen/themes/beeps/javascripts/vendor/circleplayer/circle.player.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.min.js"></script>
+        <!--<script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>-->
 
-        //DEFINE PATH TO MP3 HERE. 
-        //load in dynamically from external source
-        var src = "files/ExplorerI_8022_Track02_streaming.mp3";
-    </script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+
+            /*
+             * Instance CirclePlayer inside jQuery doc ready
+             *
+             * CirclePlayer(jPlayerSelector, media, options)
+             *   jPlayerSelector: String - The css selector of the jPlayer div.
+             *   media: Object - The media object used in jPlayer("setMedia",media).
+             *   options: Object - The jPlayer options.
+             *
+             * Multiple instances must set the cssSelectorAncestor in the jPlayer options. Defaults to "#cp_container_1" in CirclePlayer.
+             */
+
+            var player1 = new CirclePlayer("#jquery_jplayer_1",
+            {
+                mp3: "http://www.kaltura.com/p/1004581/sp/0/playManifest/entryId/0_dz0murd6/format/url/flavorParamId/0_gnibl24t/explorer1-voice-streaming.mp3"
+                
+            }, {
+                supplied: "mp3",
+                cssSelectorAncestor: "#cp_container_1"
+            });
+
+            // This code creates another instance. Delete if not required.
+
+            var player2 = new CirclePlayer("#jquery_jplayer_2",
+            {
+                mp3: "http://www.kaltura.com/p/1004581/sp/0/playManifest/entryId/0_dz0murd6/format/url/flavorParamId/0_gnibl24t/explorer1-voice-streaming.mp3"
+                
+            }, {
+                supplied: "mp3",
+                cssSelectorAncestor: "#cp_container_2"
+            });
+
+            // This code creates another instance. Delete if not required.
+
+
+            var player3 = new CirclePlayer("#jquery_jplayer_3",
+            {
+                mp3: "http://www.kaltura.com/p/1004581/sp/0/playManifest/entryId/0_dz0murd6/format/url/flavorParamId/0_gnibl24t/explorer1-voice-streaming.mp3"
+                
+            }, {
+                supplied: "mp3",
+                cssSelectorAncestor: "#cp_container_3"
+            });
+
+            // This code creates another instance. Delete if not required.
+
+            var player4 = new CirclePlayer("#jquery_jplayer_4",
+            {
+                mp3: "http://www.kaltura.com/p/1004581/sp/0/playManifest/entryId/0_dz0murd6/format/url/flavorParamId/0_gnibl24t/explorer1-voice-streaming.mp3"
+                
+            }, {
+                supplied: "mp3",
+                cssSelectorAncestor: "#cp_container_4"
+            });
+
+            // This code creates another instance. Delete if not required.
+
+            var player5 = new CirclePlayer("#jquery_jplayer_5",
+            {
+                mp3: "http://www.kaltura.com/p/1004581/sp/0/playManifest/entryId/0_dz0murd6/format/url/flavorParamId/0_gnibl24t/explorer1-voice-streaming.mp3"
+                
+            }, {
+                supplied: "mp3",
+                cssSelectorAncestor: "#cp_container_5"
+            });
+        });
+        </script>
 		
         <!-- Table of Contents -->
-    <body onload="init()"> 
+    <body> 
         <ul id="toc" class="sticklr">
             <li>
                 <a href="#" class="icon-toc" title="Table of Contents"></a>
@@ -146,22 +218,26 @@
 				<p>The deluge of tapes arrived in metal canisters and cardboard sleeves, labelled with the collection time and location. Graduate student George Ludwig, a key participant in building the cosmic ray detector, logged 120 pages of data from the <sname>Explorer I</sname> tapes. The cosmic ray counts from space rose and fell with the rising and falling pitches in a staccato concert of tones on the tapes. But Ludwig riddled the log with entry upon frustrating entry that read “no data” where gaps in the recordings bristle with static. Listen to them yourself on this website. And then remember that the gaps played the music of discovery to just the right listeners. With immense courage and interpretive ingenuity, Van Allen and his team found – not in the data but in the gaps - the totally unexpected phenomenon of the radiation belts. The data tapes aren’t merely a record of that first discovery in space history. They are space history. They are the original and only record of <sname>Explorer I</sname>’s calls home. 
 				</p>
 				<aside class="audio"><p>Audio from Explorer I</p>
-                    <!-- preloader -->
-                    <div id="loader"></div>
+                    
 
-                    <!-- the player -->
-                    <div id="content" class="content">
-                        <div id="player">
-                            <div id="playBtn" class="button playBtn"></div>
-                            <div id="labels">
-                                <label id="song">Tape 8022, Track 02</label><br />                
-                            </div>
-                            <div id="track">
-                                <div id="progress"></div>
-                                <div id="thumb"></div>
-                            </div>
-                        </div>
-                    </div>
+
+
+
+                    <div id="jquery_jplayer_1" class="cp-jplayer"></div>
+                    <div id="cp_container_1" class="cp-container">
+                           <ul class="cp-controls">
+                               <li><a class="cp-play" tabindex="1">play</a></li>
+                               <li><a class="cp-pause" style="display:block;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
+                               <li style="margin-left: 60px;">Audio Signals from Space</li>
+                           </ul>
+                          
+                       </div>
+
+
+
+
+
+                    
                 </aside>
 				<aside class="in-text"><img alt="Photograph of San Diego test reel-to-reel magnetic tap from May 8, 1960" src="/vanallen/files/square_thumbnails/21f788b0a7f40c52666834530b812c44.jpg"><p class="caption">Test reel from San Diego May 8, 1960</p></aside>
 				<p>This is the story of <sname>Explorer I</sname>, the radiation belts and the effort to preserve the data tapes. The 694 <sname>Explorer I</sname> tapes and those from numerous other early missions lined shelves for half a century in the basement of the old physics building, now MacLean Hall. MacLean and four other buildings surround Iowa’s stately Old Capitol on the hilltop Pentacrest of the campus. Still, during the devastating floods of 2008, puddles collected on the floor of an old particle accelerator chamber where the tapes were archived and some of them began to mold. Now, restored and newly digitized, the tapes will play the chorus of the early space age for generations to come. You may be among the first to hear some of these tapes. Pressed by deadlines for more instruments on other space missions, the frantic pace escalated in the basement warren. Van Allen saw no reason to plow through every data tape. He moved on to the new data from the next mission.
@@ -228,22 +304,23 @@
                 <p>Ray guns and x-ray vision dominate countless plots in science fiction but cosmic rays are a physical fact, carrying the fingerprints of some of the most cataclysmic forces in the universe. When aging stars begin to run out of fuel, they collapse toward their cores and finally explode into a supernova, with shock waves powerful enough to strip the nucleus from an atom, accelerate it to near light speed and hurl it across the galaxy. Viennese physicist Victor Hess, took a newly invented detector nearly a mile above the Earth in a balloon in 1912 and he found radiation levels there some four times as intense as those at the surface. American physicist Robert Millikan later coined the phrase cosmic rays, theorizing that the source of ionizing radiation that rose in intensity with altitude must arise from beyond our solar system and even beyond our galaxy. 
                 </p>
 				<aside class="audio"><p>Composition commemorating the anniversary of the discovery of the Radiation Belts</p>
-                    <!-- preloader -->
-                    <div id="loader"></div>
+                   
 
-                    <!-- the player -->
-                    <div id="content" class="content">
-                        <div id="player">
-                            <div id="playBtn" class="button playBtn"></div>
-                            <div id="labels">
-                                <label id="song">Final Drift 1989</label><br />                
-                            </div>
-                            <div id="track">
-                                <div id="progress"></div>
-                                <div id="thumb"></div>
-                            </div>
-                        </div>
-                    </div>
+
+
+                     <div id="jquery_jplayer_2" class="cp-jplayer"></div> 
+                      <div id="cp_container_2" class="cp-container">
+                           <ul class="cp-controls">
+                               <li><a class="cp-play" tabindex="1">play</a></li>
+                               <li><a class="cp-pause" style="display:block;" tabindex="1">pause</a></li>
+                               <li style="margin-left: 60px;">Final Drift 1989</li> 
+                           </ul>  
+                                                     
+                       </div>     
+
+
+
+
                 </aside>
                 <p>Geophysicist Scott Forbush’s global measurements of cosmic rays at the Department of Terrestrial Magnetism fascinated Van Allen. He admired the older man with his shock of white hair, his prism-thick glasses and his mean hand at poker. Forbush became Van Allen’s mentor as a debate simmered between rival scientists over cosmic rays. Many of them believed that some 30-plus miles of blue sky – the protective layers of the Earth’s atmosphere – scrubbed most of the primary cosmic rays into showers of secondary particles. Others thought the primaries jetted right through. But no one could reach altitudes high enough to test the competing theories. 
                 </p>
@@ -618,21 +695,15 @@
 				</p>
 				<aside class="audio">Audio of <sname>Voyager</sname> in interstellar space
 					<!-- preloader -->
-                    <div id="loader"></div>
-
-                    <!-- the player -->
-                    <div id="content" class="content">
-                        <div id="player">
-                            <div id="playBtn" class="button playBtn"></div>
-                            <div id="labels">
-                                <label id="song">Tape 8022, Track 02</label><br />                
-                            </div>
-                            <div id="track">
-                                <div id="progress"></div>
-                                <div id="thumb"></div>
-                            </div>
-                        </div>
-                    </div>
+                    <div id="jquery_jplayer_3" class="cp-jplayer"></div> 
+                      <div id="cp_container_3" class="cp-container">
+                           <ul class="cp-controls">
+                               <li><a class="cp-play" tabindex="1">play</a></li>
+                               <li><a class="cp-pause" style="display:block;" tabindex="1">pause</a></li>
+                               <li style="margin-left: 60px;"></li> 
+                           </ul>  
+                                                     
+                       </div>  
 				</aside>
 				<p>For nearly a year, <sname>Voyager</sname> scientists debated whether they had crossed into interstellar space, with three instruments offering a mix of solid evidence and deep uncertainty. In May 2012, galactic cosmic ray levels jumped while solar wind particles dipped and the change escalated dramatically that summer. But the counts ebbed and the magnetic field of the sun continued to wrap <sname>Voyager</sname>. Scientists expected to break through to the interstellar magnetic field - <sname>Voyager</sname> carried a magnetometer to determine that and it didn’t happen. What now?
 				</p>
@@ -667,23 +738,17 @@
 				</p>
 				<p>Safely beyond the power line interference of Iowa City, he sat in the velvet darkness of a clear spring night. He didn’t need a local storm. Whistlers from distant storms – guided by the Earth’s magnetic field – dart back and forth between the hemispheres and then funnel to Earth producing a stream of whistling sounds picked up by VLF receivers. With his receiver, Gurnett plugged into the heavens and caught them whistling back.
 				</p>
-				<aside class="video">Earth Whistlers
+				<aside class="audio">Earth Whistlers
 				    <!-- preloader -->
-                    <div id="loader"></div>
-
-                    <!-- the player -->
-                    <div id="content" class="content">
-                        <div id="player">
-                            <div id="playBtn" class="button playBtn"></div>
-                            <div id="labels">
-                                <label id="song">Tape 8022, Track 02</label><br />                
-                            </div>
-                            <div id="track">
-                                <div id="progress"></div>
-                                <div id="thumb"></div>
-                            </div>
-                        </div>
-                    </div>
+                    <div id="jquery_jplayer_4" class="cp-jplayer"></div> 
+                      <div id="cp_container_4" class="cp-container">
+                           <ul class="cp-controls">
+                               <li><a class="cp-play" tabindex="1">play</a></li>
+                               <li><a class="cp-pause" style="display:block;" tabindex="1">pause</a></li>
+                               <li style="margin-left: 60px;"></li> 
+                           </ul>  
+                                                     
+                       </div>  
                 </aside>
 				<p>Radio pioneers discovered whistlers in 1918 and a near mystical following of radio amateurs headed to the countryside to hear the musical tones and static hisses from on high. Gurnett learned about whistlers from a talk at the University of Iowa. He perfected his own design but carried it dejectedly back to Iowa City after the first night of his vigil in the fields. The receiver hadn’t picked up a thing. So he returned to the farm the next night. Hour after hour, he listened. Then suddenly, he picked up a series of faint whistling tones. Gurnett had big plans for the receiver after that. He just happened to have access to a spacecraft that could capture the radio songs of space.
 				</p>
@@ -693,22 +758,15 @@
 				<p>His very low frequency receiver would fit like a crown on <sname>Injun 3</sname> and Gurnett asked permission to add it to the mission. Van Allen agreed but Gurnett suddenly realized that the receiver might blare with feedback from the satellite data receivers, acting as an amplifier that could cripple the mission. He had to test the system and, once again, he had to get away from the electrical power lines of Iowa City. Not a problem. The space physics team simply loaded up <sname>Injun 3</sname> with the VLF receiver and drove it to Fairfield to test it behind the Gurnett family barn. The system worked like a charm.
 				</p>
 				<aside class="audio">Audio from Gurnett Interview with Abigail
-					<!-- preloader -->
-                    <div id="loader"></div>
-
-                    <!-- the player -->
-                    <div id="content" class="content">
-                        <div id="player">
-                            <div id="playBtn" class="button playBtn"></div>
-                            <div id="labels">
-                                <label id="song">Tape 8022, Track 02</label><br />                
-                            </div>
-                            <div id="track">
-                                <div id="progress"></div>
-                                <div id="thumb"></div>
-                            </div>
-                        </div>
-                    </div>
+					<div id="jquery_jplayer_5" class="cp-jplayer"></div> 
+                      <div id="cp_container_5" class="cp-container">
+                           <ul class="cp-controls">
+                               <li><a class="cp-play" tabindex="1">play</a></li>
+                               <li><a class="cp-pause" style="display:block;" tabindex="1">pause</a></li>
+                               <li style="margin-left: 60px;">Final Drift 1989</li> 
+                           </ul>  
+                                                     
+                       </div>  
                 </aside>
 				<p><sname>Injun 3</sname> launched into orbit in December 1962 and the whistlers trapped in the Earth’s magnetic field sang loud and clear through the receiver with “all sorts of radio phenomena that frankly had never been heard before,” Gurnett said. Once inside the radiation belts, the receiver picked up a dawn chorus. British radio enthusiasts coined the term to describe a concert of natural radio tones they could pick up because it reminded them of the chorus of birds chirping when they awake at dawn. But the dawn chorus caught by VLF receivers on Earth couldn’t match the radio show from inside the belts and the chorus swelled dramatically with even mild solar storms. The songs of space gave Gurnett a new tool to explore the radiation belts and to follow the plasma of the solar wind.
 				</p>
