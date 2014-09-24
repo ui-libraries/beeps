@@ -21,11 +21,12 @@
     <!-- Stylesheets -->
     <?php 
     queue_css_file('bootstrap-theme.min'); 
+    queue_css_file('not.the.skin');
+    queue_css_file('circle.skin/circle.player');
     queue_css_file('main');  
 	queue_css_file('pages');
     queue_css_file('vendor/jquery-sticklr-1.4-light-color');
-    queue_css_file('not.the.skin');
-    queue_css_file('circle.skin/circle.player');
+    
     echo head_css();
     ?>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.css"/>

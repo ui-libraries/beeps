@@ -79,6 +79,10 @@
                 
             }, {
                 supplied: "mp3",
+                smoothPlayBar: true,
+                keyEnabled: true,
+                remainingDuration: true,
+                toggleDuration: true,
                 cssSelectorAncestor: "#cp_container_1"
             });
 
@@ -230,8 +234,14 @@
                                <li><a class="cp-pause" style="display:block;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
                                <li style="margin-left: 60px;">Audio Signals from Space</li>
                            </ul>
+                           <div class="jp-progress">
+                        <div class="jp-seek-bar">
+                            <div class="jp-play-bar"></div>
+
+                        </div>
+                    </div>
                           
-                       </div>
+                    </div>
 
 
 
