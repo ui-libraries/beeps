@@ -75,7 +75,7 @@
 
             var player1 = new CirclePlayer("#jquery_jplayer_1",
             {
-                mp3: "http://www.kaltura.com/p/1004581/sp/0/playManifest/entryId/0_dz0murd6/format/url/flavorParamId/0_gnibl24t/explorer1-voice-streaming.mp3"
+                mp3: "http://www.kaltura.com/p/1004581/sp/0/playManifest/entryId/0_eur9vxkz/format/url/flavorParamId/0_878xs58y/ExplorerI_805A_20A_Track05-DIRECT_streaming.mp3"
                 
             }, {
                 supplied: "mp3",
@@ -197,7 +197,7 @@
         
     <!-- Main Narrative -->    
         <div id="container">
-            <div id="section-1" class="section image image0 bg-fixed" style="background-image: url(/vanallen/files/original/6d001f65d3460937856ff92109742dab.jpg);">
+            <div id="section-1" class="section image image0 bg-fixed" style="background-image: url(/vanallen/files/original/8cb86df3843ee6c0200cd9a743d4ce0a.png);">
 			<!--<h2 id="header-1" class="animated fadeInUp">Explorer I</h2> --></div>
             <div class="header"><header id="title" class="section text"><h3>The mission and the data tapes reveal the first discovery of the Space Age.</h3></header></div>
 			<div class="banner"> 
