@@ -53,12 +53,12 @@
         <div>
             <nav id="main">
                 <ul>
-                    <li><a href="/vanallen/">Home</a></li>
-                    <li><a href="/vanallen/about">About</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
                   <!--  <li>Data for Researchers</li>
                     <li>Lesson-plans for Teachers</li> -->
-                    <li><a href="/vanallen/contact">Contact</a></li>
-					<!-- <li><a href="/vanallen/map">Station Map</a></li> -->
+                    <li><a href="/contact">Contact</a></li>
+					<!-- <li><a href="/map">Station Map</a></li> -->
                 </ul>
             </nav>
         </div>
