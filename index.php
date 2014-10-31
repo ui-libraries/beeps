@@ -90,7 +90,7 @@
 
             var player2 = new CirclePlayer("#jquery_jplayer_2",
             {
-                mp3: "http://www.kaltura.com/p/1004581/sp/0/playManifest/entryId/0_wfg93p1y/format/url/flavorParamId/0_gnibl24t/"
+                mp3: "http://www.kaltura.com/p/1004581/sp/0/playManifest/entryId/0_sksisn13/format/url/flavorParamId/0_gnibl24t/"
                 
             }, {
                 supplied: "mp3",
@@ -102,7 +102,7 @@
 
             var player3 = new CirclePlayer("#jquery_jplayer_3",
             {
-                mp3: "http://www.kaltura.com/p/1004581/sp/0/playManifest/entryId/0_dz0murd6/format/url/flavorParamId/0_gnibl24t/explorer1-voice-streaming.mp3"
+                mp3: "http://www.kaltura.com/p/1004581/sp/0/playManifest/entryId/0_saufm1c3/format/url/flavorParamId/0_gnibl24t/"
                 
             }, {
                 supplied: "mp3",
@@ -113,7 +113,7 @@
 
             var player4 = new CirclePlayer("#jquery_jplayer_4",
             {
-                mp3: "http://www.kaltura.com/p/1004581/sp/0/playManifest/entryId/0_dz0murd6/format/url/flavorParamId/0_gnibl24t/explorer1-voice-streaming.mp3"
+                mp3: "http://www.kaltura.com/p/1004581/sp/0/playManifest/entryId/0_wfg93p1y/format/url/flavorParamId/0_gnibl24t/"
                 
             }, {
                 supplied: "mp3",
@@ -767,7 +767,8 @@
 				</p>
 				<p>His very low frequency receiver would fit like a crown on <sname>Injun 3</sname> and Gurnett asked permission to add it to the mission. Van Allen agreed but Gurnett suddenly realized that the receiver might blare with feedback from the satellite data receivers, acting as an amplifier that could cripple the mission. He had to test the system and, once again, he had to get away from the electrical power lines of Iowa City. Not a problem. The space physics team simply loaded up <sname>Injun 3</sname> with the VLF receiver and drove it to Fairfield to test it behind the Gurnett family barn. The system worked like a charm.
 				</p>
-				<aside class="audio">Audio from Gurnett Interview with Abigail
+				<!-- pending submission of Abigail's interview -----
+				<aside class="audio">Audio from Gurnett Interview with Abigail Foerstner
 					<div id="jquery_jplayer_5" class="cp-jplayer"></div> 
                       <div id="cp_container_5" class="cp-container">
                            <ul class="cp-controls">
@@ -778,6 +779,7 @@
                                                      
                        </div>  
                 </aside>
+				----->
 				<p><sname>Injun 3</sname> launched into orbit in December 1962 and the whistlers trapped in the Earth’s magnetic field sang loud and clear through the receiver with “all sorts of radio phenomena that frankly had never been heard before,” Gurnett said. Once inside the radiation belts, the receiver picked up a dawn chorus. British radio enthusiasts coined the term to describe a concert of natural radio tones they could pick up because it reminded them of the chorus of birds chirping when they awake at dawn. But the dawn chorus caught by VLF receivers on Earth couldn’t match the radio show from inside the belts and the chorus swelled dramatically with even mild solar storms. The songs of space gave Gurnett a new tool to explore the radiation belts and to follow the plasma of the solar wind.
 				</p>
 				<aside class="image"><p class="caption">Voyager Initial System Test at Cape Canaveral Air Force Station, Hangar AO<br/>Credit: Courtesy of NASA</p><img alt="overview photography of Voyager's initial system test at cape Canaveral Air Force Station. Image courtesy of NASA" src="/files/fullsize/35970a5e855485a6f365758c52fb6435.jpg"></aside>
