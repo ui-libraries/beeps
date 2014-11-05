@@ -15,7 +15,7 @@
 				<p>&copy University of Iowa Libraries 2014</p>
 		</div>
 		
-		<img src="/files/fullsize/b8cfb82ea7f62b337b6fa10248702ac1.jpg">
+		<img src="/files/fullsize/86727c8cdd2ed2cdf4aec6f69bd0ee68.jpg">
 		
     </div><!-- end footer-content -->
 
