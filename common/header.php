@@ -26,19 +26,23 @@
     queue_css_file('main');  
 	queue_css_file('pages');
     queue_css_file('vendor/jquery-sticklr-1.4-light-color');
-##	queue_css_file('vendor/lightbox.css');
+	##queue_css_file('vendor/lightbox');
     
     echo head_css();
     ?>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.css"/>
-<!-- 	<link rel="stylesheet" type="text/css" href="lightbox.css"/> -->
     <link href='http://fonts.googleapis.com/css?family=Trocchi' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro' rel='stylesheet' type='text/css'>
 
    
     <!-- JavaScripts -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>  
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <!--  <script type="text/javascript" src="js/../../lightbox.min.js"></script> -->
+    <script type="text/javascript">
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		window.location.href = "mobile.html";
+	}
+	</script>
 
 
 
